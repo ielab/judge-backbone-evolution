@@ -1,8 +1,6 @@
-# Judge Backbone Evolution
+# The Impact of Backbone Evolution on LLM-Based Relevance Assessments
 
-This repository studies how well relevance-judging prompts transfer across LLM
-families, model generations, and model sizes. It evaluates models on the TREC
-Deep Learning 2019 and 2020 passage-ranking benchmarks using two approaches:
+Code for paper ”The Impact of Backbone Evolution on LLM-Based Relevance Assessments“.
 
 - **UMBRELA**: direct zero-shot prediction of the human relevance label (0–3).
 - **EXAM**: indirect relevance estimation based on whether a passage contains
