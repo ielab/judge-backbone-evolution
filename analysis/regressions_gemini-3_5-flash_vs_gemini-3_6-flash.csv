@@ -1,0 +1,1165 @@
+query_id,query_text,corpus_id,document_text,human_score,model_a_assessment,model_b_assessment,model_b_raw_output
+182539,example of monotonic function,57448,"I've never heard of monotonic being used for two (input) variables, but I suppose it would mean that, for each fixed value of y, u is a monotonic function of x, and for each fixed value of x, u is a monotonic function of y (and I expect they'd need to be either both monotonic increasing or both monotonic decreasing).",1,1,3,"##Intent: The user is looking for a specific mathematical example of a monotonic function (such as $f(x) = x^3$ or $f(x) = e^x$).
+
+##M: 1 - The passage discusses the concept of monotonic functions in the context of two variables, but it does not provide any examples of a monotonic function as requested by the query.
+
+##T: 2 - The passage is an informal/forum discussion statement, expressing personal speculation about multivariable monotonicity.
+
+##O: 1"
+1133167,how is the weather in jamaica,8255704,"(Mandeville and Treasure Beach are located in this region.) The eastern coast of Jamaica is the windward coast and receives the most rain on the island. (This is where Port Antonio is located.) Generally, the weather in Jamaica is characterized by a cool, caressing sea breeze by day and a gentle breeze from the mountains by night.",2,2,3,"**Intent of the search:** The user wants to know about the weather and climate conditions in Jamaica.
+
+**Content Match (M):** The passage directly describes the general weather characteristics in Jamaica (day and night breezes) as well as regional weather patterns (eastern windward coast receiving the most rain). It answers the query directly.
+
+**Trustworthiness (T):** The passage provides accurate and factual geographical and climate information about Jamaica, making it highly trustworthy.
+
+**Overall Assessment (O):** The passage is dedicated to describing the weather and climate in Jamaica, providing a direct answer to the query.
+
+##final score: 3"
+19335,anthropological definition of environment,1825416,"Biological or physical anthropology is entrusted with the study of the diverse archeological discoveries leading to the explanation of the historical development of the human species from its first appearances as caveman, until its latter psychobiological development that caused it to be called Homo Sapiens Sapiens.",0,0,1,##final score: 1
+183378,exons definition biology,8217632,Types of RNA Messenger RNA: Messenger RNA (mRNA) is synthesized from a gene segment of DNA which ultimately contains the information on the primary sequence of amino acids in a protein to be synthesized. The genetic code as translated is for m-RNA not DNA. The messenger RNA carries the code into the cytoplasm where protein synthesis occurs.,0,0,1,##final score: 1
+489204,right pelvic pain causes,2798566,"Some cases of pneumonia will result to inflammation of the right lung, thus causing sharp pain in the right side of the body, specifically on the upper abdomen. This is accompanied by colds and cough. The pain it causes starts as a dull ache on the right back side that progressively increases in intensity.",0,0,1,##final score: 1
+855410,what is theraderm used for,6680949,"While it’s beneficial to start using any anti-aging products at age 20, eye creams are often the most forgotten when it comes to skincare. Cleansing, toning and moisturizing skin does it justice, but it takes special ingredients to make sure the eye area is bright, smooth, depuffed and wrinkle-free.",0,0,1,##final score: 1
+19335,anthropological definition of environment,2725017,"Abiotic factors are all of the non-living things in an environment. All biotic factors in an environment are dependent upon the abiotic factors in an environment. Some examples of biotic factors in the tropical rainforest are toucans, frogs, snakes, and lizards.Abiotic factors in the tropical rainforest include humidity, soil composition, temperature, and sunlight.very environment contains what are called 'biotic' and 'abiotic' factors. In this lesson you will learn the definition and importance of abiotic factors. You will also view some examples of abiotic factors that are present in the tropical rainforest.",0,0,1,##final score: 1
+443396,lps laws definition,8152556,"Includes care delivered in Psychiatric unit of general hospital, Free-standing psychiatric hospital, and State hospital/Institutions. A psychiatric inpatient service that provides assessment, medical management and monitoring, and short-term intensive treatment and stabilization to individuals experiencing acute episodes of mental illness. Revenue code ICD-10 CM code Date of birth",1,1,0,##final score: 0
+1114819,what is durable medical equipment consist of,1419801,Durable medical equipment (DME) coverage. Medicare Part B (Medical Insurance) covers medically necessary durable medical equipment (DME) that your doctor prescribes for use in your home. Only your doctor can prescribe medical equipment for you. DME meets these criteria: Durable (long-lasting),2,2,1,##final score: 1
+962179,when was the salvation army founded,6980697,"Salvation Army Stores. The Salvation Army, an evangelical part of the universal Christian church established in 1865, has been supporting those in need in His name without discrimination for 130 years in the United States.",3,3,2,"##Intent: The user is looking to find the year or date when the Salvation Army was founded.
+
+##M (Content Match): The passage contains the direct answer to the query (""established in 1865""), though it also includes brief details about the organization's mission and history in the United States.
+
+##T (Trustworthiness): The passage is trustworthy as it provides factual information regarding the establishment of the organization.
+
+##O (Final Score): 2"
+1133167,how is the weather in jamaica,4443372,"Related Articles. Thanks to its position in the warm Caribbean Sea, Jamaica enjoys generally pleasant weather year round. While October may not be the peak time to visit this tiny yet world-renowned tourist destination, any month is a fine month to travel to Jamaica.",2,2,3,"**Underlying Intent:** The user is seeking general information about the climate/weather conditions in Jamaica.
+
+**Content Match (M):** High match. The passage directly answers the query by stating that Jamaica enjoys ""generally pleasant weather year round"" due to its location in the warm Caribbean Sea. 
+
+**Trustworthiness (T):** The passage is a standard informative travel/geography snippet and appears reliable.
+
+**Final Score:**
+
+##final score: 3"
+527433,types of dysarthria from cerebral palsy,8126064,"Symptoms may include: 1  drooping of one or both eyelids (ptosis) 2  blurred or double vision (diplopia) due to weakness of the muscles that control eye movements. 3  a change in facial expression. 4  difficulty swallowing. 5  shortness of breath. 6  impaired speech (dysarthria) 7  weakness in the arms, hands, fingers, legs, and neck.",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,3229912,"The average price for ceramic tile flooring is in the $2.50-$3.00 per square foot range.For natural stone flooring, expect to pay an average of $7.50/sq foot. 1  Ceramic tile can be found for less than $1 per square foot to about $5.50 per square foot.",0,0,1,"**Underlying Intent:** The user is searching for information regarding the price/cost per square foot or overall installation cost for interior concrete flooring.
+
+**Content Match (M):** The passage provides cost estimates for ceramic tile and natural stone flooring, but contains no information about concrete flooring. Therefore, it does not answer the user's specific query, though it generally discusses flooring costs.
+
+**Trustworthiness (T):** The passage presents factual, realistic pricing estimates for general flooring materials, appearing reliable for what it covers.
+
+**Final Score (O):** The passage is somewhat related to the general topic of flooring costs, but fails to address concrete flooring specifically and provides no answer to the query.
+
+##final score: 1"
+1133167,how is the weather in jamaica,2010281,"August Weather in Jamaica. The tables below give the normal August temperatures and rainfall for cities and popular vacation spots in Jamaica. There's also information here on hurricanes, plus this month's average humidity and sunshine. The measures of climate are averages of data collected at weather stations over several decades.",2,2,1,##final score: 1
+183378,exons definition biology,7718054,"The removal of the introns produces mRNA (see the figure, below). Messenger RNA contains only exons, those portions of the primary RNA transcript that will be translated into a protein. Figure %: Splicing Product. Unlike the sequence of an exon, intron sequences are unimportant.",3,3,2,##final score: 2
+1110199,what is wifi vs bluetooth,1276863,"In the phone's settings/general area, make sure you have Bluetooth turned on (while car is running and it's Bluetooth is on).This should display a list of available Bluetooth devices.Pick the one for the car and click on it's name. If it prompts you for a password, type in the appropriate code for the car's Bluetooth device.That's it.n the phone's settings/general area, make sure you have Bluetooth turned on (while car is running and it's Bluetooth is on).",0,0,1,##final score: 1
+183378,exons definition biology,4493914,"1. Exons are coding areas whereas introns are non-coding areas. 2. An exon is termed as a nucleic acid sequence which is represented in the RNA molecule. Introns, on the other hand, are termed as nucleotide sequences seen within the genes which are removed through RNA splicing for generating a mature RNA molecule. 3.. Exons can be termed as DNA bases which are translated into mRNA. Introns are also DNA bases that are found in between exons. 6. Introns are very much common in the genome of higher vertebrates such as human beings and mice but unlikely to be seen in the genome of certain varieties of eukaryotic micro-organisms.",3,3,2,"Intent: The user is looking for the biological definition of ""exons"".
+
+M (Match): The passage provides multiple definitions and characteristics of exons in biology, but also includes significant extraneous information regarding introns and their distribution in different genomes.
+
+T (Trustworthiness): High, as the information provided aligns accurately with standard biological definitions of exons and introns.
+
+O (Overall Score): Since the passage contains the exact definition but includes extraneous information about introns, category 2 is the most appropriate.
+
+##final score: 2"
+443396,lps laws definition,8079040,Looking for the definition of LPS? Find out what is the full meaning of LPS on Abbreviations.com! 'LipoPolySaccharide' is one option -- get in to view more @ The Web's largest and most authoritative acronyms and abbreviations resource.,0,0,1,"##intent
+The search intent is to find the definition or explanation of ""LPS laws"", which refers to the Lanterman-Petris-Short (LPS) Act, a California law regulating involuntary civil commitment to mental health facilities.
+
+##match
+The passage discusses the abbreviation ""LPS"" in a completely different context (biology/chemistry: ""LipoPolySaccharide"") and promotes an acronym dictionary website. It does not mention laws or legal definitions at all. However, because it addresses the definition of the acronym ""LPS"", it is vaguely/tangentially related to the letters in the search term, but fails to address ""LPS laws"". Therefore, it is only marginally related and does not answer the query.
+
+##trustworthiness
+The passage is a teaser snippet from a generic abbreviation lookup directory (Abbreviations.com), which is generally low to moderate in value for specific legal inquiries.
+
+##final score: 1"
+1133167,how is the weather in jamaica,4922620,"56. We are preparing for our 7th trip to Jamaica and have always gone the week prior to or the week following Thanksgiving. The weather has always been great at this time of year and well out of hurricane season. I think the only downside with going this time of year are the shorter days. November 12th, 2012, 02:57 PM #3.",2,2,1,##final score: 1
+1115776,what is an aml surveillance analyst,5257694,"Examples of specific types of analysts include business analysts, computer systems analysts, IT business analysts, ratings analysts, and risk analysts. The average salaries for careers related to analysts range from $65,000 - $84,000, depending on specialty.",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,3293219,"Germany invaded Poland in 1939, and the world  almost every country except the U.S.  was at war. Agricultural exports dropped as German submarines, known as U-boats, were sinking U.S. ships to England and Europe.",0,0,1,##final score: 1
+833860,what is the most popular food in switzerland,8105806,"With its warm flavor and rich, creamy texture, aligot is considered by many to be a “comfort food.” As the cheese it contains lends it a supple, ribbon-like quality, the dish bears some similarity to fondue. Unlike fondue, however, it is usually served as a side dish rather than a main course.",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,7952967,"The United States entered World War I because of a boat and a note. The boat was the Lusitania, which was sunk by German U-boats. This angered the Americans, but that was not what led them into the war.he United States entered World War I because of a boat and a note. The boat was the Lusitania, which was sunk by German U-boats. This angered the Americans, but that was not what led them into the war.",2,2,1,"##Intent:
+The user is asking for the historical reasons and motivations behind the United States' decision to voluntarily enter World War I.
+
+##M:
+The passage directly addresses the topic of why the US entered World War I, mentioning ""a boat and a note"" and referencing the sinking of the Lusitania. However, it explicitly states that the boat was not what led them into the war and fails to explain the ""note"" or provide a complete reason due to text duplication and abrupt ending. Thus, it is highly related but does not fully provide a clear or complete answer to the query.
+
+##T:
+The text appears to be from an educational source describing standard historical facts, though it suffers from formatting issues (duplicated sentences) and an incomplete explanation.
+
+##O:
+1"
+833860,what is the most popular food in switzerland,6230225,"Fondue. Fondue in Switzerland may seem cliched, clichéd but it is indelibly woven into the’country s. Fabric for, Centuries swiss living in the mountains relied on fondue as a way to use bread and cheese during colder. monthsosti, Valaisanne-style. Thinly grated potatoes, pan-fried until crisp and golden, rosti is one of Switzerland’s iconic national dishes. Though no one knows when the first rosti was cooked-up, farmers in the canton of Bern would traditionally eat it for breakfast.",3,3,2,##final score: 2
+1124210,tracheids are part of _____.,8650642,"Xylem and Phloem are complex because they are made different cells, with different roles. Xylem is made up of tracheids, parenchyma and xylem vessels. They conduct water and minerals up, give mechanical support and store food for the the plant and plant tissue. All these types of cells are different yet work as a unit, in combination and in coordination.",2,2,3,"**Intent**: The user wants to complete the statement ""tracheids are part of _____"" by identifying the plant tissue or structure that contains tracheids.
+
+**Match (M)**: The passage explicitly states that ""Xylem is made up of tracheids, parenchyma and xylem vessels,"" directly answering that tracheids are part of the xylem. The information is clear and directly addresses the query.
+
+**Trustworthiness (T)**: The passage provides accurate and reliable biological information regarding plant vascular tissues.
+
+**Final Score (O)**: 3
+
+##final score: 3"
+1129237,hydrogen is a liquid below what temperature,4418239,"Because hydrogen does not occur naturally in the environment, hydrogen fuel must be derived from other substances that contain hydrogen such asmethanol, gasoline, natural gas, and water. Most hydrogen that is produced today comes from natural gas.",0,0,1,"##intent: The user is searching for the specific temperature at which hydrogen transitions into a liquid state (its boiling point).
+
+##match: 1 - The passage is related to hydrogen (discussing its sources and production), but it does not address the physical properties, liquid state, or liquefaction temperature of hydrogen.
+
+##trustworthiness: 3 - The passage provides accurate general knowledge about hydrogen fuel sources.
+
+##final score: 1"
+1124210,tracheids are part of _____.,1244877,"Genera such as Rhynia have a similar life-cycle but have simple tracheids and so are a kind of vascular plant. During the Devonian period, vascular plants diversified and spread to many different land environments.",2,2,1,"##intent: The user is looking for the biological structure or tissue system that tracheids belong to (such as xylem or vascular plants/tissue).
+
+##content match (M): 1 - The passage mentions ""tracheids"" and connects them to ""vascular plant[s]"", indicating relevance, but it does not directly answer what anatomical structure or tissue tracheids are part of (e.g., xylem).
+
+##trustworthiness (T): 3 - The passage provides accurate historical/botanical context regarding early vascular plants like Rhynia.
+
+##final score: 1"
+183378,exons definition biology,8121375,"A: An intron is a nucleotide sequence found within the genes and is removed via RNA splicing when a mature RNA molecule is being generated; on the other hand, an exon is a nucleic acid sequence present in a mature messenger RNA molecule.",3,3,2,##final score: 2
+104861,cost of interior concrete flooring,1926464,"Hardwood floors start at around $3 per square foot for an out-of-the-box product from a major retailer or home improvement store. Custom, exotic or high-end floors can cost $15 or more per square foot. In most cases, budget anywhere from $4 to $8 for materials.",0,0,1,"##Consider the underlying intent of the search.
+The search intent is to find information regarding the specific cost of installing or purchasing interior concrete flooring per square foot or as a total project cost.
+
+##Measure how well the content matches a likely intent of the query (M).
+The passage discusses the material costs for hardwood flooring rather than interior concrete flooring. While it touches upon the general topic of flooring costs, it does not address concrete flooring specifically, failing to answer the user's intent.
+
+##Measure how trustworthy the passage is (T).
+The passage provides clear and reliable pricing information for hardwood flooring, but because it addresses a different material, it is not useful for this specific query.
+
+##Consider the aspects above and the relative importance of each, and decide on a final score (O). Final score must be an integer value only.
+##final score: 1"
+104861,cost of interior concrete flooring,76291,"Typical Costs. The cost for installation of a hardwood floor is usually quoted on a per-square-foot basis. The total cost of a given floor can vary greatly depending on the cost of the flooring material you choose and your location, but you can expect the range to be between $5 and $10 per square foot.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,7236839,"Current time in Jamaica right now. Time difference with Jamaica, Jamaica time zone, military time in Jamaica, daylight saving time (DST) in Jamaica, time change in Jamaica, Jamaica map, Jamaica population. London — Wed 04:27 No wonder you’re late.",0,0,1,##final score: 1
+183378,exons definition biology,6437631,"• Gene is a segment or a portion of DNA molecule while genome is the total DNA content in a cell. • Genes code for proteins. Genome itself cannot code for proteins as it contains almost all the DNA. Since the gene is only a portion of a DNA molecule, that part is enough to code for proteins.",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,6249512,"Pneumonia due to mycoplasma and chlamydophila bacteria is usually mild. 1  Pneumonia due to Legionella pneumophila gets worse during the first 4 to 6 days, and then improves over 4 to 5 days. 2  Even though symptoms will improve, it may take a while for them to go away completely.",3,3,2,"##Intent: The user is asking a yes/no question to confirm if the bacterium Legionella pneumophila causes pneumonia.
+
+##Content Match (M): The passage directly mentions ""Pneumonia due to Legionella pneumophila"", clearly indicating that it does cause pneumonia. However, it also includes additional information about other bacteria (mycoplasma and chlamydophila) and the specific progression timeline of the illness.
+
+##Trustworthiness (T): The passage appears highly trustworthy and factual regarding medical information about bacterial pneumonia.
+
+##Final Score (O): 2"
+183378,exons definition biology,4493913,"Exons vs Introns. Exons and introns are related to genes. An exon is termed as a nucleic acid sequence which is represented in the RNA molecule. Introns, on the other hand, are termed as nucleotide sequences seen within the genes which are removed through RNA splicing for generating a mature RNA molecule.. Exons can be termed as DNA bases which are translated into mRNA. Introns are also DNA bases that are found in between exons. 6. Introns are very much common in the genome of higher vertebrates such as human beings and mice but unlikely to be seen in the genome of certain varieties of eukaryotic micro-organisms.",3,3,2,"**Consider the underlying intent of the search:**
+The user is looking for a clear biological definition of the term ""exon"".
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage explicitly defines exons as nucleic acid sequences represented in the RNA molecule and DNA bases translated into mRNA. However, it also includes substantial extraneous information comparing exons to introns and discussing intron presence across different genomes. Therefore, the answer is present but mixed with additional details.
+
+**Measure how trustworthy the passage is (T):**
+The passage correctly states standard biological facts regarding exons, introns, and RNA splicing, making it trustworthy.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+
+##final score: 2"
+19335,anthropological definition of environment,6210055,"Nothing human is alien to anthropology. Indeed, of the many disciplines that study our species, Homo sapiens, only anthropology seeks to understand the whole panorama—in geographic space and evolutionary time—of human existence. Though easy to define, anthropology is difficult to describe.",0,0,1,##final score: 1
+148538,difference between rn and bsn,7916958,"Social Worker jobs in Minnesota. Bachelor's Degree in social work or nursing required, or a Master's Degree in gerontology. This position requires a social work license OR a BSN with a RN... 2,000 hours of experience in the field to meet practitioner level status. Mental Health Practitioner:....",0,0,1,##final score: 1
+182539,example of monotonic function,8757177,"Although it is not valid to assume that the changes in the prototypes occurred smoothly and monotonically between 1999 and 2011, the fact that K4 and K79 didn't vary by more than [+ or -] 0.",0,0,1,"##Intent
+The user is looking for a mathematical example or explanation of a monotonic function (a function that is entirely non-increasing or non-decreasing).
+
+##Match (M)
+The passage uses the word ""monotonically"" in the context of physical prototype measurements over time. However, it does not provide an example of a monotonic function or explain the mathematical concept. It merely uses the term in passing, meaning it is superficially related by keyword but fails to answer the query.
+
+##Trustworthiness (T)
+The passage appears to be an excerpt from a scientific or technical publication and is trustworthy, though irrelevant to the query's core request.
+
+##Final Score
+##final score: 1"
+1133167,how is the weather in jamaica,190810,"By early evening, temperatures in Jamaica generally decline to around 80.5 degrees. Temperatures in Jamaica average around 81.3 degrees during September. Rain. Rain is most likely to occur around 4:00 PM during the month of September, and it is least likely to occur around 7:00 AM.",2,2,3,##final score: 3
+131843,definition of a sigmet,5599902,"Meteorology is the study of the atmosphere. Since weather is everywhere, meteorologists can be found all over the world doing many different jobs. 1  An operational forecaster analyzes weather conditions and issues forecasts or alerts the public of severe weather for their area.",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,3329746,"Typical cost is about. $18,589. (2,500 sq.ft. home, mid-grade carpet flooring) Prices range from $15,557 (2,500 sq.ft. home, mid-grade carpet flooring - DIY) to $38,519 (2,500 sq.ft. home, carpet flooring - upgraded) and also vary depending on your zipcode:",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,3830857,"Legionella pneumophila is the bacterial type that causes the pneumonia known as Legionnaires' disease. Other bacteria types that can cause pneumonia include the bacteria that cause so-called atypical pneumonia, Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumonia. The most common cause of viral pneumonia in adults is the influenza virus.",3,3,2,##final score: 2
+490595,rsa definition key,4842890,"What is RSA? RSA is a public-key cryptosystem for both encryption and authentication; it was invented in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman [RSA78]. It works as follows: take two large primes, p and q, and find their product n = pq ; n is called the modulus.",3,3,2,##final score: 2
+168216,does legionella pneumophila cause pneumonia,3908779,"The name Legionnaires' disease was coined in 1976 after a respiratory disease affected many delegates attending a convention in Philadelphia held by the American Legion of Pennsylvania. Eventually, the bacteria that was responsible for the disease was isolated and named as Legionella pneumophila.wo distinct illnesses, Legionnaires' disease and Pontiac fever, have been associated with the Legionella species. Legionnaires' disease is a severe pneumonia.",3,3,2,"##intent
+The user is asking a direct yes/no question regarding whether the bacterium *Legionella pneumophila* causes pneumonia. The intent is to confirm the link between this specific bacteria and pneumonia.
+
+##M
+The passage directly connects *Legionella pneumophila* to Legionnaires' disease, and explicitly defines Legionnaires' disease as a severe form of pneumonia. Thus, it answers the query clearly, although it includes historical background and mentions another illness (Pontiac fever).
+
+##T
+The passage is informative, factual, and trustworthy.
+
+##O
+##final score: 2"
+168216,does legionella pneumophila cause pneumonia,1301466,"The bacterium Legionella pneumophila is responsible for most cases of Legionnaires' disease. Outdoors, legionella bacteria survive in soil and water, but rarely cause infections.",2,2,1,"##intent: The user is asking whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+##M: The passage states that *Legionella pneumophila* causes ""Legionnaires' disease."" While Legionnaires' disease is a severe type of pneumonia, the passage itself does not explicitly mention the word ""pneumonia"" or clarify this connection, making it related but not a direct answer to the query.
+
+##T: The passage appears to be accurate, objective, and trustworthy factual information regarding microbiology/medicine.
+
+##final score: 1"
+264014,how long is life cycle of flea,684615,Cat Fleas and Humans. Fleas do not live on human skin but will occasionally feed from humans. This can occur when people handle flea-infested animals or when fleas living in soft furnishings or pet beds need a meal and there is no cat or dog nearby.,0,0,1,##final score: 1
+489204,right pelvic pain causes,1778458,"Causes of Right Hip Pain. Due to the close proximity of organs in the abdominal and pelvic cavity, it is not always possible to isolate a specific organ when pain occurs at a particular region. Therefore the most common conditions of the nearest organs to this area needs to be considered. Pain may arise from the hip joint itself or the pelvic bone but there are also other possible conditions as discussed below. Abdominal wall pain is one of the common but often neglected causes of right hip pain. The pain may arise with trauma to the abdominal wall or with muscle strain. The pain is typically superficial and aggravated with movement or touch.",1,1,2,"##Intent: The user is looking for the potential medical or physical causes of pain located in the right pelvic region.
+
+##M: The passage discusses the causes of right hip pain and touches upon the pelvic bone, abdominal wall pain, and organs in the pelvic cavity. While it focuses primarily on hip pain, the overlap with pelvic pain provides partial answers to the query.
+
+##T: The passage is written in an informative, medical/health-oriented tone and appears trustworthy.
+
+##O: 2
+
+##final score: 2"
+1113437,what is physical description of spruce,8566591,"Picture four shows a cone from a spruce tree, a genus (Picea) in the larger pine family. The thin, papery scales of spruce cones distinguish them from other pine species. Picture five shows a Douglas Fir cone, a predominantly Western pine genus (Pseudotsuga).Second only to the coastal redwood (Sequoia sempervirens) in size, Douglas Firs can reach heights of three hundred feet or more.he thin, papery scales of spruce cones distinguish them from other pine species. Picture five shows a Douglas Fir cone, a predominantly Western pine genus (Pseudotsuga). Second only to the coastal redwood (Sequoia sempervirens) in size, Douglas Firs can reach heights of three hundred feet or more.",1,1,2,"**Consider the underlying intent of the search:**
+The user is looking for a physical description of a spruce tree, which typically includes details about its height, needles, bark, overall shape, and cones.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage briefly mentions one physical detail of spruce trees—that spruce cones have ""thin, papery scales""—but the rest of the passage focuses primarily on Douglas Fir cones and trees. It provides a minimal detail rather than a complete physical description of a spruce tree. Therefore, it is only marginally helpful and mostly consists of extraneous information.
+
+**Measure how trustworthy the passage is (T):**
+The passage appears to be factually accurate regarding botanical descriptions of spruce cones and Douglas Firs, though it contains redundant repeated text.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The passage contains a very small part of an answer (a physical characteristic of spruce cones) hidden within extraneous information about other trees, making it a weak/partial match.
+
+##final score: 2"
+359349,how to find the midsegment of a trapezoid,5615181,"In the trapezoid below, the midpoints of the non-parallel sides are points S and V. The midsegment is the red line segment from S to V. The midsegment below can be found by. 1  calculating the lengths of the bases.  35-16 = 9 (length of upper base)",2,2,1,##final score: 1
+87181,causes of left ventricular hypertrophy,7526679,"However, there are other conditions in which elevated T-waves can present such as myocardial infarction (heart attack), or a condition known as left ventricular hypertrophy in which the chamber of the heart responsible for pumping your blood to the rest of your body becomes enlarged (probably due to being overworked).",2,2,1,##final score: 1
+1124210,tracheids are part of _____.,4303129,"Sclerenchyma cells most often make up hard and incompressible parts of the plant. They occur in the cortex, phloem, pith, and mesophyll either singly or in clusters. In addition, special types of sclerenchyma cells known as fibers, tracheids and vessel elements from important cellular components of the xylem or wood.",2,2,3,##final score: 3
+168216,does legionella pneumophila cause pneumonia,4461560,"Mycoplasma pneumoniae accounts for approximately 20% of all cases of pneumonia. Classically, it causes a disease that has been described as primary atypical pneumonia. The disease is of insidious onset with fever, headache, and malaise for 2 to 4 days before the onset of respiratory symptoms.f testing is performed too early following primary infection, IgG and/or IgM may not be detectable. If a Mycoplasma infection is clinically indicated, a second specimen should be submitted in 14 to 21 days.",0,0,1,"1. Intent: The user is asking specifically if the bacterium *Legionella pneumophila* causes pneumonia.
+2. Content Match (M): The passage discusses *Mycoplasma pneumoniae* as a cause of pneumonia. While it discusses bacterial causes of pneumonia (making it related to the broader topic), it does not mention *Legionella pneumophila* or answer the query.
+3. Trustworthiness (T): The text appears to be from a reliable medical/clinical reference.
+4. Final Score (O): Since the passage is related to bacterial pneumonia but does not answer the specific question about *Legionella pneumophila*, it belongs in category 1.
+
+##final score: 1"
+207786,how are some sharks warm blooded,5170143,"Tiger Sharks: Another large shark, capable of growing to a length of over 16 feet, or 5 meters, the Tiger Shark can be found in the Caribbean and other warm waters around the world.",0,0,1,"**Underlying Intent:** The user is asking for the biological explanation or mechanism behind how certain species of sharks (like the Great White or Salmon Shark) are regional endotherms (warm-blooded/capable of maintaining a body temperature higher than the surrounding water).
+
+**Content Match (M):** The passage mentions tiger sharks and that they live in ""warm waters."" It does not mention warm-bloodedness, endothermy, or any mechanism explaining how sharks regulate body temperature. It is vaguely related to sharks, but fails to address the query's main topic. Score: 1.
+
+**Trustworthiness (T):** The passage appears factual and trustworthy regarding general facts about tiger sharks, though irrelevant to the specific query. Score: 3.
+
+**Final Score (O):** Considering the content match is very low regarding the intent of the query, the passage is only loosely related due to mentioning sharks. 
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,4959804,1 Pneumonia and Seizures and Infection (40 causes) 2  Pneumonia and Seizures and Lung symptoms (40 causes) 3  Pneumonia and Seizures and Respiratory symptoms (40 causes) 4  Pneumonia and Seizures and Movement symptoms (39 causes)  Pneumonia and Seizures and Muscle symptoms (39 causes),0,0,1,##final score: 1
+1133167,how is the weather in jamaica,4585036,"Cuba Cuba is an island located on the northern rim of the Caribbean Sea west of Haiti, south of Florida and north of Jamaica.... Jamaica Jamaica is the third largest island located in the Caribbean Sea....",0,0,1,##final score: 1
+443396,lps laws definition,5515426,"What is 'Limited Partnership - LP'. A limited partnership (LP) exists when two or more partners unite to jointly conduct a business in which one or more of the partners is liable only to the extent of the amount of money that partner has invested. Limited partners do not receive dividends, but enjoy direct access to the flow of income and expenses.",0,0,1,"##intent: The user is searching for the definition of ""LPS laws"" (which typically refers to the Lanterman-Petris-Short Act in mental health law, or legal frameworks governing Limited Partnerships/LPs).
+
+##M: 1 (The passage defines a Limited Partnership (LP), which is somewhat related if ""LPS"" is interpreted as Limited Partnerships, but it does not define ""LPS laws"" or answer the query directly.)
+
+##T: 3 (The information provided about Limited Partnerships is accurate and trustworthy.)
+
+##O: 1
+
+##final score: 1"
+1110199,what is wifi vs bluetooth,2657989,"Wifi AC vs N Routers. The difference between Wireless N and AC is mostly speed. 802.11n is still good for most people however, although AC routers are becoming a lot cheaper now. But if you want to future-proof or you are streaming HD or 4K, then Wireless AC routers are best.",0,0,1,"**Consider the underlying intent of the search:**
+The query is asking for a comparison between two different wireless technologies: Wi-Fi and Bluetooth. The user wants to understand how they differ in function, range, speed, or use cases.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage compares two standards of Wi-Fi (Wireless AC vs. Wireless N). It mentions Wi-Fi, which is part of the query, but it completely lacks any mention of Bluetooth or a comparison between Wi-Fi and Bluetooth. Therefore, it is somewhat related to the broad topic of Wi-Fi standards, but completely fails to answer the query.
+
+**Measure how trustworthy the passage is (T):**
+The passage is accurate and trustworthy regarding the topic it addresses (Wi-Fi AC vs. N routers).
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+Since the passage touches upon Wi-Fi but does not address Bluetooth or compare the two technologies at all, it is only marginally related and provides no answer to the specific search intent. 
+
+##final score: 1"
+1117099,what is a active margin,6122721,Passive plate margins endure very little constructive or destructive movement. Active plate margins describe subduction zones and other boundaries where movement is regular and common. Cause of earthquakes.,3,3,2,"**Underlying intent of the search:**
+The user is looking for a definition and explanation of an ""active margin"" in the context of geology and plate tectonics.
+
+**Content match (M):**
+The passage explicitly defines active plate margins (""describe subduction zones and other boundaries where movement is regular and common""). However, it also includes additional, extraneous text regarding passive margins and the cause of earthquakes. Therefore, it provides the answer but contains extra information.
+
+**Trustworthiness (T):**
+The information provided is accurate and reliable according to standard geological concepts.
+
+**Final Score:**
+##final score: 2"
+1114819,what is durable medical equipment consist of,4496923,"If dialysis is for an outpatient at a dialysis facility or in the patient's home, Medicare Part B pays 80 percent of the Medicare-approved amount for treatment, supplies, support, equipment, and drugs.",0,0,1,##final score: 1
+207786,how are some sharks warm blooded,7963301,"This way, the amount of urea in a shark’s blood can reach 2.5%, while it is only about 0.01-0.03% in other vertebrates. This way, the sharks are isotonic as compared to sea water, i.e. the ion concentration of sea water and the sharks’ tissue is balanced.",0,0,1,"##intent: The user is looking for a physiological explanation of how certain species of sharks (like the Great White or Salmon shark) are warm-blooded (regional endothermy), specifically asking about the mechanism (such as countercurrent heat exchangers/rete mirabile).
+
+##M: 1
+##T: 3
+##O: 1"
+527433,types of dysarthria from cerebral palsy,6214994,More general medical disease topics related to Stroke-like dysarthria include: 1  Speech and communication conditions. 2  Circulatory system conditions. 3  Brain conditions.  Cerebrovascular 1  conditions. Nervous system conditions.  Senior health conditions.,0,0,1,##final score: 1
+1133167,how is the weather in jamaica,2070080,"Runaway Bay, Jamaica. Runaway Bay, Jamaica is located on the north central coast of the island... and is only 10 miles (16 km) west of Ocho Rios and 5 miles (8 km) of Discovery Bay.",0,0,1,"##Intent: The user wants to know about the current or general weather conditions/climate in Jamaica.
+
+##Match (M): 1 - The passage mentions a location in Jamaica, making it vaguely related to the entity in the query, but it contains no information about the weather.
+
+##Trustworthiness (T): 3 - The passage appears trustworthy, but it is not relevant to the specific weather request.
+
+##final score: 1"
+1110199,what is wifi vs bluetooth,1901877,"Bluetooth and Wi-Fi (the brand name for products using IEEE 802.11 standards) have some similar applications: setting up networks, printing, or transferring files. Wi-Fi is intended as a replacement for high speed cabling for general local area network access in work areas.",2,2,1,"**Consider the underlying intent of the search:**
+The user is looking to understand the key differences and comparisons between Wi-Fi and Bluetooth technologies (purpose, range, usage, etc.).
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage mentions both Bluetooth and Wi-Fi, noting that they share similar applications (networking, printing, file transfer) and briefly defines Wi-Fi's primary purpose. However, it does not provide a complete comparison or explain Bluetooth's specific distinct role relative to Wi-Fi. Therefore, it is related to the comparison topic but does not fully answer the query.
+
+**Measure how trustworthy the passage is (T):**
+The information provided is accurate, factual, and references standard networking terminology (IEEE 802.11 standards).
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The passage is relevant to the topic but lacks the necessary content to directly and completely answer ""Wi-Fi vs. Bluetooth"". Thus, it falls under category 1.
+
+##final score: 1"
+207786,how are some sharks warm blooded,3717772,"Porbeagle Shark. Scientific name: Lamna nasus. Also known as: Mackerel Shark, Porgie. Size: Up to 12ft and 600lbs. In UK waters typically 7-8ft and 300lbs. UK minimum size: All UK shark species have a default minimum weight of 40lbs/18kg (shore) and 50lbs/23kg (boat).",0,0,1,"## Intent: The user wants to understand the biological mechanism that allows certain species of sharks to be warm-blooded (endothermic).
+
+## Content Match (M): 1 - The passage discusses a specific species of shark (Porbeagle Shark), which makes it tangentially related to sharks, but it does not mention warm-bloodedness or answer how or why some sharks possess this trait.
+
+## Trustworthiness (T): 3 - The passage provides factual, standard statistical information about the Porbeagle Shark from a reputable perspective.
+
+## Final Score (O): 1"
+1114819,what is durable medical equipment consist of,8024890,"brotherston homecare, inc. Durable Medical Equipment & Medical Supplies A supplier of medical equipment such as respirators, wheelchairs, home dialysis systems, or monitoring systems, that are prescribed by a physician for a patient?s use in the home and that are usable for an extended period of time.",2,2,3,##final score: 3
+264014,how long is life cycle of flea,2841479,"Unsafe Flea Prevention: Do not apply any over-the-counter flea products to patients for two weeks before the day of surgery. This includes dips, powders, flea collars, or topical ointments from grocery stores or feed stores.",0,0,1,##final score: 1
+183378,exons definition biology,8794308,"By definition, exons and introns are sequences in a protein-coding gene region of a double-stranded DNA molecule (dsDNA) that are expressed as proteins, or intervening sequences not so expressed. The exon and intron sequences are typicallly visualized as the Sense Strand of the dsDNA, written 5'-3', left to right.",3,3,2,##final score: 2
+19335,anthropological definition of environment,6306222,"Anthropology is the study of humans. Anthropology is a broad and unique field, that examines humankind both scientifically and humanistically. Anthropology looks at the human experience from a holistic, cross-cultural perspective, and encompasses several different approaches.",0,0,1,##final score: 1
+855410,what is theraderm used for,4810235,"The human uses of lanolin are very similar to the sheep’s. It is used as an emollient in cosmetics, skin care, hair care, toiletries, and personal care products. It is also a common ingredient in medicine, especially dermatological agents.",0,0,1,"##intent: The user is searching to find out the uses, indications, or medical/cosmetic purpose of Theraderm, a specific skin care brand/product.
+
+##content match (M): The passage discusses the uses of lanolin in cosmetics and dermatological agents, but does not mention Theraderm at all. It is broadly related to the general domain of skincare/dermatology, but completely fails to answer what Theraderm specifically is used for.
+
+##trustworthiness (T): The passage provides accurate general facts about lanolin, but it is not authoritative or relevant for the specific query regarding Theraderm.
+
+##final score: 1"
+527433,types of dysarthria from cerebral palsy,8737880,"Speech Difficulties. Dysarthria is the most common speech disorder experienced by people with ALS and by people with MS. They may speak slowly, softly, in strange rhythms, or slur their words. Although this can make it difficult to understand their speech, the meaning of what they are saying is normal. In people with ALS, the dysarthria tends to get progressively worse.",1,1,0,"##Intent: The user is searching for the specific types of dysarthria that are associated with or caused by cerebral palsy.
+
+##M: The passage discusses dysarthria, but specifically in the context of Amyotrophic Lateral Sclerosis (ALS) and Multiple Sclerosis (MS). It does not mention cerebral palsy or the different types of dysarthria related to cerebral palsy. Therefore, the content does not match the specific intent of the query.
+
+##T: The passage is clear, objective, and accurate regarding dysarthria in ALS and MS, making it trustworthy, though irrelevant to the query.
+
+##O: 0"
+489204,right pelvic pain causes,417344,"The kidneys sits towards the back of the upper part of the abdomen. Kidney pain is usually experience in the flanks or back but may also present with abdominal pain. Kidney stones, kidney infections and kidney cysts are some of the conditions that can cause pain.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,6112591,"Averages for Ocho Rios in February. February is one of the coolest times of year to visit Ocho Rios, Jamaica, when the resort experiences similar temperatures to those of Ocho Rios Bay.verages for Ocho Rios in February. February is one of the coolest times of year to visit Ocho Rios, Jamaica, when the resort experiences similar temperatures to those of Ocho Rios Bay.",2,2,1,"##Intent: The user is asking for information about the weather conditions or climate in Jamaica.
+
+##M: The passage mentions weather information specifically for Ocho Rios, Jamaica in February, noting it is one of the coolest times of the year. However, it does not provide comprehensive details about Jamaica's general weather or current weather conditions, and contains repetitive text. Thus, it is somewhat related to the topic but does not fully answer the general query. (Score: 1)
+
+##T: The passage appears trustworthy as standard climate/travel commentary, though text repetition indicates formatting issues.
+
+##final score: 1"
+156493,do goldfish grow,5479185,Goldfish lay eggs and the eggs are fertilised outside the body. So Goldfish don't get pregnant.,0,0,1,##final score: 1
+1133167,how is the weather in jamaica,1789857,"Jamaica's Rural Areas - Jamaica Villas is one of Jamaica's beach resorts. When ever you are thing about a Jamaica Vacation or having a honeymoon in Jamaica , vist the Negril Hotel. One of the finest Jamaica hotels",0,0,1,##final score: 1
+19335,anthropological definition of environment,1189088,"1 Population ecology is the study of populations in relation to the environment, including environmental influences on population density and distribution, age structure, and population size.",0,0,1,##final score: 1
+443396,lps laws definition,8693530,"New Hampshire Hospital (NHH) provides inpatient psychiatric treatment to patients admitted on an involuntary basis through an emergency admissions process, a non-emergency court order, or on a limited voluntary basis, depending on the availability of facilities.",1,1,0,##final score: 0
+527433,types of dysarthria from cerebral palsy,3425604,"Research the causes of these symptoms that are similar to, or related to, the symptom Slurred speech: 1  Speech symptoms (1393 causes) 2  Speech impairment. 3  Inability to speak (67 causes) 4  Stuttering (28 causes) 5  Alcoholism. 6  Upper motor neuron disease. 7  Lower motor neuron disease. 8  Bell's palsy (9 causes) 9  Glosspaharhngeal nerve palsy.",1,1,0,##final score: 0
+915593,what types of food can you cook sous vide,1396708,"About timing: When you plan ahead and can focus on one component of a dish at a time, a seemingly complex recipe doesn’t just become doable—it becomes fun to make. As for the technique, we use sous vide for the eggs and sauce, eliminating the risk of overcooking the first and “breaking” the second. (A broken sauce is one that fails to emulsify and instead becomes runny and oily. Put away the Xanax; with sous vide, this won’t be a problem.)",2,2,1,##final score: 1
+833860,what is the most popular food in switzerland,4431446,"Roesti ([rösti]) ˈroeːʃti ˈrøːʃti or roeschti Röschti is a swiss dish consisting. Mainly of potatoes it was originally, a breakfast dish commonly eaten by farmers in The, canton of bern but is now Eaten all over switzerland and. around the world",2,2,1,##final score: 1
+962179,when was the salvation army founded,8689055,"Salvation Army hours and Salvation Army locations along with phone number and map with driving directions. ForLocations, The World's Best For Store Locations and Hours Login",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,236954,"Concrete tiles are expensive. They generally cost $400 to $900 per square (one square equals 100 square feet). High-end concrete costs as much as $1,000 per square. A typical two-story home has about 1,500 square feet of roof, bringing the total cost for materials and installation to $6,000 to $15,000.",0,0,1,##final score: 1
+1037798,who is robert gray,1639088,"Meaning of Gray. English name. In English, the name Gray means-gray-haired.The name Gray originated as an English name. The name Gray is most often used as a boy name or male name. English Name Meaning-gray-haired. Origin-England.",0,0,1,##final score: 1
+183378,exons definition biology,4552882,"A gene is a sequence of DNA that determines a particular trait. A chromosome is a coiled DNA chromosome that contains the organisms genetic code (aka-genes). gene is the specific section of DNA that codes for a functional product (i.e. a protein). Chromosomes are tightly packed forms of DNA and proteins-which contain genes. 2 people found this useful. Edit. Share to: 1  The Five Major Parts of the Brain At its most basic, the brain controls the body.",0,0,1,##final score: 1
+131843,definition of a sigmet,2192100,Past Weather Events: Spotter Training: Observations: Gridded Forecast: Hourly Forecast: Daily Climate: Local Climate: Tornado Database: Tropical: Weather Radio,0,0,1,##final score: 1
+183378,exons definition biology,3389579,"Exons vs Introns. Exons and introns are related to genes. An exon is termed as a nucleic acid sequence which is represented in the RNA molecule. Introns, on the other hand, are termed as nucleotide sequences seen within the genes which are removed through RNA splicing for generating a mature RNA molecule.",3,3,2,##final score: 2
+207786,how are some sharks warm blooded,5598165,"And while most mackerel sharks tend to be large, basking sharks are truly massive in comparison. We have fossil evidence of mackerel sharks going as far back as 100 million years, making them one of the oldest shark orders.",0,0,1,"0. Consider the underlying intent of the search: The user is asking about the biological mechanisms that allow certain shark species (like mackerel sharks) to be warm-blooded (regional endothermy).
+
+1. Measure how well the content matches a likely intent of the query (M): The passage mentions mackerel sharks and basking sharks, including fossil history and size, but it makes no mention of warm-bloodedness or how sharks regulate their body temperature. It is marginally related to the subject of sharks, but does not address the core topic of the query.
+
+2. Measure how trustworthy the passage is (T): The passage provides accurate factual context about shark history and classification, but it is irrelevant to the prompt's main question.
+
+3. Consider the aspects above and the relative importance of each, and decide on a final score (O): Since the passage discusses sharks (specifically mackerel sharks, which include endothermic species) but completely fails to answer or mention warm-bloodedness, it is only weakly related to the query topic and fails to answer it.
+
+##final score: 1"
+1110199,what is wifi vs bluetooth,1901876,"Stockbyte/Stockbyte/Getty Images. Bluetooth and Wi-Fi are both wireless networking technologies. They transmit information via radio signals broadcast through the air rather than over wires, allowing devices to communicate with each other and share information.",2,2,1,##final score: 1
+183378,exons definition biology,5026678,"Transcription & Translation: RNA Splicing. Transcript: As DNA is transcribed into RNA it needs to be edited to remove non-coding regions, or introns, shown in green. This editing process is called splicing, which involves removing the introns, leaving only the yellow, protein-coding regions, called exons.",3,3,2,##final score: 2
+1133167,how is the weather in jamaica,8717042,"Kingston the capital of Jamaica, located in the southwestern part of island, is considered the administrative, cultural and industrial hub of Jamaica. It is also the largest city in Jamaica. Port Of Kingston. Montego Bay is a sprawling city with Jamaica's largest airport shopping and cruise line terminal.",0,0,1,"##Intent:
+The user is looking for information regarding the weather conditions, climate, or temperature in Jamaica.
+
+##M:
+0.0 - The passage mentions Jamaica and some of its major cities (Kingston, Montego Bay), but contains no information about the weather or climate whatsoever.
+
+##T:
+1.0 - The information provided about Jamaica's cities is accurate and trustworthy, though irrelevant to the weather.
+
+##O:
+1 - The passage is somewhat related to the subject of the query (Jamaica), but does not contain any relevant information about the weather.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,3344837,"Legionella pneumophila, a Gram-negative bacillus ubiquitous in aquatic environments, is responsible for Legionnaires’ disease. It is a facultative intracellular pathogen that can replicate within eukaryotic host cells such as protozoa and macrophages. In humans, L. pneumophila reaches the lungs after inhalation of contaminated aerosol droplets [1] ; [2] (Fig. 1 ).",2,2,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,5880511,"Who We Work With. H2O Legionella Control Services from Glasgow in Scotland provides professional, comprehensive legionella control services to clients around the UK.",1,1,0,##final score: 0
+104861,cost of interior concrete flooring,7506027,Polished concrete pricing and cost per square metre for concrete polishing can range from as little as £20 to as much as £150 per metre square.dditionally polished concrete overlays with exotic aggregates could add further costs of £10 to £50 per metre. When choosing a polished concrete floor price should be the last question you ask. Firstly define the expectations you want from your concrete floor and have your budget figure in mind.,2,2,3,##final score: 3
+1133167,how is the weather in jamaica,168597,"Best Answer: Jamaica is a Caribbean island, and the Caribbean is a subregion of North America. ... Jamaica belongs to the North American continent. ... We are ...",0,0,1,##final score: 1
+130510,definition declaratory judgment,4262865,"Types of judgments can be distinguished on a number of grounds, including the procedures the parties must follow to obtain the judgment, the issues the court will consider before rendering the judgment, and the effect of the judgment.",0,0,1,##final score: 1
+1114819,what is durable medical equipment consist of,7425393,"Individuals type 1 diabetes or other insulin-dependent conditions may qualify for an insulin pump under Medicare Part B. Medicare covers insulin pumps deemed medically necessary as part of the Durable Medical Equipment benefit (DME), which covers certain medical equipment used at home. prescription for an insulin pump entitles the patient to 80 percent coverage of the equipment from a Medicare-approved supplier. The patient pays 20 percent of the Medicare-approved cost as well as the Medicare Part B deductible, if applicable.",2,2,1,##final score: 1
+489204,right pelvic pain causes,2899721,"Appendicitis pain may start in the lower right of the abdomen, or it may start centered over the belly button and then within hours or a few days move to the lower right, and then it stays there. Again: not everything in the lower right abdomen is appendicitis; in fact, in most cases, it's something else. But pain that moves around, back and forth, different locations at different times, usually not appendicitis.",1,1,2,"##intent: The user is searching for potential medical causes or conditions associated with pain in the right pelvic or lower right abdominal area.
+
+##M: 2.0
+
+##T: 3.0
+
+##final score: 2"
+443396,lps laws definition,456712,Overcurrent protection device method – Another commonly used technique to provide LPS limiting is by using a fuse or circuit breaker in series with the power output. Table 2C outlines the limits for overcurrent device limited sources.,0,0,1,##final score: 1
+19335,anthropological definition of environment,2324839,"Definition. Naturalistic observation is research that involves studying the subject of interest in its own environment, as it would occur in day-to-day life. The subject of interest may be human or non-human or it can be the behavior of living things or the interactions of non-living things with their environment.",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,6467579,"polishing. Basic cost for a polished concrete floor up to a 800 grit: $3.00 per square foot. Cost for polished concrete floors requiring decorative scoring and/or staining: Up to $8.00 per square foot. For large commercial floors, may include staining and decorative scoring: From $3.00 - $7.00 per square foot.",2,2,3,##final score: 3
+1063750,why did the us volunterilay enter ww1,2653693,1 To gain a chronological understanding of the progression of WWI. 2  To study the reasons for American entrance into the war to make the world safe for democracy..  To examine the domestic and international consequences of WWI.,2,2,1,"**Underlying Intent of the Search:** 
+The user is seeking historical reasons and motivations behind the United States' voluntary decision to enter World War I.
+
+**Content Match (M):** 
+The passage consists of educational learning objectives. While it explicitly mentions studying ""the reasons for American entrance into the war to make the world safe for democracy,"" it merely states the topic of study rather than actually explaining or answering why the US entered the war. Therefore, it is related to the query topic but does not provide an answer.
+
+**Trustworthiness (T):** 
+The passage appears to be from a standard curriculum or syllabus outline, making it reliable in context, though lacking factual explanatory content for the query itself.
+
+**Final Score (O):** 1
+
+##final score: 1"
+87452,causes of military suicide,2407664,"Media reports often link bullying with suicide. However, most youth who are bullied do not have thoughts of suicide or engage in suicidal behaviors. Although kids who are bullied are at risk of suicide, bullying alone is not the cause. Many issues contribute to suicide risk, including depression, problems at home, and trauma history.",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,4823168,"So, Germany invaded Belgium in 1914 in order to knock France out of the war quickly, thus avoiding a 2 front war.The major flaw in the plan was that Germany did not think invading Belgium would bring Britain into the war against them.ammianus · 6 years ago.E: Why did Germany invade Belgium during WW1? Why did they Attack neutral Belgium, when it was Neutral and it Caused Britain and the British Commonwealth... I don&#39;t understand, why would you attack a neutral country causing the world superpower to declare war when you already have France and Russia to defeat....",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,4792583,"Pneumonia due to mycoplasma and chlamydophila bacteria is usually mild. 1  Pneumonia due to Legionella pneumophila gets worse during the first 4 to 6 days, and then improves over 4 to 5 days.  Even though symptoms will improve, it may take a while for them to go away completely.",3,3,2,"##intent: The user is asking a direct yes/no question about whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+##M: 2.5 - The passage directly confirms that pneumonia can be caused by *Legionella pneumophila* (""Pneumonia due to Legionella pneumophila...""), providing an affirmative answer, while also including additional context about the course of the illness and other types of bacteria.
+
+##T: 3 - The passage provides factual, medical information about bacterial pneumonia.
+
+##O: 2"
+1114819,what is durable medical equipment consist of,1009500,"Some durable medical equipment, prosthetics, orthotics and medical supplies (DMEPOS), also known as durable equipment, are a limited benefit. TRICARE defines covered DMEPOS as: Medically necessary and appropriate for the treatment of an illness or injury.",2,2,1,"##intent: The user is looking to understand what specific items or categories of items fall under the definition of durable medical equipment (DME).
+
+##M: 1 - The passage mentions durable medical equipment (DMEPOS) and defines how TRICARE covers it, but it does not detail what specific items or equipment DME consists of. It is related but does not directly answer the query.
+
+##T: 3 - The passage appears to be from an official health policy or insurance source (TRICARE), making it trustworthy.
+
+##O: 1
+
+##final score: 1"
+1133167,how is the weather in jamaica,434123,"The temperature in Jamaica remains fairly constant year round, and the area generally doesn't experience drastic temperature changes. In October, the island enjoys an average temperature of 89 degrees Fahrenheit, though the temperature may vary slightly by region.",2,2,3,"##intent: The user is looking for information about the weather and climate conditions in Jamaica.
+
+##match: The passage directly addresses Jamaica's weather, explaining that temperatures remain constant year-round without drastic changes, and gives specific details regarding average temperatures.
+
+##trustworthiness: The passage is factual, coherent, and trustworthy regarding Jamaica's climate profile.
+
+##final score: 3"
+1063750,why did the us volunterilay enter ww1,4844353,"The US did not enter the war when the German blitzkrieg took most of Western Europe. It did not enter the war when Germany started to bomb England. These events made more Americans sympathize with the Allies and oppose the Axis, but only the attack on Pearl Harbor actually led the US to enter WWII.",0,0,1,"##intent: The user is seeking historical reasons for why the United States voluntarily chose to enter World War I (WWI).
+
+##M: 1 - The passage discusses the events that led to the United States entering World War II (WWII), such as the attack on Pearl Harbor and the Blitzkrieg. While both topics involve US participation in a World War, the passage focuses on WWII rather than WWI, thus failing to answer the query.
+
+##T: 3 - The passage provides historically accurate details regarding the US entry into World War II.
+
+##O: 1 - The passage is somewhat related in theme (US entry into a World War), but addresses the wrong conflict (WWII instead of WWI) and does not answer the query.
+
+##final score: 1"
+131843,definition of a sigmet,5268242,"Provides access to Australian weather forecasts, weather observations, flood warnings and high sea forecasts from each state and territory provided by the Bureau of Meteorology Provides access to Australian weather forecasts, weather observations, flood warnings and high sea forecasts from each state and territory provided by the Bureau of Meteorology",0,0,1,"**Consider the underlying intent of the search:**
+The user is looking for the definition and explanation of the term ""SIGMET"" (Significant Meteorological Information), which is a weather advisory containing meteorological information concerning the safety of all aircraft.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage describes general weather services, forecasts, observations, flood warnings, and high sea forecasts provided by the Australian Bureau of Meteorology. While it deals with weather information and warnings generally, it does not define, explain, or even mention ""SIGMET."" Therefore, the match to the specific query intent is very low/tangential.
+
+**Measure how trustworthy the passage is (T):**
+The passage refers to official information from the Bureau of Meteorology (an official Australian government agency), making the source trustworthy, though the content itself is irrelevant to the query.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The passage is broadly related to the domain of weather forecasts and warnings, but it completely fails to define or mention a SIGMET. Thus, it falls into Category 1 (seems related to the general topic of weather warnings, but does not answer the query).
+
+##final score: 1"
+156493,do goldfish grow,8725860,"Goldfish are not toxic in any way. This myth likely stems from the large amounts of ammonia these fish excrete, but all fish excrete ammonia, not only goldfish. Goldfish do tend to be messy and eat a lot. They are also a heavy-bodied species, so they excrete more waste than other species of smaller sizes. But they can still be kept with other fish.",0,0,1,##final score: 1
+156493,do goldfish grow,4400818,"Ideally, you should keep goldfish aquarium water between 68 and 72 degrees Fahrenheit. Temperatures slightly outside this range will usually not cause a goldfish to instantly die. However, lower temperatures may cause a goldfish to hibernate -- particularly low temperatures, below 50 degrees, can kill goldfish.hey need water warmer than goldfish need. While some tropical species' ideal temperature range may overlap with the upper range for goldfish, water in a fish tank with both goldfish and tropical fish will be either too warm for the goldfish or too cold for the tropical fish.",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,1381477,"Legionella pneumophila is the bacterial type that causes the pneumonia known as Legionnaires' disease. Other bacteria types that can cause pneumonia include the bacteria that cause so-called atypical pneumonia, Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumonia. Haemophilus influenzae is a type of bacteria that can cause pneumonia.",3,3,2,"##Intent:
+The user is asking a direct question to confirm whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+##M:
+3.0 - The passage directly answers the query in the very first sentence, confirming that *Legionella pneumophila* is a bacterial type that causes pneumonia (specifically Legionnaires' disease).
+
+##T:
+3.0 - The passage provides accurate medical information regarding bacterial causes of pneumonia.
+
+##O:
+##final score: 2"
+183378,exons definition biology,8570261,DNA is composed of sections known as exons and introns. The exons are the portions that eventually exit the nucleus in the form of mRNA and are used in translation. The introns are removed from the mRNA shortly after transcription.There are a number of hypotheses about the function of introns.NA is composed of sections known as exons and introns. The exons are the portions that eventually exit the nucleus in the form of mRNA and are used in translation. The introns are removed from the mRNA shortly after transcription. There are a number of hypotheses about the function of introns.,3,3,2,"##intent: The intent of the user is to find the biological definition of exons.
+
+##M: The passage clearly defines exons (""portions that eventually exit the nucleus in the form of mRNA and are used in translation""), but it also includes information about introns and duplicated text. Thus, it answers the query but contains extraneous details.
+
+##T: The passage appears scientifically accurate and trustworthy regarding the basic biological definitions of exons and introns.
+
+##O: 2"
+104861,cost of interior concrete flooring,7342448,"For this kind of service, expect to pay anywhere from $3 to $4 per square foot from a true professional. The end result is a floor that looks virtually brand new for a fraction of what a new floor would cost. Other types of wood floors offer other options that are more cost efficient.",0,0,1,##final score: 1
+183378,exons definition biology,5462817,"gene. A segment of DNA, occupying a specific place on a chromosome, that is the basic unit of heredity. Genes act by directing the synthesis of proteins, which are the main components of cells and are the catalysts of all cellular processes.ene. the basic physical unit of heredity; a linear sequence of nucleotides along a segment of DNA that provides the coded instructions for synthesis of RNA, which, when translated into protein, leads to the expression of hereditary character.",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,1017092,"Some things that may add to that cost are: site and sub-base preparation, site access, small floors under 500 sq. ft., and thicker concrete. Integral colored concrete floor cost: $3.75 dollars per square foot, that includes the basic concrete floor package and adding color to the concrete.",2,2,3,##final score: 3
+1121402,what can contour plowing reduce,6717338,Dictionary entry overview: What does plowing mean? • PLOWING (noun) The noun PLOWING has 1 sense: 1. tilling the land with a plow Familiarity information: PLOWING used as a noun is very rare.,0,0,1,"##intent: The user is asking about the benefits or effects of ""contour plowing,"" specifically what environmental or agricultural issues it helps to reduce (such as soil erosion or water runoff).
+
+##M: 0.5
+##T: 1.0
+##final score: 1"
+183378,exons definition biology,7811888,"DNA that is required for production of. functional product ; mRNA , polypeptide , tRNA, rRNA. • The sequence of gene consists of : • Exons :coding sequence ,transcribed and. translated .Coding for the amino acids in the. polypeptide chain .",3,3,2,"##Intent
+The user is looking for a biological definition of ""exons"".
+
+##Match to Intent (M)
+The passage directly defines exons as the ""coding sequence, transcribed and translated. Coding for the amino acids in the polypeptide chain."" It provides a clear answer, though it also contains brief background information about DNA and gene sequences.
+
+##Trustworthiness (T)
+The passage accurately presents basic biological information, making it trustworthy.
+
+##Final Score
+##final score: 2"
+168216,does legionella pneumophila cause pneumonia,6223987,Mycoplasma pneumonia is an infection of the lungs by the bacteria Mycoplasma pneumoniae (M. pneumoniae) .,0,0,1,"##Intent: The user is asking a specific medical question about whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+##Match (M): The passage discusses bacterial pneumonia, but it specifically focuses on *Mycoplasma pneumoniae* rather than *Legionella pneumophila*. It is related to the general subject of bacterial pneumonia, but it does not address or answer the query.
+
+##Trustworthiness (T): The passage provides accurate medical information regarding *Mycoplasma pneumoniae*, but it is not relevant to the specific organism in the query.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,4886488,Pneumonic Plague. This is the most serious form of plague and occurs when Y. pestis bacteria infect the lungs and cause pneumonia. 1  You get primary pneumonic plague when you inhale plague bacteria from an infected person or animal.2  You usually have to be in direct or close contact with the ill person or animal.his is the most serious form of plague and occurs when Y. pestis bacteria infect the lungs and cause pneumonia. 1  You get primary pneumonic plague when you inhale plague bacteria from an infected person or animal.,0,0,1,##final score: 1
+1124210,tracheids are part of _____.,7695217,"Several types of cells make up xylem tissue, including parenchyma as well as the tracheids and vessel members, two cell types that specialize in transferring water and minerals. Tracheids and vessel members are referred to as tracheary elements. Phloem vascular tissue contains parenchyma and has two types of cells that assist in the transport of food: sieve-tube members and sieve cells. Sieve-tube members are more specialized and are present in advanced flowering seed plants.",2,2,3,##final score: 3
+1129237,hydrogen is a liquid below what temperature,5906130,"Rating Newest Oldest. Best Answer: Hydrogen, like water, can exist in 3 states....Solid, Liquid and Gas Its temperature as a solid is −259.14 °C' Hydrogen melts to liquid at −252.87 °C. It boils and vaporises at -252.125 °C Just cooling or compressing Hydrogen won't liquefy or freeze it.",3,3,2,##final score: 2
+1114819,what is durable medical equipment consist of,2590450,"DME that Medicare covers includes, but isn't limited to: 1  Air-fluidized beds and other support surfaces (these supplies are only rented) 2  Blood sugar monitors. 3  Blood sugar (glucose) test strips.  Canes (however, white canes for the blind aren't 1  covered) Commode chairs.  Continuous passive motion (CPM) 1  machine. Crutches.  Hospital beds.",2,2,3,##final score: 3
+451602,medicare's definition of mechanical ventilation,3877256,Indications for PRECEDEX: For sedation of initially intubated and mechanically ventilated patients during treatment in an intensive care setting. For sedation of non-intubated patients prior to and/or during surgical and other procedures.or sedation of initially intubated and mechanically ventilated patients during treatment in an intensive care setting. For sedation of non-intubated patients prior to and/or during surgical and other procedures.,0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,6282561,"Atypical pneumonia refers to pneumonia caused by certain bacteria, including Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumoniae. It is called “atypical” because the symptoms differ from those of pneumonia due to other common bacteria. Pneumonia is an infection of the lung.neumonia due to mycoplasma and chlamydophila bacteria is usually mild. 1  Pneumonia due to Legionella pneumophila gets worse during the first 4 - 6 days, and then improves over 4 - 5 days. 2  Even though symptoms will improve, it may take a while for them to go away completely.",3,3,2,##final score: 2
+207786,how are some sharks warm blooded,3839375,"MYTH: Sharks eat all the time. FACT: Sharks eat periodically depending upon their metabolism and the availability of food in the area. Some sharks, like the lemon shark eat less than two percent of their body weight per day. MYTH: Shark meat doesn’t taste good, and is sometimes is poisonous.",0,0,1,##final score: 1
+156493,do goldfish grow,5022725,"Home | Products | Downloads | Buy Now | Support | FAQ | Android App | Contact Us. Digital Goldfish Screensaver is a 3D goldfish aquarium screensaver which shows 25 species of goldfish swimming on your desktop. You can feed the goldfish in order to get them to grow. The goldfish will head for the food and eat it. Compatible with Windows XP, Windows Vista, Windows 7, and Windows 8. Free Download | More Info | Support | Faq.",1,1,0,##final score: 0
+183378,exons definition biology,3185607,Exons (expressed sequences) contain the coding regions of the protein. Introns (interspersed sequences) are removed after transcription. In vertebrates usually only 5% of the gene is made up of exons. Below is pictured what the gene structure of a gene looks like on the NCBI website.,3,3,2,##final score: 2
+443396,lps laws definition,456708,"LPS requirements are covered in clause 2.5 of the standard. Interestingly, LPS is not defined in clause 1.2 of the standard, the definitions section, or in clause 2.5, the LPS requirements section. I’ll take a crack at writing a succinct definition for LPS:",0,0,1,##final score: 1
+148538,difference between rn and bsn,2455774,"No, RN is a professional license. BSN and ADN are college degrees. An ADN is an ASN or AAS degree obtained from a community college after two to three years of school (including prerequisites). A BSN is obtained from a four year university after four to six years of school (including prerequisites).",3,3,2,"##intent match: 3
+##trustworthiness: 3
+##final score: 2"
+489204,right pelvic pain causes,4586570,"The most common cause of pain in the lower right side of the abdomen can be due to appendicitis, gall stones, urinary tract infection, ovarian cyst and pelvic inflammation in …women, and inflammatory bowel disease and rarely diverticular disease.",2,2,3,##final score: 3
+1133167,how is the weather in jamaica,1883281,"Here's a month-by-month idea of weather in Jamaica. The weather is perfect most of the year. This month-by-month Jamaica weather forecast will help you in deciding when is the best time to visit Jamaica. December Weather in Jamaica: It's high season, and a cool time of year. January Weather: Middle of the high season.",2,2,3,##final score: 3
+1114819,what is durable medical equipment consist of,1852066,Medicare Part B (Medical Insurance) covers medically necessary durable medical equipment (DME) that your doctor prescribes for use in your home. Only your doctor can prescribe medical equipment for you. DME meets these criteria: Durable (can withstand repeated use),2,2,1,##final score: 1
+207786,how are some sharks warm blooded,8829137,"The shortfin mako shark is the fastest species of shark. Its speed has been recorded at 40 km/h (25 mph) with bursts of up to 74 km/h (46 mph). This speed aids in leaping, with heights of approximately 9 m (30 ft) having been recorded.",0,0,1,"##Intent Analysis
+The query asks about the mechanism or reason why certain species of sharks are warm-blooded (endothermic). The user is seeking a scientific explanation for how these sharks regulate their body temperature.
+
+##Content Matching (M)
+The passage discusses the shortfin mako shark, focusing entirely on its swimming speed and leaping ability. While the shortfin mako is an example of a regionally endothermic shark, the passage does not mention warm-bloodedness, body temperature regulation, or how this physiological trait works. The content is only tangentially related via the subject of sharks, but fails to address the query topic.
+
+##Trustworthiness (T)
+The passage provides factual, well-known information about the shortfin mako shark's speed and capabilities and appears trustworthy.
+
+##Final Score Calculation
+Since the passage mentions a specific shark species but completely omits any information regarding warm-bloodedness or its mechanism, it is slightly related to the broader subject of sharks but does not answer the query. Therefore, it falls into category 1.
+
+##final score: 1"
+207786,how are some sharks warm blooded,4416679,"THe Thresher shark is the 8th biggest shark known to man and is found in tropical oceans around the world. Thresher sharks are a slender shark but don't let that fool you, these bad boys can weigh over 1100 lbs!",0,0,1,##final score: 1
+451602,medicare's definition of mechanical ventilation,4176454,"pressure trigger a trigger for initiating assisted ventilation, consisting of a mechanism for measuring pressure and starting assisted ventilation when pressure reaches a given level. time trigger a trigger for initiating assisted ventilation, consisting of a mechanism that measures frequency of respirations and starts assisted ventilation when the respiratory frequency is at a given point.",1,1,0,##final score: 0
+183378,exons definition biology,5460939,"The human genome consists of 3 billion nucleotides or “letters” of DNA. But only a small percentage — 1.5 percent — of those letters are actually translated into proteins, the functional players in the body. The “exome” consists of all the genome’s exons, which are the coding portions of genes. The term exon was derived from “EXpressed regiON,” since these are the regions that get translated, or expressed as proteins, as opposed to the intron, or “INTRagenic regiON” which is not represented in the final protein.",3,3,2,##final score: 2
+104861,cost of interior concrete flooring,6518537,Other companies build concrete wall forms from scratch for each job and this drives cost slightly higher. Expect to pay anywhere from $5 to $7 per square foot for a company to pour a concrete wall in this manner.,0,0,1,##final score: 1
+19335,anthropological definition of environment,1796647,"Fields of Anthropology There are now four major fields of anthropology: biological anthropology, cultural anthropology, linguistic anthropology, and archaeology. Each focuses on a different set of research interests and generally uses different research techniques.",0,0,1,"##Intent:
+The user is searching for the definition of ""environment"" from an anthropological perspective.
+
+##M:
+The passage discusses the four major fields of anthropology (biological, cultural, linguistic, and archaeology) but does not define or mention ""environment"" at all. It is vaguely related to the broader subject of anthropology, but fails to address the specific intent of the query.
+
+##T:
+The passage is factual and trustworthy regarding the broad fields of anthropology.
+
+##O:
+1"
+1106007,define visceral?,954035,Innermost emotional or visceral response: She felt in her gut that he was guilty. b. guts The inner or essential parts: The best part of a good car ... is its guts (Leigh Allison Wilson). 3. guts Slang Courage; fortitude: It takes guts to be a rock climber. 4. Slang A gut course.,2,2,1,##final score: 1
+156493,do goldfish grow,2317807,"Goldfish Size and Life Expectancy. If kept in a suitable environment, single tail goldfish normally grow to 10 inches (25cm) and can sometimes reach 12 inches (30cm). Fancy goldfish normally grow to 8 inches (20cm). The normal life expectancy of a single tail goldfish is about 20 years. Fancy goldfish have a life expectancy of about 12 years.",2,2,3,"**Consider the underlying intent of the search:**
+The user is asking a basic question about goldfish biology/development: whether goldfish grow, and implicitly how large they can get. 
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage explicitly addresses goldfish growth and size, confirming that they grow and specifying exact growth potentials for different types (single tail goldfish grow to 10–12 inches, fancy goldfish grow to 8 inches). It directly and clearly answers the query.
+
+**Measure how trustworthy the passage is (T):**
+The passage provides accurate, standard factual information regarding goldfish size and lifespan, making it highly trustworthy.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The passage directly answers the query with specific measurements of how much goldfish grow, though it also contains a brief note on life expectancy. Since the primary focus is goldfish size and growth, it provides a direct, complete, and reliable answer.
+
+##final score: 3"
+1114819,what is durable medical equipment consist of,8336230,"Durable Medical Equipment: DME refers to non-expendable articles of equipment, recognized as such by Medicare Part B, that meet all of the following criteria: • It is usually designed for and can stand repeated use. • It is primarily and customarily used to serve a medical purpose rather than being.",2,2,3,##final score: 3
+183378,exons definition biology,3624847,"Messenger RNA. Mature mRNA serves as a sequence of codons from which a polypeptide is translated (the polypeptide sequence is destined to be, or to be part of, a protein). > Where is it made? In living cells, it's transcribed from DNA that contains genes.",0,0,1,##final score: 1
+1106007,define visceral?,5780391,"In my opinion the best way to distinguish between these terms is to recognize that visceral reactions IS a type of deep emotional reaction, the other variant being a deep cerebral emotional reaction. I do not agree with the notion that emotional responses are always non-intellectual. This is a misleading notion.",2,2,1,##final score: 1
+104861,cost of interior concrete flooring,146172,"Basic cost for a polished concrete floor that requires only a few levels of grinding, according to Greg Demmert of Demmert & Assoc. in Los Angeles.$3-$8/ sq ft. For concrete floors requiring more in-depth grinding or including coloring with stains and dyes, according to Demmert. In the Denver area.asic cost for a polished concrete floor that requires only a few levels of grinding, according to Greg Demmert of Demmert & Assoc. in Los Angeles.",2,2,3,##final score: 3
+104861,cost of interior concrete flooring,1313687,"We also do a lot of other decorative concrete applications, you'll be able to find pricing for stamped concrete, stained concrete, and more at the bottom of the page. MY BASIC COST TO POUR AND FINISH A CONCRETE FLOOR IS $2.50 - $3.00 PER SQUARE FOOT.e also do a lot of other decorative concrete applications, you'll be able to find pricing for stamped concrete, stained concrete, and more at the bottom of the page. MY BASIC COST TO POUR AND FINISH A CONCRETE FLOOR IS $2.50 - $3.00 PER SQUARE FOOT.",2,2,3,##final score: 3
+1106007,define visceral?,3470705,"Visceral feelings and gut instincts are literally emotional intuitions transferred up to your brain via the vagus nerve. In previous studies, signals from the vagus nerve traveling from the gut to the brain have been linked to modulating mood and distinctive types of fear and anxiety.isceral feelings and gut instincts are literally emotional intuitions transferred up to your brain via the vagus nerve. In previous studies, signals from the vagus nerve traveling from the gut to the brain have been linked to modulating mood and distinctive types of fear and anxiety.",2,2,1,"##intent: The user is looking for a clear definition of the word ""visceral"".
+
+##M: The passage discusses ""visceral feelings"" and explains them in the context of gut instincts and the vagus nerve, rather than providing a clear dictionary definition of the word ""visceral"" itself. Therefore, it is related to the query but does not directly answer it with a formal definition.
+
+##T: The passage appears to be trustworthy scientific/health-related information.
+
+##O: 1
+
+##final score: 1"
+490595,rsa definition key,3937203,"This is also called public key cryptography, because one of them can be given to everyone. The other key must be kept private. It is based on the fact that finding the factors of a integer is hard (the factoring problem). RSA stands for Ron Rivest, Adi Shamir and Leonard Adleman, who first publicly described it in 1978.",2,2,3,##final score: 3
+1106007,define visceral?,2002045,"Visceral feelings and gut instincts are literally emotional intuitions transferred up to your brain via the vagus nerve. In previous studies, signals from the vagus nerve traveling from the gut to the brain have been linked to modulating mood and distinctive types of fear and anxiety.",2,2,1,##final score: 1
+87452,causes of military suicide,3242437,"An Epidemic of PTSD (Post Traumatic Stress Disorder) A veteran dies by suicide every 80 minutes. 228,875: number of U.S. troops who’ve served in either Iraq or Afghanistan with PTSD. 7: percent of American population who are vets. But they account for 20 percent of suicides in America.",2,2,1,"##intent
+The user is searching for the causes or contributing factors behind military/veteran suicides.
+
+##match
+The passage discusses military/veteran suicide statistics and highlights Post-Traumatic Stress Disorder (PTSD). While PTSD is strongly implied as a contributing factor, the passage primarily presents statistics about suicide rates and PTSD prevalence rather than directly explaining or detailing the causes of military suicide. Thus, it is related to the topic but does not fully answer the query.
+
+##trustworthiness
+The passage presents specific numerical statistics regarding U.S. veterans and PTSD, appearing informative and factual, though without explicit source citations.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,8141128,"Atypical pneumonia is a type of pneumonia that is not caused by the traditional pathogens of “typical” pneumonia. The pathogens responsible for atypical pneumonia are Chlamydophila pneumoniae, Mycoplasma pneumonia, Legionella pneumophila, Moraxella catarrhalis, syncytial virus, and influenza A virus.",3,3,2,##final score: 2
+156493,do goldfish grow,5022716,"According to The Goldfish Tank, both goldfish should be fed tiny pinches of food for about a minute while it is being consumed, two to three times per day. In lower temperatures, goldfish eat less.",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,1301468,"Causes. The bacterium Legionella pneumophila is responsible for most cases of Legionnaires' disease. Outdoors, legionella bacteria survive in soil and water, but rarely cause infections.",2,2,1,"##intent: The user is asking if the bacterium *Legionella pneumophila* is a cause of pneumonia.
+
+##match: The passage states that *Legionella pneumophila* is responsible for Legionnaires' disease, but it does not explicitly state that Legionnaires' disease is a type of pneumonia or mention the word ""pneumonia"" directly. Therefore, it is related to the topic but does not fully answer the specific question. Score: 1.
+
+##trustworthiness: The passage is factual and trustworthy. Score: 3.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,1924796,"1 Atypical pneumonia is caused by bacteria such as Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumoniae.  Other bacteria that can cause pneumonia include Staphylococcus aureus, Moraxella catarrhalis, Streptococcus pyogenes, Neisseria meningitidis, Klebsiella pneumoniae, and Haemophilus influenzae.",3,3,2,##final score: 2
+915593,what types of food can you cook sous vide,5931266,"Those who are puritanical about such matters might be shocked, but we prepare our ribs sous vide. We rely on the convenience and control of sous vide cooking to turn out perfectly cooked baby back ribs, and then finish them with four hours of careful smoking (without ever letting the smoker get too hot).",2,2,1,##final score: 1
+264014,how long is life cycle of flea,5328095,"Fleas have four main stages in their life cycle: egg, larva, pupa, and adult. The total flea life cycle can range from a couple weeks to several months, depending on environmental conditions. The adult flea is very flat side to side.",2,2,3,"##Intent: The user is searching for the duration or timeframe of a flea's life cycle.
+
+##M: The passage explicitly states that the total flea life cycle can range from a couple of weeks to several months, directly answering the query clearly and concisely.
+
+##T: The passage is factual, clear, and trustworthy.
+
+##final score: 3"
+168216,does legionella pneumophila cause pneumonia,2265769,"A common cause of bacterial pneumonia is Streptococcus pneumoniae. Other bacteria can cause pneumonia, including Mycoplasma pneumoniae, Chlamydophila (Chlamydia) pneumoniae, Chlamydophila (Chlamydia) psittaci, and Legionella pneumophila. This illness, caused by Chlamydophila (or Chlamydia) pneumoniae, is most common in school-aged children and usually develops into mild pneumonia or bronchitis…. 2  Legionnaires’ Disease. 3  Legionella pneumophila causes more than 90% of outbreaks of Legionnaires’ disease, a severe form of pneumonia….",3,3,2,##final score: 2
+1114819,what is durable medical equipment consist of,1419798,Durable medical equipment (DME) coverage. Medicare Part B (Medical Insurance) covers medically necessary durable medical equipment (DME) that your doctor prescribes for use in your home. Only your doctor can prescribe medical equipment for you. DME meets these criteria: 1  Durable (long-lasting)  Used for a medical reason.,2,2,1,##final score: 1
+1110199,what is wifi vs bluetooth,1732296,"Connectivity Details. The BOHM SoundBlock uses Bluetooth to play music wirelessly. Bluetooth technology is used in 867 out of the 1214 wireless speakers we have listed on SpecOut, making it by far the most popular option for wireless speakers.Generally, Bluetooth streams audio at a lower quality and over less distance than Wi-Fi-based technologies.onnectivity Details. The BOHM SoundBlock uses Bluetooth to play music wirelessly. Bluetooth technology is used in 867 out of the 1214 wireless speakers we have listed on SpecOut, making it by far the most popular option for wireless speakers.",2,2,1,"##intent: The user is looking for a comparison between Wi-Fi and Bluetooth technologies, explaining their differences, use cases, and pros/cons.
+
+##M: 1.0
+The passage is primarily a product description for a specific wireless speaker (BOHM SoundBlock). While it contains a brief mention comparing Bluetooth and Wi-Fi regarding audio quality and range (""Generally, Bluetooth streams audio at a lower quality and over less distance than Wi-Fi-based technologies""), it does not adequately answer or explain the overall differences between Wi-Fi and Bluetooth. Most of the content consists of extraneous product details.
+
+##T: 1.0
+The passage appears to be extracted from a product database/review website (SpecOut) and is trustworthy, though duplicated and formatted poorly.
+
+##O: 1"
+1112341,what is the daily life of thai people,1373646,"Isan (Northeastern Thai), the language of the Isan region of Thailand, a collective term for the various Lao dialects spoken in Thailand that show some Siamese Thai influences, which is written with the Thai script. It is spoken by about 20 million people.",1,1,0,##final score: 0
+19335,anthropological definition of environment,4540809,Noun. 1. cultural anthropology-the branch of anthropology that deals with human culture and society. social anthropology. anthropology-the social science that studies the origins and social relationships of human beings.garbology-the study of a society by analyzing its garbage.oun. 1. cultural anthropology-the branch of anthropology that deals with human culture and society. social anthropology. anthropology-the social science that studies the origins and social relationships of human beings.,0,0,1,"Consider the underlying intent of the search: The user is looking for a definition of ""environment"" specifically from an anthropological perspective (e.g., environmental anthropology definitions or how anthropologists view human-environment interactions).
+
+Measure how well the content matches a likely intent of the query (M): The passage provides dictionary definitions for ""cultural anthropology"", ""social anthropology"", ""anthropology"", and ""garbology"". It completely lacks any mention or definition of ""environment"". However, it is broadly related to the field of anthropology.
+
+Measure how trustworthy the passage is (T): The text appears to be extracted from a dictionary/thesaurus and is trustworthy, though repetitive and formatted poorly.
+
+Consider the aspects above and the relative importance of each, and decide on a final score (O): The passage contains related terms (""anthropology"") but fails to address the specific topic of ""environment"" or its definition in an anthropological context. Therefore, it is somewhat related but does not answer the query.
+
+##final score: 1"
+87452,causes of military suicide,2918391,"Some examples of mental health crises include depression, trauma, eating disorders, alcohol or substance abuse, self-injury and suicidal thoughts. If you suspect a friend or family member is experiencing an emotional crisis, your help can make a difference.",1,1,0,"##intent: The user is searching for the specific factors, reasons, or triggers that lead to military personnel taking their own lives.
+
+##match: The passage discusses general mental health crises, listing examples like depression, trauma, substance abuse, and suicidal thoughts, and offers general advice on helping someone in crisis. However, it makes no mention of the military or specific causes related to military suicide.
+
+##trustworthiness: The passage appears to be from a standard health/wellness or support website, presenting reliable general advice.
+
+##final score: 0"
+183378,exons definition biology,7920165,The intervening sequences that are removed are called introns. The process by which introns are removed is referred to as splicing. The sequences remaining after the splicing are called exons. All of the different major types of RNA in a eukaryotic cell can have introns.he process by which introns are removed is referred to as splicing. The sequences remaining after the splicing are called exons. All of the different major types of RNA in a eukaryotic cell can have introns.,3,3,2,"**Underlying Intent:** The user is seeking a clear biological definition of the term ""exons.""
+
+**Content Match (M):** The passage defines exons as the sequences remaining after RNA splicing. However, it also includes information about introns and splicing, contains duplicate text, and is not solely focused on defining exons.
+
+**Trustworthiness (T):** The information provided is accurate according to standard biological definitions of exons, introns, and splicing, though the passage contains typos/duplication (""introns.he process"").
+
+**Final Score Decision:** The passage answers the query directly with the definition of exons, but contains extra information about introns and splicing as well as redundant text. Thus, it fits Category 2.
+
+##final score: 2"
+443396,lps laws definition,355277,"Limited partnership. For the 2014 film, see Limited Partnership (film). A limited partnership (LP) is a form of partnership similar to a general partnership, except that where a general partnership must have at least two general partners (GPs), a limited partnership must have at least one GP and at least one limited partner.",0,0,1,##final score: 1
+1124210,tracheids are part of _____.,2258595,Summary: Vessels have perforations at the end plates while tracheids do not have end plates. Tracheids are derived from single individual cells while vessels are derived from a pile of cells. Tracheids are present in all vascular plants whereas vessels are confined to angiosperms.Tracheids are thin whereas vessel elements are wide. Tracheids have a much higher surface-to-volume ratio as compared to vessel elements.Vessels are broader than tracheids with which they are associated.Morphology of the perforation plate is different from that in tracheids.racheids are thin whereas vessel elements are wide. Tracheids have a much higher surface-to-volume ratio as compared to vessel elements. Vessels are broader than tracheids with which they are associated. Morphology of the perforation plate is different from that in tracheids.,2,2,1,##final score: 1
+962179,when was the salvation army founded,8811425,SO I have a boatload of clothes and shoes and crap to donate to the Salvation army. I want to get a receipt for my taxes.,0,0,1,##final score: 1
+359349,how to find the midsegment of a trapezoid,6031049,"The midpoint of a line segment is the point that divides the segment into two segments that. have the same length. A line, ray, or other figure that passes through the midpoint of a segment. is a segment bisector.",1,1,0,##final score: 0
+168216,does legionella pneumophila cause pneumonia,8766391,"During the bicentennial in 1976, american legion members held a convention in philadelphia. Many of them became ill and some died from a previously unknown infectious agent. The culprit in legionaires' disease was a new germ, later named, in honor of the legionaires, legionella pneumophila.. In brief: American Legion. During the bicentennial in 1976, american legion members held a convention in philadelphia.",2,2,1,##final score: 1
+183378,exons definition biology,4493920,"Exons are the DNA sequences that code for proteins. Introns are involved however they dont carry the genetic information that exons carry, the variation provides for revolutio … nary flexibility allowing cells to shuffle exons between genes to make new ones.aking the world better, one answer at a time. The difference between exons and introns is that exons are codes of proteins, while introns are not involved with the coding for proteins.",3,3,2,##final score: 2
+443396,lps laws definition,179830,"patient to a Baker Act receiving facility based on a doctors certification the patient. needed to be Baker acted, were not discretionary under the Baker Act and the. city was not liable for the actions for the city police officers in transporting the. patient to a receiving facility.",1,1,0,##final score: 0
+146187,difference between a mcdouble and a double cheeseburger,3615725,"Classic ingredients flavored just right. You can’t go wrong with our cheeseburger, a signature flame-grilled. beef patty topped with a simple layer of melted American cheese, crinkle cut pickles, yellow mustard, and ketchup on a toasted sesame seed bun. Facebook Twitter Pinterest Tumblr Email.",0,0,1,##final score: 1
+962179,when was the salvation army founded,1006868,"This information about the Health Insurance benefit at Salvation Army is the result of research by Glassdoor editorial staff, and was not provided directly by a representative of Salvation Army. The description here may not reflect the current Salvation Army Health Insurance benefit. Employee Comments.",0,0,1,##final score: 1
+1114819,what is durable medical equipment consist of,5165249,"Durable medical equipment billing and reimbursement. Definitions. • Durable medical equipment (DME) is any equipment that provides therapeutic benefits to a member because of. certain medical conditions and/or illnesses that can withstand repeated use, is primarily and customarily used to. serve a medical purpose , and is appropriate for use in the home.",2,2,3,##final score: 3
+1110199,what is wifi vs bluetooth,3882016,"How We Evaluate Bluetooth Speakers. To evaluate each Bluetooth speaker, we listen to a wide range of music and test the device's durability, if applicable. We also test speakerphone capabilities (if available) and play tunes continuously to see how long the speakers' batteries last. We also consider the quality of the design and ease of use and setup.",0,0,1,##final score: 1
+156493,do goldfish grow,8725859,"Goldfish are able to live in a wide range of temperatures, so some overlap does exist. Many tropical fish can live in the mid 70s without any kind of problem, and this is also true of goldfish. It is, however, important to keep goldfish with species that require similar habitats and conditions.",0,0,1,##final score: 1
+87181,causes of left ventricular hypertrophy,2556151,Left ventricular hypertrophy that is caused by aortic valve stenosis might require surgery to repair the narrow valve or to replace it with an artificial or tissue valve. 1  Tests and diagnosis. 2  Lifestyle and home remedies.,2,2,1,##final score: 1
+1110199,what is wifi vs bluetooth,3917005,"Catch your audio systems up to the Digital Age with the iLive Wireless Bluetooth Receiver & Adapter. Rather than replacing functional systems with expensive new equipment, simply use this device to convert any boombox, stereo sound bar or speaker into a Bluetooth speaker via the audio line input. Stream music wirelessly via Bluetooth.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,7218019,"Re: Weather at the end of October - Sandals Whitehouse Jamaica Aug 12, 2013, 1:27 PM Been to Jamaica and Bahamas in November never had problems, this is the end of the hurricane season.",2,2,1,"##Intent: The user is asking for information about the weather in Jamaica, which typically implies either the current weather conditions or general climate/seasonal weather patterns.
+
+##Match (M): The passage addresses weather in Jamaica specifically during the end of October and November (noting it is the end of the hurricane season). However, it does not provide a comprehensive overview of Jamaica's weather or current conditions, making it only partially related to the broad query.
+
+##Trustworthiness (T): The passage is a forum response based on personal experience, which is moderately reliable for anecdotal climate advice but not an official weather source.
+
+##Final Score: 1"
+19335,anthropological definition of environment,2325143,"Anthropology is a scientific field of study with several divisions. One division, cultural anthropology, focuses on an understanding of the way that people live in different societies or cultures around the world.",0,0,1,##final score: 1
+19335,anthropological definition of environment,4510384,"From an anthropological perspective, culture is what it means to be a member of a certain group. It is the underlying characteristics that the people in that particular subset share. This can include values, standards, religion, language, and all sorts of other things. Society is a different animal. You can think of it as the people in a given group and as the sum-total of interactions between people in a given group. Society relies on culture, because culture determines how people react to certain things.",0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,6548726,Here are examples of bacterial infections with the bacteria that cause them: 1  Botulism-Clostridium botulinum. 2  Diphtheria-Corynebacterium diphtheriae. 3  Gonorrhea-Neisseria gonorrhoeae.4  Legionnaire's Disease-Legionella pneumophila. 5  Leprosy-Mycobacterium leprae. 6  Leptospirosis-Leptospira interrogans.ere are examples of bacterial infections with the bacteria that cause them: 1  Botulism-Clostridium botulinum. 2  Diphtheria-Corynebacterium diphtheriae. 3  Gonorrhea-Neisseria gonorrhoeae.,1,1,2,"## Intent:
+The user is asking whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+## Match (M):
+The passage lists various bacterial infections and their causative agents, explicitly linking *Legionella pneumophila* to Legionnaires' disease (which is a severe form of pneumonia). While it contains the core relationship between the bacterium and the disease, it presents this information within a list of extraneous bacterial infections and does not explicitly define Legionnaires' disease as pneumonia within the text. Thus, the passage provides a relevant answer hidden amongst extraneous information.
+
+## Trustworthiness (T):
+The information provided in the passage is factually correct and accurate regarding bacterial pathogens.
+
+## Final Score:
+##final score: 2"
+146187,difference between a mcdouble and a double cheeseburger,7956019,The California Classic Double Cheeseburger; Kid's Cheeseburger; Kid's Hamburger ; Big Hamburger; Double Cheeseburger,0,0,1,"##intent: The user is looking to understand the specific differences between two McDonald's menu items: a McDouble and a Double Cheeseburger (such as the number of cheese slices, ingredients, or price).
+
+##M: 1 - The passage lists various hamburger menu items including a ""Double Cheeseburger"", making it broadly related to the subject of cheeseburgers, but it does not mention the McDouble nor explain any differences between the two.
+
+##T: 3 - The passage appears to be a standard fast-food menu listing, though it lacks context.
+
+##O: 1"
+168216,does legionella pneumophila cause pneumonia,8185129,"Medical Definition of Legionnaire disease Our Legionnaires' Disease Main Article provides a comprehensive look at the who, what, when and how of Legionnaires' Disease Legionnaire disease: A disease due to the bacteria Legionella pneumophila found in plumbing, shower heads and water-storage tanks. Outbreaks of Legionella pneumonia have been attributed to evaporative condensers and cooling towers.",2,2,3,"##intent: The user is asking whether the bacteria Legionella pneumophila causes pneumonia.
+
+##content match: The passage explicitly connects Legionella pneumophila as the bacteria causing Legionnaire disease and references Legionella pneumonia outbreaks, directly answering the query.
+
+##trustworthiness: The passage comes from a medical definition source and is highly trustworthy.
+
+##final score: 3"
+443396,lps laws definition,4205265,A mental health (LPS) conservatorship makes one adult (called the conservator) responsible for a mentally ill adult (called the conservatee). These conservatorships are only for adults with mental illnesses listed in the Diagnostic and Statistical Manual of Mental Disorders (DSM).,2,2,1,##final score: 1
+1121709,what are the three percenters?,87555,"The third general method of fighting what the New World Order is planning and building towards, is by armed resistance. Patriots base their right to own and use firearms on the Second Amendment to the American Constitution.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,6112593,"The tables below give the normal February temperatures and rainfall for cities and popular vacation spots in Jamaica. There's also information here on this month's average humidity and sunshine.he weather stations sit near sea level, with one exception. Cinchona Botanical Gardens is in the Blue Mountains of eastern Jamaica, at an elevation of 1,493 metres (4,898 feet).",1,1,2,"Intent of the search: The user is looking for information regarding the weather conditions and climate in Jamaica.
+
+M (Match Score): The passage provides weather details specific to the month of February (temperature, rainfall, humidity, sunshine) for various places in Jamaica, which answers the query partially (for a specific month rather than general year-round or real-time current weather) along with some extraneous topographical info. Thus, M = 2.
+
+T (Trustworthiness): The passage appears to be from a reliable travel or weather summary source providing standard meteorological averages. Thus, T = 3.
+
+O (Final Score): Considering that the passage answers the weather query specifically for the month of February and contains additional contextual details about station elevations, a score of 2 is appropriate.
+
+##final score: 2"
+156493,do goldfish grow,2154542,"Goldfish prices vary wildly. But, let’s explore the cost to keep a goldfish and then examine how that relates to the purchase price of the fish itself. We can do a rudimentary economic analysis of a home aquarium and then repeat the exercise for a small pond. Note that this is not a how-to-keep-a-goldfish article.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,6360446,"Jamaica is an island in the Caribbean Sea, south of Cuba . Clock showing current local time now in Time Zone: America Jamaica. Jamaica Standard Time is 5 hours behind Greenwich Mean Time ( GMT-5 ). Jamaica does not operate Daylight-Saving Time. The International Dialling Code for Jamaica is +1 876.",0,0,1,"**Underlying Intent of the Search:** 
+The user is looking for information regarding the current weather conditions, climate, or temperature in Jamaica.
+
+**Content Match (M):** 
+The passage provides general information about Jamaica, including its geographic location, time zone, and international dialing code. However, it contains no information about the weather, climate, or temperature. Thus, it is somewhat related to the broader topic of Jamaica, but fails to answer the query.
+
+**Trustworthiness (T):** 
+The information provided in the passage is accurate and factual regarding Jamaica's location and time zone.
+
+**Final Score:**
+##final score: 1"
+264014,how long is life cycle of flea,1181075,"Dog Fleas vs Cat Fleas. ... Dog fleas are different from cat fleas or other types of fleas for that matter, as fleas are species specific. This means that the fleas that are found on your dog cannot harm your cat. However, the feline fleas have adapted to be able to live on canine blood as well.",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,45592,"Zimmermann Telegram rate. Usage: The Zimmermann Telegram was not looked upon too benignly by America-no one really knows why America entered WWI in April 1917, but the Zimmermann Telegram certainly didn't help. (Forget the sinking of the Lusitania, 23 months earlier.).",2,2,1,"##Intent: The user wants to understand the historical reasons and factors that led the United States to voluntarily enter World War I in 1917.
+
+##M: 1 - The passage touches upon the topic of the US entering World War I and mentions relevant events like the Zimmermann Telegram and the sinking of the Lusitania, but explicitly states ""no one really knows why America entered WWI"" and does not actually answer the query.
+
+##T: 2 - The passage is from an informal context or snippet, making its trustworthiness moderate, though it refers to real historical events.
+
+##O: 1
+
+##final score: 1"
+130510,definition declaratory judgment,6323613,"You can pay the judgment to the court: You can pay the court instead of the other person by filing the form called Request to Pay Judgment to the Court” (SC - 145) . You have to pay the judgment, costs, interest and a $20 court fee. This lets you solve the problem right away without having to see the judgment creditor.",0,0,1,##final score: 1
+1110199,what is wifi vs bluetooth,4949578,"Support Fastest way to drain the battery. Discussion in 'Android Devices' started by blindnoir, Apr 6, 2010. I want to drain my battery to the very end and then recharge it so I was wondering what to do to really waste the battery really fast. I have the display on the brightest setting, bluetooth and WiFi on. What apps really drain the battery? I tried Sprint TV but it kicked me off the WiFi.",0,0,1,##final score: 1
+962179,when was the salvation army founded,6898289,"The Salvation Army, an evangelical part of the universal Christian church established in 1865, has been supporting those in need in His name without discrimination for 130 years in the United States.",3,3,2,"Consider the underlying intent of the search: The user is looking for the specific year or date when the Salvation Army was founded.
+
+Measure how well the content matches a likely intent of the query (M): The passage directly answers the query by stating it was ""established in 1865"". However, it also includes extra background information regarding its mission and history in the United States.
+
+Measure how trustworthy the passage is (T): The passage is clear, factual, and trustworthy.
+
+Consider the aspects above and the relative importance of each, and decide on a final score (O): Since the passage contains the exact answer alongside extraneous information rather than focusing solely on the founding date, it fits category 2.
+
+##final score: 2"
+148538,difference between rn and bsn,1299824,"You might be interested to know that both the ASN graducate and the BSN graduate both get the RN and have the same duties as an RN when they graduate. The advantage of the BSN is that more job opportunities in the future are available, just as in reasearch, teaching, management, public health, etc.",2,2,3,##final score: 3
+168216,does legionella pneumophila cause pneumonia,13499,"Streptococcus pneumoniae, a type of bacteria, is the most common cause of pneumonia. Legionella pneumophila is the bacterial type that causes the pneumonia known as Legionnaires' disease. Other bacteria types that can cause pneumonia include the bacteria that cause so-called atypical pneumonia, Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumonia. The most common cause of viral pneumonia in adults is the influenza virus. A number of different respiratory viruses cause pneumonia in children, such as respiratory syncytial virus (RSV).",3,3,2,##final score: 2
+19335,anthropological definition of environment,2978577,"Hello!!! …The define the anthropology as the study holistic of human being, I can try to explain to medical anthropology as I see it, where medical anthropology is a means to examine and understand health.Through of a study bio-psycho-socio-cultural, which is interested in health and healing in all its various forms.`m a student of medicine in Mexico and i just want to say about Medical Anthropology: it is true that medical anthropology, and sociocultural anthropology more generally, spans or links up the humanities and social sciences.",0,0,1,##final score: 1
+183378,exons definition biology,19056,"The other nucleic acid form, RNA, is used in getting DNA code to protein sequence. RNA moves the code from where it is stored to where it is executed. RNA is a critical component of the cell parts that takes the codes and makes the protein.",0,0,1,##final score: 1
+833860,what is the most popular food in switzerland,8833509,Typical Swiss dishes. It is hard to name typical national dishes since the majority of Swiss recipes is formed by the numerous regional specialties. Switzerland is known for its famous national dish called roesti (rösti once a regional dish): too chopped grated. potato,2,2,3,"##Intent: The user is searching for the most popular or national food in Switzerland.
+
+##Content Match (M): The passage directly addresses typical Swiss dishes and explicitly states that Switzerland is known for its famous national dish called ""roesti"" (rösti).
+
+##Trustworthiness (T): The information provided aligns with well-known cultural and culinary facts about Switzerland.
+
+##final score: 3"
+168216,does legionella pneumophila cause pneumonia,8723467,"Several types of bacteria, including Legionella pneumophila, Mycoplasma pneumoniae, and Chlamydophila pneumoniae, cause atypical pneumonia. It is sometimes called walking pneumonia and is referred to as atypical because its symptoms differ from those of other types of bacterial pneumonia.",3,3,2,"##intent: The user is asking whether the bacterium *Legionella pneumophila* causes pneumonia.
+
+##M: The passage directly addresses the query by stating that *Legionella pneumophila* is one of the bacteria that causes atypical pneumonia. It contains the exact answer to the user's question, along with brief additional context explaining atypical pneumonia.
+
+##T: The passage is factual, clear, and provides accurate medical information.
+
+##final score: 2"
+855410,what is theraderm used for,5008543,"Lanolin is a natural substance found in sheep's wool. This medicine is made with manufacturing processes that reduce certain allergens in the lanolin. Lanolin topical (for the skin) is used to treat or prevent dry skin, itching or other skin irritation caused by conditions such as diaper rash, radiation therapy skin burns, and others. Lanolin topical is also used to treat sore and cracked nipples caused by breast-feeding.",0,0,1,##final score: 1
+443396,lps laws definition,7251120,"A limited partnership (LP) is comprised of one or more general partners and one or more limited partners in order to form a separate, legal entity. Very much like a General Partnership, save for the separate, limited status of the limited partners.",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,6093910,"These countries were Britain, France and Russia. Russia was a supporter of tiny little Serbia, and so when the Triple Alliance delcared war on Serbia, Russia became involved, and that is the way France and Britain became involved.elevance. Rating Newest Oldest. Best Answer: Britain entered WW1 in the defense of Belguim and in reaction to Germany's violation of The Treaty of London(1839), in which Belguim's neutrality was to be respected by all nations.",0,0,1,##final score: 1
+148538,difference between rn and bsn,6434592,BSN grads only make about $1 more than an Associates Degree RN in a staff nurse position. A BSN RN working in something like Public Health or some other administrative or leadership position might make more like $35-$45 per hour (or more).,2,2,1,##final score: 1
+1117099,what is a active margin,6122724,"passive continental margins currently exist in the middle of plates, not at plate boundaries. active continental margins form primarily along the boundaries of plates that are actively converging and where one plate is sinking beneath the other. Elizabeth H · 6 years ago. Thumbs up.",3,3,2,"**Consider the underlying intent of the search:**
+The user wants to know the definition and characteristics of an active continental margin in geology.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage directly defines active continental margins as forming along converging plate boundaries where one plate sinks beneath another. It also includes brief context about passive margins.
+
+**Measure how trustworthy the passage is (T):**
+The passage provides accurate geological facts, though presented as a user answer from a Q&A platform.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The passage directly answers the query clearly while containing a small amount of extra comparative information (passive margins).
+
+##final score: 2"
+915593,what types of food can you cook sous vide,8103065,"With a sous vide cooker, you can cook your eggs anywhere from just-set-enough-that-they-break-when-you-touch-them, to a rich, fudge-like consistency, to hard-boiled with no hint of chalkiness in the yolk. Cooking eggs sous vide also allows you to make flawlessly egg-shaped poached eggs time after time.",2,2,1,##final score: 1
+1114819,what is durable medical equipment consist of,1735443,"Consumable and Durable Medical. Consumable Medical Supplies are nondurable supplies and items that enable activities of daily living. Durable Medical Equipment include some specified, prescriptive equipment required by the individual. Consumable Medical Supplies Requirements and Service Limitations.",2,2,1,##final score: 1
+148538,difference between rn and bsn,5077705,"Having a BSN degree provides more job opportunities and an increasing number of employers are requiring a BSN. The higher degree also expands a registered nurse’s marketability to various clinical job positions, non-hospital opportunities, and nursing positions that offer lower impact than working in a hospital.",2,2,1,"Consider the underlying intent of the search:
+The user is searching for a comparison between an RN (Registered Nurse) and a BSN (Bachelor of Science in Nursing), specifically looking to understand the core differences in education, scope, credentials, and career outcomes between the two.
+
+Measure how well the content matches a likely intent of the query (M):
+The passage discusses the advantages of holding a BSN degree for a registered nurse, such as increased job opportunities and marketability. While it highlights aspects of why a BSN is distinct in terms of career prospects, it does not explicitly define what an RN is, what a BSN is, or provide a comprehensive direct comparison of the differences. Thus, it is related to the topic but does not fully answer the query. Match score is 1.
+
+Measure how trustworthy the passage is (T):
+The passage provides factual, standard information regarding nursing qualifications and marketability, presenting no misleading claims. Trustworthiness is high.
+
+Consider the aspects above and the relative importance of each, and decide on a final score (O):
+Since the passage is relevant to the general topic of BSN and RN benefits but lacks a direct explanation of the key differences between the two, it fits category 1.
+
+##final score: 1"
+156493,do goldfish grow,1341656,"Goldfish prices vary wildly. But, let’s explore. the cost to keep a goldfish and then examine how that relates to the purchase price of the fish. itself. We can do a rudimentary economic analysis of a home aquarium and then repeat the. exercise for a small pond. Note that this is not a how-to-keep-a-goldfish article. The costs,",0,0,1,##final score: 1
+1110199,what is wifi vs bluetooth,3110637,"Generally, Bluetooth streams audio at a lower quality and over less distance than Wi-Fi-based technologies. Wired Connectivity: The Echo has no wired inputs, meaning it can only play audio using the wireless capabilities described above.",2,2,1,"##Intent:
+The user is looking for a general comparison between Wi-Fi and Bluetooth technologies, including their differences, uses, range, and bandwidth capabilities.
+
+##Match (M):
+The passage touches upon a specific comparison between Bluetooth and Wi-Fi (audio streaming quality and transmission distance) in the context of a smart speaker (Echo). However, it does not provide a comprehensive answer or explain the core differences/definitions of Wi-Fi vs. Bluetooth. It is somewhat related to the topic, but mostly focuses on device connectivity.
+
+##Trustworthiness (T):
+The information provided is accurate regarding the general characteristics of Bluetooth versus Wi-Fi audio streaming.
+
+##Final Score:
+##final score: 1"
+131843,definition of a sigmet,6054149,"NSSL People: Career Options for Meteorologists. Meteorology is the study of the atmosphere. Since weather is everywhere, meteorologists can be found all over the world doing many different jobs. An operational forecaster analyzes weather conditions and issues forecasts or alerts the public of severe weather for their area.",0,0,1,"##intent: The user is seeking a clear definition of the aviation weather term ""SIGMET"" (Significant Meteorological Information).
+
+##M: 1.0 (The passage discusses meteorology, operational forecasters, and severe weather alerts in general, which is topically related to SIGMETs, but it never mentions or defines ""SIGMET"".)
+
+##T: 3.0 (The passage appears to be from a reputable source, NSSL, but lacks specific relevant content.)
+
+##O: 1
+
+##final score: 1"
+1063750,why did the us volunterilay enter ww1,7791761,"The American press published news of the telegram on March 1. On April 6, 1917, the United States Congress formally declared war on Germany and its allies. Click here to read a 1921 commentary upon the consequences of the Zimmermann Telegram.",2,2,1,"**Intent:** The user is asking for the reasons behind the United States' decision to voluntarily enter World War I.
+
+**Content Match (M):** The passage mentions the declaration of war by the US Congress and references the Zimmermann Telegram. However, it does not explain the context, content of the telegram, or the actual reasons why the US decided to enter the war. It is related to the topic of the US entering WW1, but fails to answer the specific ""why"" question.
+
+**Trustworthiness (T):** The passage references historical events accurately (March 1 news, April 6, 1917 declaration of war), making it trustworthy.
+
+**Final Score (O):** Since the passage is related to the topic of US entry into WWI but does not actually answer the question of *why* they entered, it belongs in category 1.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,7642190,Pneumonia and Vomiting and Head symptoms (35 causes) Pneumonia and Vomiting and Mouth symptoms (35 causes) Pneumonia and Vomiting and Lung symptoms (34 causes) Pneumonia and Vomiting and Respiratory symptoms (34 causes) Pneumonia and Vomiting and Abdominal symptoms (33 causes) Pneumonia and Vomiting and Digestive symptoms (33 causes),0,0,1,##final score: 1
+183378,exons definition biology,5534711,"Introns and exons are parts of genes. Exons code for proteins, whereas introns do not. A great way to remember this is by considering introns as intervening sequences and exons as expressed sequences. According to researchers, there are an average of 8.8 exons and 7.8 introns per human gene.",3,3,2,"## Intent Match (M): 2
+## Trustworthiness (T): 3
+## Final Score (O): 2"
+264014,how long is life cycle of flea,1679460,"Up until recently the Black Death was thought to have been caused by fleas carried by rats that were very common in towns and cities. When the fleas bit into their victims, it was thought they were literally injecting them with the disease.",0,0,1,##final score: 1
+1110199,what is wifi vs bluetooth,4053652,"Connectivity Details. The Photive Hydra uses Bluetooth to play music wirelessly. Bluetooth technology is used in 867 out of the 1232 wireless speakers we have listed on SpecOut, making it by far the most popular option for wireless speakers.Generally, Bluetooth streams audio at a lower quality and over less distance than Wi-Fi-based technologies.luetooth technology is used in 867 out of the 1232 wireless speakers we have listed on SpecOut, making it by far the most popular option for wireless speakers. Generally, Bluetooth streams audio at a lower quality and over less distance than Wi-Fi-based technologies.",2,2,1,##final score: 1
+359349,how to find the midsegment of a trapezoid,205472,"Endpoints mark the beginning or end of a line segment or ray. Line segments have two endpoints, giving them defined lengths, whereas rays only have one endpoint, so the length of a ray cannot be measured. The midpoint of a line segment marks the point at which the segment is divided into two equal segments. In other words, the lengths of the segments from either endpoint to the midpoint are equal. For instance, if M is the midpoint of the segment , then .",1,1,0,##final score: 0
+1133167,how is the weather in jamaica,4712277,"1. Re: Best Time of Year to Visit Jamaica. Mar 17, 2009, 4:23 PM. I am wondering the same thing. From what I've read, September seems to be hurricane season, but things should be calmed down by mid-October. The high tourist season seems to be from December through April.",2,2,1,##final score: 1
+1129237,hydrogen is a liquid below what temperature,7551658,The change from a gas to a liquid state is called condensation. It normally occurs when the temperature of a gas is lowered.,0,0,1,##final score: 1
+1113437,what is physical description of spruce,7377272,"The way that I remember which grows up and which grows down is that I remember the s in spruce means that the cones spray the ground. One of the best and easiest ways to tell the difference between a true spruce and fir tree is to look at the tree's cones. When mature, the cones on a fir tree stand straight up (point towards the sky) while the mature cones on a spruce grow down towards the ground from the bottom side of the branch. The way that I remember which grows up and which grows down is that I remember the s in spruce means that the cones spray the ground.",2,2,1,##final score: 1
+443396,lps laws definition,2733683,1. Participants will be able to discuss the intent of both the Marchman and Baker Acts. 2. Participants will be able to define terms specific to the language of these laws. 3. Participants will be able to select the appropriate action in response to mental health or substance abuse emergencies. 4. Participants will be able to describe patient rights for both the Marchman and Baker Acts.,1,1,0,##final score: 0
+490595,rsa definition key,4082316,"In 1993 it became an annual event and was renamed the RSA Data Security Conference, then by 2000, simply, the 'RSA Conference'. The conference is vendor-independent and managed by RSA, the Security Division of EMC, with support from leaders in the information security industry.n 2013, events were also held in Singapore and Amsterdam. RSA Conference started in 1991 as Cryptography, Standards & Public Policy, a forum for cryptographers to gather and share the latest knowledge and advancements in the area of Internet security.",1,1,0,##final score: 0
+1121402,what can contour plowing reduce,3049324,"10. Running water is the largest agent of erosion and can carry large amounts of soil and rocks. It includes rivers, streams, and runoff (rain water that flows along the earth’s surface). -Bare land promotes erosion. -Land with rocks, trees, grass and other plants helps to prevent erosion.",0,0,1,##final score: 1
+104861,cost of interior concrete flooring,504999,"With the same cost structure for a 500 square foot driveway repair, the cost per square foot would be $300 + 500*$5 = $2800, or $5.60 per square foot. As you can see, the size of the job has a significant cost on the unit price (price per square foot). The alternative to concrete leveling is concrete replacement.unning a business isn’t cheap. Production concrete leveling trucks can cost more than $100,000. Generally, the cost of concrete leveling is a few dollars a square foot.",0,0,1,"##intent: The user is looking for information regarding the cost per square foot or overall cost of installing interior concrete flooring.
+
+##M: 0.5 - The passage discusses the cost of concrete driveway repair and concrete leveling per square foot. While it mentions concrete costs, it focuses on exterior driveways and leveling services rather than interior concrete flooring.
+
+##T: 1.0 - The passage appears trustworthy, providing specific pricing examples and calculations, though it is slightly fragmented/poorly formatted.
+
+##final score: 1"
+1133167,how is the weather in jamaica,8162669,"Jamaica Wildlife & Marine Life. On this page discover Jamaica wildlife and marine life in and around the country…. OR jump to Jamaica adventures, activities, articles, carnivals, why visit & more.",0,0,1,##final score: 1
+1117099,what is a active margin,6122722,"Best Answer: An active margin is a tectonic plate boundary, a passive margin is a compositional transition within a tectonic plate. As you probably know the theory of plate tectonics posits the outer layer of the Earth consist of plates which move relative to each other driven by convection in the Mantle.",3,3,2,"##Intent:
+The user is looking for a definition or explanation of what an ""active margin"" is in geology/plate tectonics.
+
+##M:
+The passage directly defines an active margin (""An active margin is a tectonic plate boundary""). It also provides additional context by contrasting it with a passive margin and explaining general plate tectonics theory.
+
+##T:
+The information provided is accurate according to general geological consensus regarding plate tectonics.
+
+##O:
+The passage directly answers the query right at the beginning, but also includes additional extraneous information about passive margins and general plate tectonics theory. Therefore, it fits category 2.
+
+##final score: 2"
+130510,definition declaratory judgment,6418949,"The Declaration of Independence does not create individual rights, as the Constitution does. Indeed, it technically has no legal effect.",0,0,1,"**Step 1: Consider the underlying intent of the search**
+The user is searching for the legal definition of a ""declaratory judgment,"" which is a binding judgment from a court defining the legal relationship between parties and their rights in a matter before the court.
+
+**Step 2: Measure how well the content matches a likely intent of the query (M)**
+The passage discusses the ""Declaration of Independence"" and its lack of individual rights creation or legal effect. It confuses the political document (Declaration of Independence) with the legal term (declaratory judgment). As a result, the content does not address or match the intent of the query at all.
+
+**Step 3: Measure how trustworthy the passage is (T)**
+The passage presents accurate historical/legal commentary regarding the Declaration of Independence, but because it is entirely irrelevant to the query topic, its factual nature does not add value to the search intent.
+
+**Step 4: Consider the aspects above and the relative importance of each, and decide on a final score (O)**
+The passage has no relation to the definition of a declaratory judgment. Therefore, it receives a score of 0.
+
+##final_score: 0"
+1063750,why did the us volunterilay enter ww1,4096516,"British declaration of war in WW1 In WW1 Britain declared war on Germany on 4 August 1914 shortly after German troops entered Belgium. British declaration of war in WW2 In … WW2 Britain declared war on Germany on 3 September 1939.ussia was part of the Triple Entente who included Russia, France, and Britain. Russia did not on it's own declare war on Germany in WWI. WWI started because of the 3 rising i … ssues in Europe, nationalism, imperialism, and militarism.",0,0,1,##final score: 1
+833860,what is the most popular food in switzerland,6230223,"Fondue. Fondue in Switzerland may seem cliched, clichéd but it is indelibly woven into the’country s. Fabric for, Centuries swiss living in the mountains relied on fondue as a way to use bread and cheese during colder. Months, today it is a-must have for any local or visitor to the country from autumn to. springosti, Valaisanne-style. Thinly grated potatoes, pan-fried until crisp and golden, rosti is one of Switzerland’s iconic national dishes. Though no one knows when the first rosti was cooked-up, farmers in the canton of Bern would traditionally eat it for breakfast.",3,3,2,##final score: 2
+168216,does legionella pneumophila cause pneumonia,5336829,"What are the symptoms of mycoplasma infection? Typical symptoms include fever, cough, bronchitis, sore throat, headache and malaise (generalized tiredness). A common result of mycoplasma infection is pneumonia (sometimes called walking pneumonia because it is usually mild and rarely requires hospitalization).Infections of the middle ear (otitis media) also can result. Less common finding are abnormalities of liver function, nausea, diarrhea, and rash.ycoplasma Infection (walking pneumonia, atypical pneumonia)by Dr. Earl H. Eye, M.D. 6/16/98 What is mycoplasma infection? Mycoplasma infection is respiratory illness caused by Mycoplasma pneumoniae, a microscopic organism related to bacteria but lacking a cell wall.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,6143,"During the hurricane season, Ocho Rios experiences on and off showers, which are heavier in the days than at nights. I know in Jamaica, we don’t have seasons but to make you more familiar with our weather forecasts, I have grouped our months into traditional seasons.",2,2,1,"##Intent: The user is looking for information about the current weather or the general weather patterns/climate in Jamaica.
+
+##M: 1.0 (The passage touches on weather in Jamaica and Ocho Rios, specifically mentioning hurricane season showers and seasons, but it serves more as an introduction to a guide rather than providing a comprehensive or direct answer to how the weather is in Jamaica.)
+
+##T: 2.0 (The passage appears to be written by a local or personal blog writer from Jamaica, making it somewhat trustworthy but informal.)
+
+##O: 1
+
+##final score: 1"
+87452,causes of military suicide,2624886,"We suggest that moral injury is likely one of the most important factors in military suicide rates. Moral injury is not PTSD. The latter is a dysfunction of brain areas that suppress fear and integrate feeling with coherent memory; symptoms include flashbacks, nightmares, dissociative episodes and hyper-vigilance. PTSD is an immediate injury of trauma.",3,3,2,"##intent: The user wants to understand the factors or reasons behind suicides in the military.
+
+##M: The passage explicitly states that ""moral injury is likely one of the most important factors in military suicide rates"" and provides context about what moral injury is, contrasting it with PTSD.
+
+##T: High - The passage provides a clear, structured explanation regarding psychological factors in military health.
+
+##O: 2"
+1133167,how is the weather in jamaica,2996833,"Answered by The WikiAnswers® Community. Answers.com® is making the world better one answer at a time. The relative location of Jamaica is 18 degrees 15' N, 77 degrees 30' W. Jamaica has a population of 2.77 million and a population density of 663 people per square mile.",0,0,1,"Underlying intent: The user is looking for current or general weather conditions, climate, or temperatures in Jamaica.
+
+Content match (M): The passage provides the geographic coordinates and population statistics of Jamaica, but contains no information about its weather or climate. It is related to the entity (Jamaica) but fails to address the query intent.
+
+Trustworthiness (T): The passage is from WikiAnswers/Answers.com, providing basic factual geographical and demographic data.
+
+Final score decision: The passage is related to the query topic (Jamaica) but does not answer the specific question about weather. Thus, it belongs to category 0 or 1, specifically 1 under the instruction ""Assign category 1 if the passage is somewhat related to the topic but not completely"".
+
+##final score: 1"
+855410,what is theraderm used for,6425421,"Two products that lend themselves to preventing and reversing the signs of aging are Retinol and Retinoids. Retin based skincare products are worth understanding because of their proven ability to reduce wrinkles, increase blood flow in skin, fight acne, increase cellular turnover, boost collagen and even skin tone.",0,0,1,##final score: 1
+183378,exons definition biology,4223863,"1 Coding for proteins, which are the building blocks of the cell-DNA is like a blueprint of all the proteins the cell can make. 2  A stretch of DNA coding for one polypeptide or protein is called a gene.",0,0,1,##final score: 1
+1133167,how is the weather in jamaica,7486599,"September Weather in Jamaica. The tables below give the normal September temperatures and rainfall for cities and popular vacation spots in Jamaica. There's also information here on hurricanes, plus this month's average humidity and sunshine. The measures of climate are averages of data collected at weather stations over several decades.",2,2,1,"##intent: The user is asking about the weather conditions or general climate in Jamaica.
+
+##M: The passage discusses September weather averages for Jamaica, including temperatures, rainfall, humidity, and sunshine. It is related to Jamaica's weather, but it specifically focuses only on the month of September rather than current weather conditions or an overall general climate summary. Thus, it is somewhat related but does not fully answer the query.
+
+##T: The passage provides statistical climate data collected over several decades, making it trustworthy and informative for September climate in Jamaica.
+
+##final score: 1"
+183378,exons definition biology,7677975,"Such stretches of DNA, which get transcribed into RNA but not translated into protein, are called introns. Those stretches of DNA that do code for amino acids in the protein are called exons. Examples: 1  The gene for one type of collagen found in chickens is split into 52 separate exons.2  The gene for dystrophin, which is mutated in boys with muscular dystrophy, has 79 exons.hose stretches of DNA that do code for amino acids in the protein are called exons. Examples: 1  The gene for one type of collagen found in chickens is split into 52 separate exons. 2  The gene for dystrophin, which is mutated in boys with muscular dystrophy, has 79 exons.",3,3,2,"Answering the query based on the specified steps:
+
+1. **Underlying Intent:** The user is seeking a clear, scientific definition of the term ""exons"" within the context of biology.
+2. **Content Match (M):** The passage directly provides the biological definition of exons (""stretches of DNA that do code for amino acids in the protein are called exons"") alongside examples and related concepts (introns). 
+3. **Trustworthiness (T):** The passage contains accurate, standard biological information.
+4. **Final Score Determination:** The passage contains the direct and exact answer to the query, but it also includes extra context regarding introns and specific gene examples, as well as some duplicated text. Therefore, it fits Category 2.
+
+##final score: 2"
+87452,causes of military suicide,8289253,It is important for anyone with PTSD to be treated by a mental health care professional who is experienced with PTSD. Some people will need to try different treatments to find what works for their symptoms. Exposure therapy.,1,1,0,##final score: 0
+156493,do goldfish grow,8182166,"How big do goldfish grow? Are Koi considered big gold fish? I saw a photo of a goldfish that LOOKED like a goldfish, found in a lake. It was like 2-1/2 feet long. Can a goldfish actually grow that big? My 20 gallon tank has 3 goldfish about 1-1/2&quot; long. The pet store sales rep said that they could grow up to 4-6&quot;...",2,2,1,##final score: 1
+1133167,how is the weather in jamaica,7218021,"Historically, Jamaica's October offers peak rain fall during Jamaica's second raining season. Also Historically, late September into early October is the Caribbean's peak of the Caribbean hurricane season. Early September also shows a storm peak. It will be hot and humid.",2,2,3,##final score: 3
+183378,exons definition biology,7952869,"Splicing is the name given to the reaction that removes unnecessary segments of the primary RNA transcript, called introns. The removal of the introns produces mRNA (see the figure, below). Messenger RNA contains only exons, those portions of the primary RNA transcript that will be translated into a protein.",3,3,2,##final score: 2
+451602,medicare's definition of mechanical ventilation,7232293,Adaptive Support Ventilation ® (ASV ®) Intelligent ventilation mode for passive and spontaneously breathing adult and pediatric patients Automatically adjusts ventilation to lung mechanics and applies lung-protective strategies,1,1,0,##final score: 0
+264014,how long is life cycle of flea,3841908,"The entire cycle can last as short as a few weeks or as long as months, depending on the environmental conditions. PetMD states the ideal conditions for flea propagation are temperatures ranging between 70 and 85 degrees Fahrenheit and 70 percent humidity. An adult flea can live up to two weeks without a host.",2,2,3,"##Intent:
+The user is searching for the duration or length of the flea's life cycle.
+
+##Content Match (M):
+The passage directly answers the query in the first sentence (""The entire cycle can last as short as a few weeks or as long as months, depending on the environmental conditions""). It provides the exact timeframe requested along with relevant supporting context regarding environmental factors affecting the cycle.
+
+##Trustworthiness (T):
+The information is accurate and cites a reliable veterinary information source (PetMD).
+
+##Overall Score (O):
+The passage directly, accurately, and clearly answers the query about the length of a flea's life cycle.
+
+##final score: 3"
+359349,how to find the midsegment of a trapezoid,2293820,"This segment's length is always equal to one-half the sum of the trapezoid's bases, or. Consider trapezoid ABCD shown below. The midsegment, EF, which is shown in red, has a length of. The measurement of the midsegment is only dependent on the length of the trapezoid's bases.",2,2,3,##final score: 3
+104861,cost of interior concrete flooring,120437,"1 Extensive surface preparation, such as grinding, crack repair, and spall repair, can add as much as $2 per square foot to the overall cost of the floor. 2  If a full resurfacing is needed, expect to tack on another $2 to $3 per square foot (for a $4 to $5 per square foot increase).",2,2,1,##final score: 1
+1106007,define visceral?,483330,"There's nothing necessarily wrong with being impulsive. In fact, sometimes impulsivity is the right response to a situation. Impulsive is acting on your gut instinct, and there are times when you need to act on instinct in order to make the right decision or enjoy some activity in life.But there are also times when impulsivity can be distressing, possibly even dangerous.n fact, sometimes impulsivity is the right response to a situation. Impulsive is acting on your gut instinct, and there are times when you need to act on instinct in order to make the right decision or enjoy some activity in life. But there are also times when impulsivity can be distressing, possibly even dangerous.",0,0,1,"**Intent of the search:** The user is looking for a definition of the word ""visceral"" (which relates to deep inward feelings, instinct, or gut reactions).
+
+**Match to Query Intent (M):** The passage discusses ""impulsivity"" and ""acting on your gut instinct."" While gut instincts are conceptually related to ""visceral"" feelings, the passage defines *impulsive* rather than *visceral* and never actually mentions or defines the target word. Thus, it is somewhat related to the concept, but does not answer the query.
+
+**Trustworthiness (T):** The passage is a readable snippet from an article on psychology/behavior, appearing generally trustworthy for general content, though not authoritative as a dictionary definition.
+
+**Final Assessment (O):** The passage is somewhat related to the general topic of gut instincts/reactions, but it fails to define or mention the word ""visceral"". Therefore, it belongs in Category 1.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,4119829,The most common cause of bacterial pneumonia is Streptococcus pneumoniae. Bacterial pneumonia can also be caused by Chlamydophila pneumonia or Legionella pneumophila. Pneumocystis jiroveci pneumonia is sometimes seen in those who have weak immune systems due to illnesses like AIDS or cancer.,3,3,2,##final score: 2
+1063750,why did the us volunterilay enter ww1,7882525,"With the Germans it was probably more of an anti-War sentiment than a pro-German bias. Public opinion gradually shifted toward the Allies as a result of British propaganda, German policies in occupied Belgium, and incidents such as the xsinking of the RMS Lusitania. Even so the vast majority of Americans, especially the progressives, opposed American entry into the War.",2,2,1,##final score: 1
+1112341,what is the daily life of thai people,8139251,"Thai people often translate the Thai time into English language but without any English background. So when a Thai person says four o'clock, it is better to check if it is four o'clock in the morning, in the afternoon, in the evening or the night.",1,1,0,##final score: 0
+183378,exons definition biology,5861577,The process of copying a sequence of bases in DNA into a complementary sequence in mRNA is called Transcription. It occurs in the nucleus and is the first step in Protein Synthesis. + + + + + + + + + + A DNA sequence is shown below. The sequence is a small part of a gene that codes for a protein.,0,0,1,##final score: 1
+183378,exons definition biology,4062201,"The DNA in a person is a combination of the DNA from each of their parents. Part of an organism's DNA is  non-coding DNA  sequences. They do not code for protein sequences. Some noncoding DNA is transcribed into non-coding RNA molecules, such as transfer RNA, ribosomal RNA, and regulatory RNAs).he DNA in a person is a combination of the DNA from each of their parents. Part of an organism's DNA is  non-coding DNA  sequences. They do not code for protein sequences. Some noncoding DNA is transcribed into non-coding RNA molecules, such as transfer RNA, ribosomal RNA, and regulatory RNAs).",0,0,1,"**Intent:** The user is searching for the biological definition of ""exons"" (coding regions of a gene).
+
+**Matches Intent (M):** 1/3 - The passage discusses DNA, non-coding DNA, and RNA, which are related concepts in genetics and molecular biology. However, it completely fails to mention or define ""exons.""
+
+**Trustworthiness (T):** 2/3 - The scientific information presented about non-coding DNA is correct, though the text contains repetition and minor formatting errors.
+
+**Overall Score (O):** The passage is related to the general topic of DNA and genetics, but it does not answer the query at all.
+
+##final score: 1"
+1063750,why did the us volunterilay enter ww1,2578724,"Woodrow Wilson asks U.S. Congress for declaration of war. Share this: The world must be made safe for democracy, U.S. President Woodrow Wilson proclaims on this day in 1917, as he appears before Congress to ask for a declaration of war against Germany. Under Wilson, the former Princeton University president and governor of New Jersey who was voted into the White House in 1912, the United States had proclaimed its neutrality from the beginning of World War I in the summer of 1914.",2,2,1,"**Consider the underlying intent of the search:**
+The user is looking for the reasons and motivations behind the United States' decision to voluntarily enter World War I in 1917.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage describes President Woodrow Wilson asking Congress for a declaration of war against Germany and quotes his statement, ""The world must be made safe for democracy."" While it mentions this ideological justification and notes the U.S. transition from neutrality, it does not explain the concrete historical causes or full context (such as unrestricted submarine warfare or the Zimmermann Telegram) that led to this decision. Thus, the passage is related to the event but does not fully answer why the U.S. entered the war.
+
+**Measure how trustworthy the passage is (T):**
+The passage is historically accurate and trustworthy.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+The content provides related context about the U.S. entering WWI and mentions a famous quote, but it fails to comprehensively answer the core question of why the entry occurred. Therefore, it fits category 1.
+
+##final score: 1"
+156493,do goldfish grow,8182165,"Goldfish may grow to a maximum length of 23 inches (59 cm) and a maximum weight of 9.9 pounds (4.5 kg), although this is rare; most individual goldfish grow to under half this size. In optimal conditions, goldfish may live more than 20 years (the world record is 49 years); however, most household goldfish generally only live six to eight years.",2,2,3,"##intent: The user is asking if goldfish grow, seeking information about their growth ability and potential size.
+
+##M: 3
+
+##T: 3
+
+##final score: 3"
+443396,lps laws definition,7519448,"Legal Definition of involuntary. : done, made, or initiated contrary to or without one's choice an involuntary confession an involuntary lien an involuntary plaintiff joined in the action.",1,1,0,##final score: 0
+1133167,how is the weather in jamaica,4226024,"Jamaica Map. Map of the Caribbean Island of Jamaica. Photo Credit: CIA World Fact Book. The vast majority of Jamaica's resorts are located along the west coast and north shore of the island, including those in Negril, Montego Bay, and Ocho Rios. Google Map of Jamaica. 1 of 1.",0,0,1,"**Intent:** The user is seeking information about the current weather, climate, or general meteorological conditions in Jamaica.
+
+**Match Intent (M):** 1 - The passage is about Jamaica (location, map, resort areas), so it is topically related to the country, but it contains no information whatsoever about the weather.
+
+**Trustworthiness (T):** 3 - The passage references credible sources (CIA World Factbook, Google Maps), but the information provided is irrelevant to the specific query aspect (weather).
+
+**Final Score (O):** 1
+
+##final score: 1"
+833860,what is the most popular food in switzerland,5167512,"For example, Switzerland is famous for its notorious bank that stocks all the black money in the world! If you look at this country from a non-tourist perspective, you can find many interesting Swiss things here. That is why, Boldsky has put together a list of seven things that Switzerland is famous for.Things That Switzerland Is Famous For: Swiss Chocolate. Swiss chocolate is a term in itself. When you have a piece of chocolate and say, 'it seems Swiss', it basically means that it really tastes, good.hat is why, Boldsky has put together a list of seven things that Switzerland is famous for. Things That Switzerland Is Famous For: Swiss Chocolate. Swiss chocolate is a term in itself. When you have a piece of chocolate and say, 'it seems Swiss', it basically means that it really tastes, good.",1,1,2,##final score: 2
+183378,exons definition biology,256433,"Some SNPs have a direct or even pathogenic impact on coding sequences, but many do not--either because they are outside of coding regions, or because they are. (ones that do not change amino-acid sequence) when in coding regions.",0,0,1,##final score: 1
+962179,when was the salvation army founded,8689053,Website: Salvation Army Website Salvation Army Customer Service Hours N/A - Edit. Review/Comment; Update Listing,0,0,1,##final score: 1
+1133167,how is the weather in jamaica,7762245,"Latest Updates. LOCAL WEATHER FORECAST. 2017-04-13 10:14:47. SIGNIFICANT FEATURE A High Pressure Ridge across the north-western Caribbean and is expected to build across Jamaica during the day, and remain for the next few days. 1  Increased Rainfall Expected Friday Evening into Sunday. 2017-04-06 21:28:54. 2  A High Pressure Ridge across Jamaica. 2017-04-05 11:51:36.",2,2,3,##final score: 3
+1110199,what is wifi vs bluetooth,6383460,"For instance, directional antenna can direct signal to a single direction, spanning a bigger distance but with little portability supported. Sometime boosters amplify signal in a single direction. Wi-Fi Extender vs. Booster to Extend Wifi Range. 5 Best Wireless Range Extenders of 2016 and Tips.",0,0,1,##final score: 1
+1114819,what is durable medical equipment consist of,3477360,Your Medicare Coverage. Search Medicare.gov for covered items. Medicare Part B (Medical Insurance) covers hospital beds as durable medical equipment (DME) that your doctor prescribes for use in your home. All people with Part B are covered.,2,2,1,##final score: 1
+1114819,what is durable medical equipment consist of,5922989,Consumer goods are many times separated into two categories: durables and non-durables. Durables have an extended product life and are not typically worn out or consumed quickly when you use them.,0,0,1,##final score: 1
+1114646,what is famvir prescribed for,6704400,"Famvir (Famciclovir) is approved by the FDA for the treatment of cold sores. If started at the first sign of symptoms, taking a single high dose of Famvir can shorten the herpes infection by two days. Valtrex (Valacyclovir) is also approved by the FDA to treat cold sores.",3,3,2,##final score: 2
+833860,what is the most popular food in switzerland,3437285,"What To Eat In Switzerland: 5 Foods Beyond Fondue. By on March 22, 2013 in Switzerland. Switzerland does dairy well – the molten variety in particular. There’s something rather brilliant about eating hot bubbling cheese or chocolate while you sit nestled among the snowy Alps and this a scene the Swiss have nailed.",2,2,1,"##intent: The user is searching to find out the most popular or iconic food in Switzerland.
+
+##content match (M): 1 - The passage discusses Swiss food, mentioning fondue, hot bubbling cheese, and chocolate, but it does not specify or identify what the single most popular food in Switzerland is.
+
+##trustworthiness (T): 3 - The snippet appears to be from a standard travel/food blog article about food in Switzerland.
+
+##final score: 1"
+156493,do goldfish grow,95519,This Site Might Help You. RE: How big do goldfish get? OK so I know a lot of people say a fancy one will grow to 12&#39;&#39; but I think that&#39;s kind of ridiculous. A lot of these &quot;huge goldfish&quot; myths seem to only take place on the internet.,2,2,1,"**Underlying Intent:** The user is asking whether goldfish grow (and inherently how large they can grow).
+
+**Matches Intent (M):** The passage discusses goldfish growth and size (""grow to 12''""), but it is an opinionated forum query/post expressing skepticism about goldfish size myths rather than providing a clear, factual answer to whether or how goldfish grow.
+
+**Trustworthiness (T):** Low. The passage is a user-generated forum post expressing personal doubt rather than authoritative or expert information.
+
+**Final Score (O):** The passage is related to the topic of goldfish growth, but it does not provide a definitive or clear factual answer to the query.
+
+##final score: 1"
+130510,definition declaratory judgment,3804023,You have to take legal steps to collect the judgment. The court will not collect it for you. Below are the legal steps that you may take to collect your judgment in the order in which you may want to proceed: Get in touch with the judgment debtor.,0,0,1,##final score: 1
+1115776,what is an aml surveillance analyst,7129173,Looking for the definition of AML? What does AML stand for? Find out it here! 427 meanings for AML abbreviations and acronyms on acronymsandslang.com The World's most comprehensive acronyms and slang dictionary! Last Added,0,0,1,"##Intent Match: The query asks for the definition and role of an ""AML surveillance analyst"". The passage mentions finding acronym meanings for ""AML"", but does not define what an AML surveillance analyst is or provide any relevant information about the job role. Thus, the passage is only marginally related to a keyword in the query.
+
+##Trustworthiness: The source is an acronym dictionary site, which is moderately trustworthy for acronym expansions, but does not provide substantive educational or professional information.
+
+##Final Score: 1"
+183378,exons definition biology,3389581,"1. Exons are coding areas whereas introns are non-coding areas. 2. An exon is termed as a nucleic acid sequence which is represented in the RNA molecule. Introns, on the other hand, are termed as nucleotide sequences seen within the genes which are removed through RNA splicing for generating a mature RNA molecule. 3.",3,3,2,"**Intent of the search:** The user is looking for a clear definition of ""exons"" in the context of biology.
+
+**Content Match (M):** The passage directly defines exons as coding areas and nucleic acid sequences represented in RNA molecules. However, it also includes extra information comparing exons to introns and explaining RNA splicing.
+
+**Trustworthiness (T):** The passage provides accurate biological facts regarding exons and introns.
+
+**Final Decision:** The passage contains a clear definition of exons (answering the query directly), but also contains extra extraneous information about introns. Based on the guidelines, category 2 best fits a passage that answers the query well but includes extra information.
+
+##final score: 2"
+47923,axon terminals or synaptic knob definition,618556,"Axon terminals (also called synaptic boutons) are distal terminations of the branches of an axon. An axon nerve fiber is a long, slender projection of a nerve cell, or neuron, that conducts electrical impulses (called action potentials) away from the neuron's cell body, or soma, in order to transmit those impulses to other neurons.",3,3,2,##final score: 2
+168216,does legionella pneumophila cause pneumonia,2265774,"In general, M. pneumoniae infection is a mild illness that is most common in young adults and school-aged children. The most common type of illness caused by these bacteria, especially in children, is tracheobronchitis, commonly called a chest cold.This illness is often seen with other upper respiratory tract symptoms, like a sore throat.ycoplasma pneumoniae (M. pneumoniae) is an atypical bacterium (the singular form of bacteria) that causes lung infection.",0,0,1,##final score: 1
+451602,medicare's definition of mechanical ventilation,4380277,Propofol is used to help you relax before and during general anesthesia for surgery or other medical procedure. Propofol is also used in critically ill patients who require a breathing tube connected to a ventilator (a machine that moves air in and out of the lungs when a person cannot breathe on their own).,1,1,0,##final score: 0
+146187,difference between a mcdouble and a double cheeseburger,8792967,"History Of The Cheeseburger. There are at least 5 different theories to the origin of the modern day cheeseburger, all of which involve a cook and a 1930′s diner in America. But before we even start talking about cheese we must trace the history of the plain old Hamburger.",0,0,1,##final score: 1
+156493,do goldfish grow,2612486,"All goldfish fry have the same physical characteristics for the first 5 weeks, so the growth rate is similar for all varieties up to that age. After 5 weeks the deep bodied varieties start to take their adult shape, so growth rates slow when compared to the slim bodied varieties such as Comets.",2,2,3,##final score: 3
+130510,definition declaratory judgment,7098470,Adjudication A legal process by which an arbiter or judge reviews the evidence and arguments by the parties to an action to reach a decision which will determine the litigants’ rights and obligations to each other. Adjudication can be used to resolve disputes between private parties and/or public officials and bodies. ad·ju·di·ca·tion,0,0,1,##final score: 1
+1124210,tracheids are part of _____.,8650639,"So, coming to the point, xylem and phloem are called complex tissues because they are made up of different types of cells, while simple tissues are made up of same type of cells. xylem is made up of xylem parenchyma, tracheids, vessels and xylem fibre. phloem is made up of companion cells, phloem parenchyma and sieve tube,",2,2,3,##final score: 3
+1115776,what is an aml surveillance analyst,600966,average casino surveillance analyst salaries for job postings in reno nv are 19 % lower than average casino surveillance analyst salaries for job postings nationwideverage casino surveillance analyst salaries for job postings in reno nv are 19 % lower than average casino surveillance analyst salaries for job postings nationwide,0,0,1,"##Intent:
+The user is looking to understand the job role, duties, and definition of an Anti-Money Laundering (AML) Surveillance Analyst.
+
+##Match (M):
+The passage discusses salary statistics for a ""casino surveillance analyst"" in Reno, NV. While it touches upon a similar job title (""surveillance analyst""), it completely misses the ""AML"" (Anti-Money Laundering) focus and provides salary details rather than defining what the job role entails. Therefore, it is somewhat related by topic/keywords but fails to answer the query.
+
+##Trustworthiness (T):
+The passage appears to be auto-generated or poorly formatted text regarding salary statistics, repeating the same sentence twice. While not inherently malicious, its readability and quality are low.
+
+##Final Score:
+##final score: 1"
+1114819,what is durable medical equipment consist of,694740,"DME that Medicare covers includes, but isn't limited to: 1  Air-fluidized beds and other support surfaces. 2  Blood sugar monitors. 3  Blood sugar (glucose) test strips. 4  Canes (however, white canes for the blind aren't covered).",2,2,3,##final score: 3
+1133167,how is the weather in jamaica,7762244,"Jamaica lies in the hurricane belt of the Atlantic Ocean, so can be hit directly and severely by passing hurricanes. This being the case its best to avoid the region between July and November, as this is the time of the year classed as hurricane season and the island can be hit by tropical storms for days upon days.",2,2,1,##final score: 1
+19335,anthropological definition of environment,2186129,Anthropology is the study of various aspects of humans within past and present societies. Social anthropology and cultural anthropology study the norms and values of societies. Linguistic anthropology studies how language affects social life.,0,0,1,"##intent: The user is looking for a definition of ""environment"" specifically from an anthropological perspective.
+
+##M: 1.0 (The passage defines anthropology and its various subfields, so it is related to the general topic of anthropology, but it does not mention or define ""environment"" at all.)
+
+##T: 3.0 (The passage is accurate and trustworthy regarding general definitions of anthropology.)
+
+##final score: 1"
+451602,medicare's definition of mechanical ventilation,508601,1 You wear a mask over your nose while you sleep. 2  The mask is connected by a hose to a small machine that sits at the side of your bed.  The machine pumps air under pressure through the hose and mask and into your airway while you sleep. This helps keep your airway open.,1,1,0,##final score: 0
+1133167,how is the weather in jamaica,7218013,"Re: Weather at the end of October - Sandals Whitehouse Jamaica Aug 12, 2013, 12:04 PM We always travel in mid-October and in 8 trips we've only had rain all week one time (Thank You hurricane Wilma).",2,2,1,##final score: 1
+1115776,what is an aml surveillance analyst,4314170,POSITION SUMMARY The Anti-Money Laundering Compliance Analyst will be part of the Anti-Money Laundering Team within the Compliance and Legal Division. The analyst will be responsible for assisting in the administration of Janney’s Anti-Money Laundering pr...,2,2,1,"##Intent
+The user is asking for a definition or explanation of the job role and responsibilities of an AML (Anti-Money Laundering) surveillance analyst.
+
+##Match (M)
+The passage is a truncated snippet from a job description for an ""Anti-Money Laundering Compliance Analyst."" While it mentions the position title and a very brief part of the role, it cuts off mid-sentence and fails to provide a clear explanation or definition of what an AML surveillance analyst is or does. Thus, it is related to the topic but does not answer the query. Match score is low to moderate.
+
+##Trustworthiness (T)
+The passage appears to be from a real job posting summary, but it contains encoding artifacts (""Janneyâ€™s"") and is truncated, reducing its completeness and quality.
+
+##Final Score (O)
+The passage is related to the query topic but does not provide a complete or direct answer to what an AML surveillance analyst is. Therefore, it falls under category 1.
+
+##final score: 1"
+527433,types of dysarthria from cerebral palsy,288675,"Coordination disorders can cause other abnormalities, such as the following: 1  Dysmetria: People cannot control the range of body movements. 2  Dysarthria: Speech is slurred, and fluctuations in volume cannot be controlled because speech muscles are uncoordinated.",1,1,0,##final score: 0
+573724,what are the social determinants of health,8466537,Medicare - health care for the aged; a federally administered system of health insurance available to persons aged 65 and over. health care - social insurance for the ill and injured.,0,0,1,"##intent: The user is looking for a definition and examples of ""social determinants of health,"" which refer to non-medical factors like socioeconomic status, education, neighborhood, and social support that influence health outcomes.
+
+##M: 1.0 - The passage defines ""Medicare"" and ""health care"" as social insurance. While it mentions health care and social insurance, it does not explain or address what ""social determinants of health"" are.
+
+##T: 1.0 - The passage appears trustworthy as a general dictionary-style definition of terms, though not directly applicable to the specific query.
+
+##final score: 1"
+1110199,what is wifi vs bluetooth,6368891,"Both specifications tout security as one of their main benefits. Bluetooth 4.0 uses AES 128-bit encryption to protect your data as it is transmitted between devices. Wi-Fi Direct, on the other hand, uses WPA2 security, and its AES 256-bit encryption.",2,2,1,"##Intent: The user is asking for a comparison between Wi-Fi and Bluetooth technology, specifically looking to understand the core differences and definitions of both.
+
+##Match (M): The passage compares a specific aspect of Bluetooth and Wi-Fi (security and encryption protocols between Bluetooth 4.0 and Wi-Fi Direct), but it does not explain the broader differences, definitions, or general comparison of Wi-Fi vs. Bluetooth. Thus, it is related to comparing the two technologies but fails to answer the main question.
+
+##Trustworthiness (T): The information provided in the passage is accurate and trustworthy regarding the security standards of both specifications.
+
+##final score: 1"
+168216,does legionella pneumophila cause pneumonia,504720,"Although most bacteria are harmless or often beneficial, several are pathogenic. One of the bacterial diseases with the highest disease burden is tuberculosis, caused by the bacterium Mycobacterium tuberculosis, which kills about 2 million people a year, mostly in sub-Saharan Africa.hese pathogens can cause pneumonia or urinary tract infection and may be involved in coronary heart disease. Other groups of intacellular bacterial pathogens include: Salmonella, Neisseria, Brucella, Mycobacterium, Listeria, Francisella, Legionella, and Yersinia pestis.",1,1,2,##final score: 2
+183378,exons definition biology,8794307,Home » Executor » Exercise bone » Exhibitions » Exit domain » Exons. coding regions of messenger rna included in the genetic transcript which survive the processing of rna in cell nuclei to become part of a spliced messenger of structural rna in the cytoplasm. They include joining and diversity of immunoglobulin genes.,3,3,2,"**Intent of the Search:**  
+The user is looking for a clear, biological definition of ""exons"" (the coding sequences of DNA/RNA).
+
+**Content Match (M):**  
+The passage provides a direct, technical biological definition of exons (""coding regions of messenger rna included in the genetic transcript...""). However, the beginning of the passage contains extraneous navigation/breadcrumb text (""Home Â» Executor Â» Exercise bone Â» Exhibitions Â» Exit domain Â» Exons.""). Because the exact answer is present but accompanied by extraneous clutter, it matches a score of 2.
+
+**Trustworthiness (T):**  
+The definition provided is scientifically accurate and trustworthy in terms of standard biological terminology, despite formatting artifacts.
+
+**Final Score Decision (O):**  
+The passage contains the precise definition required to answer the query, but includes extraneous breadcrumbs/formatting noise at the beginning. Thus, it fits category 2 best.
+
+##final score: 2"
+207786,how are some sharks warm blooded,4978402,"Porbeagle Shark Facts. The Porbeagle Shark, also called Lamna nasus, comes from the family of Lamnidae sharks. It is mostly found in cold and temperate waters of the North Atlantic Ocean. This is a species of the mackerel shark and is a close relative of the salmon shark.The Porbeagle can reach over 8 feet (2.5 meters) in length and can gain a weight of 135 kilograms or 298 pounds. They are normally white at the bottom and grey on top giving it some nice camouflage for hunting.ou can mostly find this shark in the North Atlantic on the coasts of Greenland, Canada, Russia and Scandinavia. Further south, this shark can be spotted near Bermuda, New Jersey, Madeira, Brazil, Chile and Morocco. It has also been sighted in the Mediterranean Sea. The Porbeagle is known to migrate long distances.",0,0,1,##final score: 1
+855410,what is theraderm used for,7509177,LHA in skin care is an anti-aging and anti-acne ingredient. Preliminary studies show it has excellent efficacy in fighting wrinkles and acne lesions. LHA in skin care is an anti-aging and anti-acne ingredient.,0,0,1,##final score: 1
+156493,do goldfish grow,4940231,"Goldfish tanks are expensive. But on the flip side, your goldfish won’t have to breathe through murky water. Assuming the aquarium is properly maintained, of course. And it’s much easier to keep the water crystal clear in a large goldfish tank.",0,0,1,##final score: 1
+833860,what is the most popular food in switzerland,3087481,"Finally, there are a lot of sweets, including the second type of food that Switzerland is world famous for: Swiss chocolate. In Switzerland, breakfast typically includes bread, butter or margarine, marmalade or honey, maybe some cheese or cereals, plus milk, cold or hot chocolate, tea or coffee.",2,2,1,##final score: 1
+1121402,what can contour plowing reduce,7471825,"The reaper and the steel plow? the steel plow was used in farming to break up tough soil and I have no idea what the reaper is, but i hope that i helped, good luck.",0,0,1,"##Intent
+The user is asking for the specific environmental or agricultural benefits of contour plowing, specifically what it reduces (such as soil erosion or water runoff).
+
+##M
+The passage discusses the steel plow and the reaper, mentioning that the steel plow breaks up tough soil. It mentions plows/farming generally, making it marginally related to the broad topic of plowing, but it completely fails to mention contour plowing or what contour plowing reduces. Thus, the relevance match is very low.
+
+##T
+The passage is a user-generated forum/Q&A style response with uncertain phrasing (""I have no idea...""), making its reliability low, though trustworthiness is less relevant here given the lack of subject match.
+
+##O
+The passage does not answer the query at all. It only mentions plowing in a general context (steel plow). Therefore, it qualifies as category 1 (related to the topic of plows/farming but does not answer the query).
+
+##final score: 1"
+855410,what is theraderm used for,7613452,"Do not pick or squeeze pimples. This can make acne worse and damage the skin. Plus it can lead to infections. Avoid oil-based make-up and skin products. If you use a moisturizer for your face, a moisturizer labeled as “non-comedogenic” is often best. Q: What about over the counter medicines for acne? A: If you have mild acne, you can try non-prescription acne products.",0,0,1,##final score: 1
+1113437,what is physical description of spruce,3026984,"The cones are pendulous, slender cylindrical, 6–10 cm (2.4–3.9 in) long and 2 cm broad when closed, opening to 3 cm broad. They have thin, flexible scales 15–20 mm long; the bracts just above the scales are the longest of any spruce, occasionally just exserted and visible on the closed cones.",1,1,2,##final score: 2
+168216,does legionella pneumophila cause pneumonia,8639627,"Bacteria are the most common cause of pneumonia in adults. Many types of bacteria can cause bacterial pneumonia. Streptococcus pneumoniae or pneumococcus bacteria are the most common cause of bacterial pneumonia in the United States. If your pneumonia is caused by one of the following types of bacteria, it is called atypical pneumonia. 1  Legionella pneumophila. 2  Mycoplasma pneumoniae. 3  Chlamydia pneumoniae.",3,3,2,##final score: 2
+1110199,what is wifi vs bluetooth,6161010,WIFI MODEM vs WIFI ROUTER. It has been a long time that digital communication has advanced to a point where a physical connection is not anymore a requirement. Computer networks are now possible without the awkward cables and wires.,0,0,1,##final score: 1
+1133167,how is the weather in jamaica,8332521,There's also information here on the likelihoods of named tropical storms and hurricanes approaching The Bahamas this month. These measures of temperature and precipitation are historical averages based on data collected at weather stations from 1971 to 2000.,0,0,1,"**Intent:** The user is searching for current or typical weather conditions in Jamaica.
+
+**Content Match (M):** The passage discusses weather averages, tropical storms, and hurricanes, but specifically for The Bahamas rather than Jamaica. Therefore, it is topically related (weather in the Caribbean region) but fails to address the target location in the query.
+
+**Trustworthiness (T):** The passage cites historical weather data from 1971 to 2000 collected at weather stations, making the information itself trustworthy for its intended location, though irrelevant to Jamaica.
+
+**Final Score (O):** 1
+
+##final score: 1"
+130510,definition declaratory judgment,8612902,"A declaratory judgment does not provide for any enforcement, however. In other words, it states the court's authoritative opinion regarding the exact nature of the legal matter without requiring the parties to do anything.",3,3,2,"Consider the underlying intent of the search:
+The search query ""definition declaratory judgment"" indicates that the user is looking for a clear definition and explanation of what a declaratory judgment is in a legal context.
+
+Measure how well the content matches a likely intent of the query (M):
+The passage directly addresses what a declaratory judgment is (stating the court's authoritative opinion regarding the exact nature of a legal matter without requiring enforcement or action from parties). While it provides a core part of the definition, it starts mid-paragraph (""however""), making it a partial excerpt rather than a fully comprehensive definition entry. Thus, it contains a good answer but is somewhat contextual. (M = High / 2)
+
+Measure how trustworthy the passage is (T):
+The passage uses accurate legal terminology and provides a correct explanation of the concept, making it highly trustworthy. (T = High)
+
+Consider the aspects above and the relative importance of each, and decide on a final score (O):
+The passage answers the intent of the query well by providing the definition/nature of a declaratory judgment, though it functions as a partial snippet from a broader text.
+
+##final score: 2"
+1124210,tracheids are part of _____.,181177,"In most plants, pitted tracheids function as the primary transport cells. The other type of tracheary element, besides the tracheid, is the vessel element. Vessel elements are joined by perforations into vessels. In vessels, water travels by bulk flow, as in a pipe, rather than by diffusion through cell membranes.",2,2,1,"##Intent: The user is looking for the specific plant tissue or structure that tracheids belong to (such as xylem or the vascular system).
+
+##M: 1.5 - The passage discusses tracheids, their function as primary transport cells, and mentions them alongside vessel elements as tracheary elements, but it does not explicitly state the standard completion (e.g., xylem or vascular tissue).
+
+##T: 3 - The passage provides accurate and trustworthy botanical information.
+
+##O: 1"
+443396,lps laws definition,368001,"LLCs and LPs are two of the most popular business entities today with advantages that include limited liability, pass-through taxation, management control and flexibility. Both are treated like general partnerships for tax law purposes, yet have the limited liability of corporations.",0,0,1,##final score: 1
+1114819,what is durable medical equipment consist of,8076977,Medicare considers you homebound if you meet both of the following criteria. 1. You need the help of another person or medical equipment such […],0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,3908781,"Two distinct illnesses, Legionnaires' disease and Pontiac fever, have been associated with the Legionella species. Legionnaires' disease is a severe pneumonia.Pontiac fever is a mild, non-pneumonia influenza-like illness. In this document, we refer only to Legionnaires' disease.wo distinct illnesses, Legionnaires' disease and Pontiac fever, have been associated with the Legionella species. Legionnaires' disease is a severe pneumonia.",2,2,3,##final score: 3
+1106007,define visceral?,7500587,"In my opinion the best way to distinguish between these terms is to recognize that visceral reactions IS a type of deep emotional reaction, the other variant being a deep cerebral emotional reaction. I do not agree with the notion that emotional responses are always non-intellectual. This is a misleading notion.p vote 2 down vote. I think that visceral sometimes doesn't relate to what we normally describe as feelings. It seems that a visceral reaction to something may often also connect with a strong emotional response to the same moment or stimulus.",2,2,1,##final score: 1
+962179,when was the salvation army founded,6575560,"5 results for Salvation Army in Muskogee, OK 5 results for Salvation Army in Muskogee, OK View Map",0,0,1,"**Step 1: Consider the underlying intent of the search.**
+The query is asking for the specific date or year when the Salvation Army was established.
+
+**Step 2: Measure how well the content matches a likely intent of the query (M).**
+The passage mentions the ""Salvation Army"" in the context of local directory/map search results for Muskogee, OK. It does not contain any information about the founding date or history of the organization. Therefore, it is related to the entity mentioned in the query but fails to address or answer the specific question asked.
+
+**Step 3: Measure how trustworthy the passage is (T).**
+The passage appears to be a snippet from a local search result or directory page. While accurate for local listings, it lacks historical or informational content regarding the query.
+
+**Step 4: Consider the aspects above and the relative importance of each, and decide on a final score (O).**
+Since the passage is loosely related to the topic (""Salvation Army"") but completely fails to answer ""when was it founded,"" it fits the definition of category 1.
+
+##final score: 1"
+264014,how long is life cycle of flea,6126984,Summary: Flea dirt is actually flea poop that is made up of dried blood. They look like tiny dots (usually black in color) and are a sure sign that fleas are on your pet or around their living areas. They are commonly found on the tummy and on the tail.,0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,4498419,"The answer. The pathogens causing atypical pneumonia include: Mycoplasma pneumonia. Chlamydia psittaci. Chlamydia pneumonia. Coxiella burnetii. Francisella tularensis. Legionella pneumophila. Viruses including influenza A and B, parainfluenza, adenovirus and respiratory syncytial virus.",3,3,2,##final score: 2
+207786,how are some sharks warm blooded,6133371,Facts about the great white shark. The great white shark is one of the most feared sharks in the world.,0,0,1,##final score: 1
+168216,does legionella pneumophila cause pneumonia,6282567,"Pneumonia due to mycoplasma and chlamydophila bacteria is usually mild. 1  Pneumonia due to Legionella pneumophila gets worse during the first 4 - 6 days, and then improves over 4 - 5 days. 2  Even though symptoms will improve, it may take a while for them to go away completely.neumonia due to mycoplasma and chlamydophila bacteria is usually mild. 1  Pneumonia due to Legionella pneumophila gets worse during the first 4 - 6 days, and then improves over 4 - 5 days. 2  Even though symptoms will improve, it may take a while for them to go away completely.",3,3,2,"##intent: The user is asking a binary (yes/no) question to confirm if the bacterium *Legionella pneumophila* causes pneumonia.
+
+##M: 2.0 (The passage confirms that pneumonia can be due to *Legionella pneumophila*, directly answering the query, but the information is surrounded by extraneous details regarding symptom progression and other bacterial causes of pneumonia).
+
+##T: 3.0 (The passage provides reliable medical information describing the clinical course of pneumonia caused by specific pathogens).
+
+##O: 2
+
+##final score: 2"
+1133167,how is the weather in jamaica,8804478,"The one big disadvantage of visiting the Bahamas during off-seasons is the possibility of having your vacation rained out by a tropical storm or hurricane. Hurricane season in the Caribbean runs from June 1 to November 30 and the islands get a direct hit every 11.58 years, according to hurricanecity.com.",1,1,0,"**Consider the underlying intent of the search:**
+The user is looking for information regarding the current or general weather conditions in Jamaica.
+
+**Measure how well the content matches a likely intent of the query (M):**
+The passage provides information about the hurricane season in the Caribbean and specifically discusses the Bahamas. It does not contain specific weather information about Jamaica.
+
+**Measure how trustworthy the passage is (T):**
+The passage cites a source (hurricanecity.com) for its information regarding hurricane frequency in the Bahamas, appearing generally trustworthy, though irrelevant to the target country.
+
+**Consider the aspects above and the relative importance of each, and decide on a final score (O):**
+Since the passage focuses on the Bahamas and general Caribbean hurricane dates without providing relevant weather details specific to Jamaica, it fails to address the query.
+
+##final score: 0"
+527433,types of dysarthria from cerebral palsy,4952135,"See a list of possible causes in order from the most common to the least. 1. Speech impairment includes any symptom that causes a person to have difficulty with vocal communication. Such problems may include slurred, slowed, hoarse, stuttered, or rapid speech. Other symptoms may include stiff facial muscles, drooling, poor... Read more. Adult speech impairment includes any symptom that causes an adult to have difficulty with vocal communication. ",1,1,0,##final score: 0
+19335,anthropological definition of environment,7692043,"Anthropology Degree Program Information. Anthropology is the study of human culture, society and evolution with several areas of focus, including physical anthropology, forensic anthropology, archaeology, cultural anthropology, ethnography and visual anthropology.",0,0,1,##final score: 1
+489204,right pelvic pain causes,6581779,Injuries or abnormalities of the right side kidney usually cause pain on the right side of the waist as well. Various infections of the kidneys and kidney stones formed from excess calcium or uric acid are also connected to pain in lower abdomen and the lower back.,1,1,2,##final score: 2
+156493,do goldfish grow,7580418,"Koi grow FAST. They can reach 12 inches in just over 2 years, and 24 inches inches in 5 years! But they will only be able to grow the right pace under the right circumstances. A large pond is a MUST.",0,0,1,##final score: 1
+451602,medicare's definition of mechanical ventilation,2244882,"Define ventilation. ventilation synonyms, ventilation pronunciation, ventilation translation, English dictionary definition of ventilation. n. 1. a. The replacement of stale or noxious air with fresh air. b. The mechanical system or equipment used to circulate air or to replace stale air with...",0,0,1,##final score: 1
+1063750,why did the us volunterilay enter ww1,4330928,"RE: Why did Germany invade Belgium during WW1? Why did they Attack neutral Belgium, when it was Neutral and it Caused Britain and the British Commonwealth... I don&#39;t understand, why would you attack a neutral country causing the world superpower to declare war when you already have France and Russia to defeat....o, Germany invaded Belgium in 1914 in order to knock France out of the war quickly, thus avoiding a 2 front war.The major flaw in the plan was that Germany did not think invading Belgium would bring Britain into the war against them. ammianus · 6 years ago. Thumbs up. 4.",0,0,1,##final score: 1
+182539,example of monotonic function,7371255,"Figure 1. A monotonically increasing function (it is strictly increasing on the left and right while just non-decreasing in the middle.). Figure 2. A monotonically decreasing function. In calculus, a function f defined on a subset of the real numbers with real values is called monotonic (also monotonically increasing, increasing or non-decreasing), if for all x and y such that x ≤ y one has f (x) ≤ f (y), so f preserves the order (see Figure 1).",2,2,1,"##intent: The user is searching for specific mathematical or visual examples of a monotonic function (e.g., $f(x) = x^3$, linear functions, exponential functions, etc.).
+
+##M: The passage defines a monotonic function mathematically and describes monotonically increasing/decreasing functions via references to figures, but it does not provide explicit concrete examples of functions (such as specific equations). Therefore, the content is related to the topic of monotonic functions but does not directly answer the request for an example.
+
+##T: The passage is accurate and trustworthy, sourced from a standard calculus textbook or reliable reference text (e.g., Wikipedia).
+
+##final score: 1"

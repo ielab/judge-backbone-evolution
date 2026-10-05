@@ -1,0 +1,19 @@
+Analysis Run Stopped Due to Bug
+Timestamp: 2026-09-18T11:19:18+10:00
+
+Completed Pairs (CSV successfully generated):
+1. gemini-2_5-flash vs gemini-3_6-flash
+2. gemini-2_5-flash vs gemini-3_7-flash
+3. gemini-2_5-flash vs gemini-3_8-flash
+4. gemini-3_5-flash vs gemini-3_6-flash
+5. gemini-3_5-flash vs gemini-3_7-flash
+
+Interrupted Pair:
+6. gemini-3_5-flash vs gemini-3_8-flash
+-> Stopped at: Processing regression 450 / 495
+-> Note: Encountered "Invalid \escape: line 3 column 58 (char 113)" error at regression ~320 prior to stopping.
+
+Remaining Untouched Pairs:
+7. gemini-3_6-flash vs gemini-3_7-flash
+8. gemini-3_6-flash vs gemini-3_8-flash
+9. gemini-3_7-flash vs gemini-3_8-flash

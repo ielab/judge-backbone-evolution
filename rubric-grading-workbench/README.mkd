@@ -1,0 +1,944 @@
+# Autograder Workbench – LLM-based Evaluation for Retrieve/Generate Systems
+
+*Autograder Workbench* is a toolbox for evaluating information systems that use retrieve and/or generatation approaches.
+
+The workbench builds on a code base for the Exam Answerability Metric that uses a test bank of exam questions to evaluate systems for CAR Y3. In this release, the code base is extended to generate a test bank of nuggets (aka key facts), and to provide better support for a human-in-the-loop to verify and supervise the process (without conducing any passage-level relevance judgments). The code base can evaluate systems even when no manual passage-level judgments are available.
+
+The code base of the Autograder Workbench is released under a BSD-3 open source license.
+
+[exam-appendix]: https://anonymous.4open.science/r/flan-t5-exam
+
+## Approach
+The Autograder evaluation paradigm consists of several phases, each supported with utilities provided in this code base.
+
+ 1. *Test Bank Generation:* LLMs with human-in-the-loop develop a collection of test nuggets and/or exam questions. 
+ 3. *Grading:* The LLM will grade all system responses, passage-by-passage, by either scanning the passage for mentions of each nugget or trying to answer each exam question based on the passage content.
+ 5. *Manual Oversight and Verification:* To manually verify the the LLM is operating as intended, our autograding workbench supports to inspect extracted answers and nugget mentions along with grades on a passage-level.
+ 7. *Evaluation:* An evaluation score for each IR system is computed, either via Autograde-Cover, or Autograde-Qrels. The latter exports a qrels file that is inter-operable with the evaluation tool `trec_eval`
+8. *Additional analyses:* If available,  official leaderboards can be used to analyze rank correlation of the predicted system ranking. If manual judgments are available, the workbench provides an inter-annotator agreement analysis.
+    
+ 
+ ![](https://edit.smart-cactus.org/uploads/6d2e9362-b0c8-4862-ab70-cd893900b4e5.png)
+
+## Resource
+
+This package includes python command line utilities for the phases of the above pipeline:
+
+ * Phase 1: `autograder-generate` generates a test bank from query sets.
+ * Phase 2: `autograder-grade` grades passages from system responses.
+ * Phase 3: `autograder-verify` supports manual verification and supervision.
+ * Phase 4: `autograder-evaluate` derives evaluation scores for systems under evaluation.
+ * Additional analyses: `autograder-analyze` offers leaderboard rank correlation and inter-annotator agreement analyses.
+
+Upon installation, each of these command line utilities supports extensive documentation when called with `--help`.
+
+
+## Installation via pyproject / pip
+
+Install code and dependencies via pip using metadata from `pyproject.toml`
+
+```
+pip install .
+```
+
+Test the installation via installed scripts (via pytoml):
+
+```bash
+autograder-grade --help
+```
+
+
+
+This will install all required dependencies, and expose the RUBRIC code as library `exam_pp`
+
+## Oldschool installation
+
+
+If you are oldschool, you can also use 
+
+```bash
+pip -r requirements.txt
+```
+
+Note that this will not install `exam_pp` as a library.
+
+
+You will have to directly call the python classes from from the cloned directory, such as
+
+```bash
+python -m exam_pp.exam_grading --help
+```
+
+Replace commands described below as follows (also see project.pytoml for updated list):
+
+* autograder-generate = "exam_pp.question_generation"
+* autograder-grade = "exam_pp.exam_grading"
+* autograder-verify = "exam_pp.exam_verification"
+* autograder-evaluate = "exam_pp.exam_evaluation"
+* autograder-analyze = "exam_pp.exam_post_pipeline"
+
+## Developer installation
+
+If you want to contribute to this project consider use venv and install dev tools
+
+
+```bash
+$ git clone <this repository>
+$ cd <cloned directory>
+$
+$ python -m venv .venv
+$ source .venv/bin/activate
+$
+$ # Install the package in editable mode with dev tools
+$ pip install -e '.[dev]'
+$
+```
+
+
+
+Alternative installation methods via flake.nix are described below.
+
+
+
+
+
+## Download TREC DL20 to reproduce the paper
+
+
+Let's examine usage of Autograder Workbench on the TREC DL 20 dataset. Fetch the `data-dl20.tar.xz` [tarball](https://www.cs.unh.edu/~dietz/autograder/data-dl20.tar.xz), and extract it into directory `data/dl20`.
+
+```bash
+$ wget https://www.cs.unh.edu/~dietz/autograder/data-dl20.tar.xz  # tarball with graded runs, questions, and nuggets
+$ tar -x -f data-dl20.tar.xz
+$ ls data/dl20/  # data will be placed here
+```
+
+To run the code examples below, you either create a `passages.jsonl.gz` or to trying it out with a small example use this:
+
+```bash
+$ cd data/dl20
+$ ln -s trecDL2020-qrels-runs-with-text.jsonl.gz dl20-passages.jsonl.gz
+```
+
+
+Official run files need to be obtained from <https://trec.nist.gov/results/trec29/deep.passages.input.html>. Access credentials are provided by the TREC Manager.  Decompressed run files need to be placed in `./data/dl20/dl20runs`
+
+
+
+## Interchange Data Model 
+
+Different phases are using the same JSON data model (as gzip-compressed JSON-lines).
+
+<figure id="fig:datamodel">
+<div class="footnotesize">
+<pre><code>
+[
+  "Query ID",
+  [
+    {
+      <span style="background-color: lightgray">"paragraph_id": "Unique Paragraph Identifier",
+      "text": "Full Text of the Paragraph",
+      "paragraph": ... // paragraph with additional markup if available.</span>
+      "paragraph_data": {
+        "judgments": [
+          {
+            "paragraphId": "Same Paragraph Identifier",
+            "query": ""Associated Query ID, potantially Identifier of Subquery",
+            <span style="background-color: lightblue">"relevance": 2, // judgment grade</span>
+            "titleQuery": "Query ID"
+          }
+        ],
+        "rankings": [
+          {
+            <span style="background-color: lightblue">"method": "Ranking Method",
+            "paragraphId": "Unique Paragraph Identifier",
+            "queryId": "Associated Query ID, potantially Identifier of Subquery",
+            "rank": 6, // retrieval rank
+            "score": 17.560528 // retrieval score</span>
+          }
+        ]
+      },
+      "exam_grades": [  // for exam questions and nuggets
+        {
+         <span
+style="background-color: yellowgreen"> "correctAnswered": ["List of Correctly Answered Question and Nugget IDs"],
+          "wrongAnswered": ["List of Incorrectly Answered Question and Nugget IDs"],</span>
+          <span
+style="background-color: yellow">"self_ratings": [{
+             "nugget_id": "Nugget ID",
+             // alternatively: "question_id": "Question ID"
+             "self_rating": 4 // self-rating grade</span>
+           },
+          <span
+style="background-color: orange">"answers": [
+            ["Question or Nugget ID", "Answer Text"]
+          ],</span>
+          <span
+style="background-color: pink">"llm": "Huggingface Language Model Used",</span>
+          "llm_options": {
+            "prompt_template": "Template Used for Prompt",
+            "answer_match": "Answer Matching Strategy"
+          },
+        "prompt_info": {
+          <span
+style="background-color: pink">"prompt_class": "NuggetSelfRatedPrompt",</span>
+          "prompt_style": "Is the nugget addressed...",
+          "context_first": false,
+          "check_unanswerable": true,
+          "check_answer_key": false,
+          "is_self_rated": true
+        },
+          "exam_ratio": 0.25 // fraction of questions answered correctly
+        }
+      ],
+      "grades": [
+        {
+          <span
+style="background-color: yellowgreen">"correctAnswered": true, // if judged as relevant</span>
+          <span
+style="background-color: yellow">"self_ratings": 4 // Self-rating on relevance</span>
+          <span
+style="background-color: orange">"answers": "Answer Text"</span> 
+          <span
+style="background-color: pink">"llm": "Huggingface Language Model Used",</span>
+          "llm_options": {...},
+          <span
+style="background-color: orange">"prompt_info": ...</span>
+        }
+      ]
+    }
+  ]
+]
+</code></pre>
+</div>
+<figcaption>Data Model. <span style="background-color: lightgray">Query,
+passage text and ID</span> must be provided externally. If available,
+<span style="background-color: lightblue">manual judgment level</span> and
+with <span style="background-color: lightblue">system information</span> can
+be used for analysis. Phase 2 adds fields <code>exam_grades</code>
+and/or <code>grades</code> with information about <span
+style="background-color: yellowgreen">correct nuggets/questions</span>, <span
+style="background-color: yellow">self-ratings of answerability</span>,
+and <span style="background-color: orange">answers for manual
+verification</span>. Phase 3, the workbench supports filtering based on
+<span style="background-color: pink"><code>llm</code> and
+<code>prompt_class</code></span>. </figcaption>
+</figure>
+
+## Usage
+
+
+### Collection of External Inputs
+
+The following inputs are required:
+
+* `dl-queries.json`: Queries in form of a JSON dictionary mapping query ID to query Text
+
+* `dl20-passages.jsonl.gz`:  Collections of passages from system responses (ranking or generated ext) for grading.
+    These follow the data interchange model, providing the Query ID, paragraph_id, text. <br/>
+    System's rank information can be stored in `paragraph_data.rankings[]` <br/>
+    If available, manual judgments can be stored in `paragraph_data.judgment[]`
+    An example file is provided in `trecDL2020-qrels-runs-with-text.jsonl.gz`
+
+
+### Phase 1: Test Bank Generation
+Generate a test bank of nuggets as follows
+
+```bash
+$ export OPENAI_API_KEY=...
+$ autograder-generate \
+ -q data/dl20/dl20-queries.json \
+ -o data/dl20/dl20-nuggets.jsonl.gz \
+ --use-nuggets \
+ --gpt-model gpt-3.5-turbo \
+ --test-collection DL20 \
+ --description "A new set of generated nuggets for DL20"
+```
+
+This will produce `dl20-nuggets.jsonl.gz` which contains a test bank of nuggets. For instance,
+```bash
+$ zcat data/dl20/dl20-nuggets.jsonl.gz | jq .items[].question_text
+"Which musicians or bands are considered pioneers of rock n roll?"
+"What were the major influences that led to the emergence of rock n roll?"
+"Are there any specific events or performances that marked the beginning of rock n roll?"
+...
+```
+
+### Phase 2: Grading
+
+We can then assess the quality of an IR system by scanning the system's response for mentions of the nuggets. Here we use a nugget-specific self-rating prompt for the [`flan-t5-large`][flan] model.
+
+This phase will use a local GPU. The CUDA device ID and batch size are configured via environment variables
+
+```bash
+export GPU_DEVICE=0
+export BATCH_SIZE=10
+```
+Use device `None` to use CPUs.
+
+
+```bash 
+$ autograder-grade \
+   data/dl20/dl20-passages.jsonl.gz \
+   -o data/dl20/dl20-graded.jsonl.gz \
+   --model-name google/flan-t5-large \
+   --model-pipeline text2text \
+   --prompt-class NuggetSelfRatedPrompt \
+   --question-path data/dl20/dl20-nuggets.jsonl.gz  \
+   --question-type question-bank \
+   --use-nuggets 
+```
+For a test run on fewer queries/passages add `--max-queries 1 --max-paragraphs 10`
+
+
+
+Alternative prompts classes are 
+
+* `NuggetSelfRatedPrompt`: self-rating of nugget mentions (enable `--use-nuggets`)
+* `NuggetExtractionPrompt`: extraction of nugget mentioned, for explaination and verification (to be used with `use-nuggets`)
+* `QuestionSelfRatedUnanswerablePromptWithChoices`: self-rating answerability of exam questions
+* `QuestionCompleteConcisePromptWithAnswerKey2`: extract answers for exam questions (informational or for test banks with known correct answers)
+* `FagB`,`FagB_few`, `HELM`, `Sun`, `Sun_few`, `Thomas`: Direct grading prompts.
+
+### Phase 3: Manual Verification
+
+We support manual verification and process supervision with the following commands.
+
+All answers to the grading prompts selfrated/extraction, grouped by question/nugget.
+
+```bash
+$ autograder-verify \
+   data/dl20/dl20-graded.jsonl.gz \
+   --verify-grading \
+   --question-path data/dl20/dl20-questions.jsonl.gz  \
+   --question-type question-bank \
+    > data/dl20/dl20--verify-grading.txt
+```
+
+
+Questions/nuggets frequently covered by non-relevant passages (those should be removed from the test bank).
+
+```bash
+$ autograder-verify \
+   data/dl20/dl20-graded.jsonl.gz \
+   --uncovered-passages \
+   --min-judgment 1  \
+   --min-rating 4  \
+   --question-path data/dl20/dl20-questions.jsonl.gz  \
+   --question-type question-bank \
+    > data/dl20/dl20-uncovered-passages.txt
+```
+
+Relevant passages not covered by any question/nugget (these require additional test nuggets/questions).
+
+```bash
+$ autograder-verify \
+   data/dl20/dl20-graded.jsonl.gz \
+   --bad-question \
+   --min-judgment 1  \
+   --min-rating 4  \
+   --question-path data/dl20/dl20-questions.jsonl.gz  \
+   --question-type question-bank \
+    >  data/dl20/dl20--bad-question.txt
+```
+
+We envision that human verification will leads to an iterate and repeat previous phases with manual refinements of the test bank and adjustment of the grading prompts and models.
+
+### Phase 4: Evaluation
+
+To evaluate systems with Autograder qrels, a trec\_eval compatible QRELs file is exported. 
+
+```bash
+$ autograder-evaluate \
+     data/dl20/dl20-graded.jsonl.gz \
+     -q data/dl20/dl20-autograde-qrels.qrels \
+     --min-self-rating 4 \
+     --prompt-class $promptclass  \
+     --model google/flan-t5-large \
+     --question-set question-bank 
+```
+
+Our workbench supports to automatically run trec\_eval with this qrels file on a directory of run-files when the following options are added (only supported under bash; `trec_eval` needs to be in PATH):
+
+```
+    --run-dir data/dl20/dl20runs  
+    --qrel-leaderboard-out data/dl20/dl20-autograde-qrels-leaderboard.tsv 
+```
+
+To evaluate systems with Autograde Cover, system information needs to be included in the passage file (e.g. `dl20-passages.jsonl.gz`). This information is preserved during the grading process. The leaderboard is produced with:
+
+```bash
+$ autograder-evaluate \
+    data/dl20/dl20-graded.jsonl.gz \
+    --leaderboard-out data/dl20/dl20-autograde-cover-leaderboard.tsv 
+    --min-self-rating 4 \
+    --prompt-class $promptclass \
+    --model google/flan-t5-large \
+    --question-set question-bank
+```
+
+Direct grading prompts are only supported via Autograde Qrels.
+
+
+
+## Additional Analyses
+
+Rank correlation with official leaderboards using Autograde qrels.
+```bash
+$ autograder-analyze \
+    data/dl20/dl20-graded.jsonl.gz \ 
+    -q data/dl20/dl20-autograde-qrels.qrels \
+    --run-dir data/dl20/dl20runs  \
+    --official-leaderboard data/dl20/official_dl20_leaderboard.json \
+    --qrel-leaderboard-out data/dl20/dl20-autograde-qrels-leaderboard.tsv \
+    --min-relevant-judgment 2 \
+    --use-ratings \
+    --min-trec-eval-level 4 \
+    --prompt-class $promptclass  \
+    --model google/flan-t5-large \
+    --question-set question-bank 
+```
+
+Rank correlation with official leaderboards using Autograde Cover.
+
+```bash
+$ autograder-analyze \
+    data/dl20/dl20-graded.jsonl.gz \ 
+    --leaderboard-out data/dl20/dl20-autograde-cover-leaderboard.tsv \
+    --official-leaderboard data/dl20/official_dl20_leaderboard.json \
+    --use-ratings \
+    --min-self-rating  4 \
+    --prompt-class $promptclass  \
+    --model google/flan-t5-large \
+    --question-set question-bank 
+```
+
+
+Inter-annotator agreement of manual judgments and self-ratings.
+
+```bash
+$ autograder-analyze \
+      data/dl20/dl20-graded.jsonl.gz \
+      --inter-annotator-out data/dl20/dl20-autograde-inter-annotator.tex \
+      --min-relevant-judgment 2 \ 
+      --use-ratings 4 \
+      --prompt-class $promptclass \
+      --model google/flan-t5-large \
+      --question-set question-bank
+```
+
+## Code walk through on example of TREC DL 2020
+
+A bash script with data for the code walkthrough is provided in [walkthrough-dl20.sh](walkthrough-dl20.sh)
+
+[Unabrigded results and manual verification analyses.](results/README.mkd)
+
+
+## Alternative Installation Methods
+### Installation via `nix`
+
+The easiest way to use `exampp` is via the [Nix][install-nix] package manager:
+
+1. [install `nix`][install-nix]
+1. `nix develop <repo url>#cuda`
+1. Clone this repository and cd into it
+1. in a shell type:  `nix develop`
+
+
+If you are getting error message about unfree packages or experimental command, then run one of these longer commands instead
+
+* `nix --extra-experimental-features 'nix-command flakes' develop` 
+* `NIXPKGS_ALLOW_UNFREE=1 nix --extra-experimental-features 'nix-command flakes' develop --impure`
+
+If you are on mac/darwin try this
+
+* `NIXPKGS_ALLOW_UNSUPPORTED_SYSTEM=1 NIXPKGS_ALLOW_BROKEN=1 NIXPKGS_ALLOW_UNFREE=1 nix --extra-experimental-features 'nix-command flakes' develop --impure .#cpu`
+
+To avoid adding these extra options every time, add them to your nix configuration as follows
+
+```
+mkdir -P ~./.config/nix
+echo 'extra-experimental-features = nix-command flakes' >> ~/.config/nix/nix.conf 
+```
+
+### Use Cachix
+
+We recommend the use of Cachix to avoid re-compiling basic dependencies. For that just respond "yes" when asked the following:
+
+```
+do you want to allow configuration setting 'substituters' to be set to 'https://dspy-nix.cachix.org' (y/N)? y
+do you want to permanently mark this value as trusted (y/N)? y
+```
+
+
+### Trusted user issue
+
+If you get error messages indicating that you are not a "trusted user", such as the following
+
+```
+warning: ignoring untrusted substituter 'https://dspy-nix.cachix.org', you are not a trusted user.
+```
+
+Then ask your administrator to edit the nix config file (`/etc/nix/nix.conf`) and add your username or group to the trusted user list as follows: `trusted-users = root $username @$group`.
+
+
+
+[install-nix]: https://nix.dev/install-nix
+
+
+
+
+**Usage:**
+
+Command line utilities are directly called via `python -O -m <command>`
+
+
+# Experimental Features
+
+
+Grading via OpenAI and vLLM (in addition to native hugginface pipelines)
+
+Grading with huggingface transformers pipelines (previously supported)
+
+Here FLAN-T5 via text2text pipeline, you can use most models with the text-generation pipeline, for SQUAD2 you set the question-answering pipeline
+
+# Grading via huggingface pipelines
+
+If you need to authenticate via huggingface, set the token and run RUBRIC as follows
+
+```bash
+export HF_TOKEN="..."
+
+python -m exam_pp.exam_grading ...  --model-pipeline text2text --model-name google/flan-t5-large   ...
+
+# alternatively for Causal LM pipeline
+python -m exam_pp.exam_grading ...  --model-pipeline text-generation --model-name gpt2   ...
+
+# alternatively for Squad tuned models
+python -m exam_pp.exam_grading ...  --model-pipeline qa --model-name ...   ...
+
+
+```
+
+# Grading with OpenAI (uses JSON)
+
+```bash
+# set open AI Key
+export OPENAI_API_KEY="..."
+
+python -m exam_pp.exam_grading ... --model-pipeline OpenAI --model-name gpt-3.5-turbo ...
+```
+
+# Grading with Chat-Completions endpoint (uses JSON)
+
+For grading you can use any Chat-Completions capable endpoint, such as vLLM or llm-lite, or LLM credits providers such as Together.AI or OpenRouter.
+
+I am using Gwen for example, you will need a model that reliably responds in the requested JSON format. 
+
+
+
+### Example: start vLLM server
+To start the vLLM server in the background:
+
+```bash
+    ./bin/vllm serve Qwen/Qwen2-7B-Instruct-GPTQ-Int4 --device=cuda --max-model-len 1024
+    
+```
+
+or
+```bash
+     HF_TOKEN="..." ./bin/vllm serve mistralai/Mistral-Nemo-Instruct-2407 --device=cuda  --max-model-len 400 --port 8889 --host 0.0.0.0
+```
+
+
+### Configure Rubric as Chat Completions client:
+
+Then configure rubric to use your Chat Completions endpoint  as follows. 
+
+```bash
+    # configure end point 
+    export VLLM_URL=http://localhost:8000/v1   # alternative for IPv6: export VLLM_URL=http://[::0]:8000/v1
+
+    # run with VLLM client
+    python -m exam_pp.exam_grading ...   --model-pipeline vLLM --model-name Qwen/Qwen2-7B-Instruct-GPTQ-Int4 ...
+```
+
+While the environment variable is called  "VLLM", in fact, any endpoint can be configured here.
+
+
+
+# How to write your own prompts
+
+Previously I added the experimental `CustomPrompt` features where you specify the grading rubric prompt on the command line.
+
+But when you have some complex Q/A grading rubrics, the tricky piece is how to parse and cleanup the LLM response. This is all done by the prompt class, so you want to go all-in and write your own prompt class. Its not that difficult,  see `QuestionSelfRatedUnanswerablePromptWithChoices` as an example.
+
+From your own code you can instantiate the Prompt class and call the `noodle` function  on `exam_grading` (I am slightly embarrassed by the naming)
+
+
+    await noodle(
+             llmPipeline=llmPipeline
+           , question_set=question_set
+           , paragraph_file= args.paragraph_file
+           , out_file = args.out_file 
+            )
+  
+* paragraph_file is the internal RUBRIC file format (*jsonl.gz)
+
+* llmPipeline is an instantiation of the desired LLM backend/HF pipeline, e.g. 
+	VllmPipeline(model_name, max_token_len=512, max_output_tokens=512) 
+* question_set:Dict[str,List[Prompt]] contains a list of prompt objects for each query (str). You create this object as follows:
+
+1. If your grading rubric is saved as a question-bank format, then you can open it like this:
+    test_banks = parseTestBank(use_nuggets=False)(question_file)
+    it will result in an object of type typing.Sequence[QueryQuestionBank]
+
+2. Wrap each question in a Prompt object, then collate in `List[Prompt]` 
+    see the `simple_prompt_loader` below for some simplified example code
+
+
+Currently the assumption is that each grading rubric (=question_id) aligns with a prompt, but we can work on changing this if desired.
+
+
+
+```
+def simple_prompt_loader(test_banks:typing.Sequence[QueryQuestionBank])-> List[Tuple[str, List[Prompt]]]:
+    prompt_dict: Dict[str, List[Prompt]]
+    prompt_dict = defaultdict(list)
+    prompt:Prompt
+
+    for bank in test_banks:
+        question_bank = bank
+        query_id = question_bank.query_id
+        for question in question_bank.get_questions():
+            if not question.query_id == query_id:
+                    raise RuntimeError(f"query_ids don't match between QueryQuestionBank ({query_id}) and contained ExamQuestion ({question.query_id}) ")
+
+            prompt = QuestionSelfRatedUnanswerablePromptWithChoices(question_id = question.question_id
+                                                                    , question = question.question_text
+                                                                    , query_id = question_bank.query_id
+                                                                    , facet_id = question.facet_id
+                                                                    , query_text = question_bank.query_text
+                                                                    , unanswerable_expressions = set()
+                                                                    , self_rater_tolerant=False
+                                                                    )
+            prompt_dict[query_id].append(prompt)
+
+    return list(prompt_dict.items())
+```
+
+
+```python
+@dataclass
+class QuestionSelfRatedUnanswerablePromptWithChoices(QuestionPrompt):
+    question_id:str
+    question:str
+    query_id:str
+    facet_id:Optional[str]
+    query_text:str
+    unanswerable_expressions:Set[str]
+    self_rater_tolerant:bool
+
+
+    prompt_truncater = PromptTruncater()
+
+    def __post_init__(self):
+        self.unanswerable_matcher2=UnanswerableMatcher2(unanswerable_expressions=set())
+        if self.self_rater_tolerant:
+            self.self_rater = SelfRaterTolerant(self.unanswerable_matcher2)
+        else:
+            self.self_rater = SelfRaterStrict(self.unanswerable_matcher2)
+
+    def prompt_info(self, old_prompt_info:Optional[Dict[str,Any]]=None)-> Dict[str, Any]:
+        return {"prompt_class": self.__class__.__name__
+                ,"orig_prompt_class": "unknown"
+                ,"prompt_style": self.prompt_style()
+                , "context_first": False
+                , "check_unanswerable": True
+                , "check_answer_key": False
+                , "is_self_rated":self.has_rating()
+                , "is_self_rater_tolerant": self.self_rater_tolerant
+                }
+    def prompt_style(self)->str:
+        return  "Can the question be answered based on the available context? Choose one"
+    
+
+    def has_rating(self):
+        return True
+
+    pretext ='''Can the question be answered based on the available context? choose one:
+        - 5: The answer is highly relevant, complete, and accurate.
+        - 4: The answer is mostly relevant and complete but may have minor gaps or inaccuracies.
+        - 3: The answer is partially relevant and complete, with noticeable gaps or inaccuracies.
+        - 2: The answer has limited relevance and completeness, with significant gaps or inaccuracies.
+        - 1: The answer is minimally relevant or complete, with substantial shortcomings.
+        - 0: The answer is not relevant or complete at all.
+        '''
+
+
+    def generate_prompt(self,context:str, model_tokenizer, max_token_len) -> str:
+
+        question_prompt =  f'{QuestionSelfRatedUnanswerablePromptWithChoices.pretext}\n Question: {self.question}\n'
+        context_prompt = f"Context: {context}"
+        prompt = self.prompt_truncater.truncate_context_question_prompt(tokenizer=model_tokenizer, context=context_prompt, question=question_prompt, max_length=max_token_len)
+        return prompt
+
+    def generate_prompt_with_context_QC_no_choices(self,context:str, model_tokenizer, max_token_len) -> Dict[str,str]:
+        question_prompt =  f'{QuestionSelfRatedUnanswerablePromptWithChoices.pretext}\n Question: {self.question}'
+        context_prompt = context
+
+        # question =  f'Is this question answerable: {self.question}'
+        prompt = self.prompt_truncater.truncate_context_question_prompt_QC(tokenizer=model_tokenizer, context=context_prompt, question=question_prompt, max_length=max_token_len)
+        return prompt
+
+
+    def gpt_json_prompt(self) ->Tuple[str,str]:
+        json_instruction= r'''
+  Respond only in the following JSON format:
+  ```json
+  { "grade": int }
+  ```
+        return (json_instruction, "grade")
+
+    
+    def check_answer(self, answer:str)->bool:
+        return self.self_rater.check_answer(answer)
+
+    def check_answer_rating(self,answer:str)->int:
+        return self.self_rater.check_answer_rating(answer)
+    
+
+
+--------------------------------
+
+# Evaluation of Systems (leaderboards)
+
+The following settings assume you: 
+
+1. have a graded RUBRIC data file, for example  `rubric.jsonl.gz` 
+2. know the prompt class that created the relevance labels, for example `MyPromptClass`
+3. optionally you can also add other filter criteria supported by our `GradeFilter`, such as model names or test-banks, for those please see `--help`.
+
+## Export LLM judgments as a TREC_EVAL qrels file
+
+Simplest step is to export the relevance labels as a qrels file that is compatible with trec_eval.
+
+    python -O -m exam_pp.exam_evaluation rubric.jsonl.gz --prompt-class MyPromptClass \
+      -q out.qrels
+
+* The qrels file will be written to `out.qrels`
+
+## Export a Leaderboard with TREC_EVAL
+
+* replace data/runs/ with path to the run files
+* the run files in the run dir must match the file pattern `$methodname.run` 
+* you have to export the qrel file also (with -q) but this can be temporary file 
+* choose eval metric such as `map` or `ndcg_cut.10`
+* with the exception of ndcg, set the minimum grade for relevance with `--min-self-rating $grade` (this is communicated to trec_eval via the --level_for_rel num option)
+* if you have graded judgments, don't forget `-r` option.
+
+  ```bash
+  python -O -m exam_pp.exam_evaluation rubric.jsonl.gz --prompt-class MyPromptClass \
+    --qrel-leaderboard-out out.tsv  --trec-eval-metric map  --min-self-rating 2  -r \
+    --run-dir data/runs/ -q out.qrel 
+  ```
+
+* the leaderboard is written to `out.tsv`
+
+
+# Evaluation of LLM-relevance labels
+
+
+## Leaderboard rank correlation 
+
+One way to measure the quality of LLM-judgments is to see how well the leaderboard (system ranking) under LLM-judgments agrees with an official leaderboard that is usually developed with manual judgments.
+
+With the `exam_post_pipeline` module, RUBRIC supports different leaderboard rank correlation measures, such as kendall's tau and Spearman's rank correlation coefficient. 
+
+The command line arguments are similar to `exam_evaluation`, but it is more powerful and there are some crucial differences:
+
+
+**Official Leaderboard File**
+
+First create a json file called `official_leaderboard.json` that represents the official leaderboard of method to rank (these ranks can be float, and they can be tied),  example:
+
+```json
+{
+    "duo-bert":1,
+    "mono-bert":2,
+    "bm25":3,
+    "tfidf":4
+}
+```
+
+**Automatic Leaderboard**
+We can produce the same leaderboard as above with a call like this:
+
+Note:
+
+* pass in the leaderboard file
+* when using a non-standard prompt class, disable checks with `--dont-check-prompt-class` and provide a prompt type, e.g. ` --prompt-type question`,` --prompt-type nugget`, or `--prompt-type direct`.
+
+
+      python -O -m exam_pp.exam_post_pipeline rubric.jsonl.gz \
+      --prompt-class MyPromptClass --qrel-leaderboard-out out.tsv  --trec-eval-metric map \
+       --min-self-rating 2 -r  --run-dir data/runs/ -q out.qrel --dont-check-prompt-class \
+       --prompt-type nugget --official-leaderboard official_leaderboard.json 
+
+The leaderboard is wtitten to `out.tsv`
+
+
+**leaderboard Rank Correlation**
+
+To obtain leaderboard correlation statistics for different experiments add `--qrel-analysis-out analysis.tsv`, the file where the analysis will be written to.
+
+Note,
+
+* the analysis will be run for multiple  `--min-self-rating` values (1-5)
+* multiple `--trec-eval-metric` can be configured, such as map, ndcg, and reciprocal rank, e.g.  `--trec-eval-metric ndcg_cut.10 map recip_rank`
+* Note that `trec_eval` will ignore the relevance cutoff (`--min-self-rating`) for nDCG metrics.
+
+Example:
+
+
+      python -O -m exam_pp.exam_post_pipeline rubric.jsonl.gz --prompt-class MyPromptClass \ 
+      --qrel-leaderboard-out out.tsv  -r  --run-dir data/runs/ -q out.qrel \
+      --dont-check-prompt-class --prompt-type nugget --min-self-rating 4 \ 
+      --official-leaderboard official_leaderboard.json   --qrel-analysis-out analysis.tsv \
+      --trec-eval-metric ndcg_cut.10 map recip_rank
+
+This will write:
+* leaderboard rank correlation analysis to `analysis.tsv`
+* qrel files to `out.qrel`
+* leaderboard for the first eval metric to `out.tsv`
+
+
+# Inter-annotator agreement
+
+Agreement between automatic label predictions and manual judgments can be measures with Inter-annotator agreement measures such as Cohen's Kappa.
+
+Note:
+
+  * For TREC Deep Learning collections, only judgments of 2 or better are indicating relevance. For those collections, set `--min-relevant-judgment 2 `
+
+        python -O -m exam_pp.exam_post_pipeline rubric.jsonl.gz \ 
+        --correlation-out interannotator.tex -r --prompt-class MyPromptClass  \
+         --dont-check-prompt-class --prompt-type nugget  --min-relevant-judgment 1
+
+This will write a LaTex table of inter-annotator agreement to `interannotator.tex`. Visualize with `pdflatex` or `pandoc`.
+
+
+# per-query leaderboard correlation
+
+You can get a table in per-query kendall tau/spearmans rho rank coefficients for each query.  
+
+Example:
+```
+ python -m exam_pp.exam_post_pipeline rubric.jsonl.gz --qrel-per-query-analysis-out qanalysis.tsv --prompt-class MyPromptClass --run-dir ./data/runs -q qrel.out  --trec-eval-metric ndcg_cut.10 --min-self-rating 4  --official-qrels-file dl20.qrels  --query-path dl20-queries.json 
+```
+
+Most of the command line arguments are just like for the --analysis-out.  But a few are new:
+
+* ` --official-qrels-file dl20.qrels ` this is the path to the qrels that produced the  `--official-leaderboard`  (that option is not needed, because every query has its own leaderboard, so we need to generate it ourselves).
+
+*  ` --query-path dl20-queries.json ` we choose which queries to  this is a path to a json query description (I used those for the direct prompts), alternatively you can pass in a tsv file of "{query_id}\t{text}" or a qrels file -- it will select the loading routines based on the file suffix.   You can also just add a list of query_ids, one per line, or even the official qrels file and it should just work
+
+The result will look like this 
+
+```
+Leaderboard Per-query Correlation Analysis Exam-Qrels
+run_dir ./data/runs
+grade_filter    GradeFilter(model_name=None, prompt_class='MyPrompt', is_self_rated=None, min_self_rating=None, question_set=None, prompt_type='nugget', data_set=None)
+qrels   query   min_rating      trec_eval_metric        spearman        kendall
+qrel.out        940547  4       ndcg    0.671  0.544
+qrel.out        1121353 4       ndcg    0.469  0.372
+qrel.out        997622  4       ndcg    0.409  0.300
+
+```
+
+
+
+
+--------------------------------
+
+# Internal Notes
+
+We recommend that you use this repository as a reference via pypi or nix.
+
+If you are using `nix` flakes, and want to bump to the latest exampp version, call
+
+```
+    nix flake lock --update-input exampp
+```
+
+
+
+[flan]: https://huggingface.co/google/flan-t5-large
+
+
+
+<!-- 
+## Usage
+
+The code works in three phases
+
+1. **Input Preparation Phase**:  
+   1. Convert your input data into a list of `exam_pp.data_model.QueryWithFullParagraphList` objects (one per query). 
+   2. write those to file (common filepattern "xxx.json.gz") using this function
+   ```
+   exam_pp.data_model.writeQueryWithFullParagraphs(file_path:Path, queryWithFullParagraphList:List[QueryWithFullParagraphList])
+   ``` 
+
+
+2. **Grading Phase**:
+
+   1. Set environment variables to enable GPU processing
+   ```bash
+   export GPU_DEVICE=0  # use GPU 0 or 1, check with `nvidia-smi` what is available
+   export BATCH_SIZE=10    # for A40: use 10 for flan-t5-large,  18 for flan-t5-base, 60 for flan-t5-small 
+   ```
+   the CPU will be used if the `GPU_DEVICE` variable is not set.
+
+   2. call `python -m exam_pp.exam_grading` and follow the help (`-h`) to obtain EXAM grades for all passages in your input file
+
+3. **Evaluation and Post Pocessing Phase**: (one of two options)
+   1. to obtain just the EXAM Cover evaluation score, call `python -m exam_pp.exam_cover_metric` and following the help (`-h`)
+   2. to run all kinds of post-hoc analysis (obtain leaderboards, qrels, and study correlation patterns) call `python -m exam_pp.exam_postpipeline` and follow the help (`-h`) 
+   this requires to have `trec_eval` to be available in your path.
+
+
+Optionally, you can directly obtain EXAM Cover evaluation metric scores by loading graded inputs via
+
+
+```python
+exam_cover_metric.compute_exam_cover_scores(query_paragraphs:List[QueryWithFullParagraphList], exam_factory: ExamCoverScorerFactory, rank_cut_off:int=20)-> Dict[str, exam_cover_metric.ExamCoverEvals]
+```
+
+
+Usage Example for the Evaluation Phase from `example.py``:  
+
+```python
+from pathlib import Path
+from typing import Dict, List
+from exam_pp.exam_cover_metric import compute_exam_cover_scores, write_exam_results, ExamCoverScorerFactory
+from exam_pp.data_model import GradeFilter, QueryWithFullParagraphList, parseQueryWithFullParagraphs
+
+# Read Graded Exam files, compute EXAM Cover Evaluation Metric
+query_paragraphs:List[QueryWithFullParagraphList] = parseQueryWithFullParagraphs(Path("exam-graded.jsonl.gz"))
+exam_factory = ExamCoverScorerFactory(GradeFilter.noFilter(), min_self_rating=None)
+resultsPerMethod = compute_exam_cover_scores(query_paragraphs, exam_factory=exam_factory, rank_cut_off=20)
+
+
+# Print Exam Cover Evaluation Scores
+for examEval in resultsPerMethod.values():
+    print(f'{examEval.method}  exam={examEval.examScore:0.2f}+/-{examEval.examScoreStd:0.2f} \t  n-exam={examEval.nExamScore:0.2f}')
+
+examEvaluationPerQuery:Dict[str,float] = resultsPerMethod['my_method'].examCoverPerQuery
+
+# Export Exam Cover Evaluation Scores
+write_exam_results("exam-eval.jsonl.gz", resultsPerMethod)
+```
+
+
+
+ -->

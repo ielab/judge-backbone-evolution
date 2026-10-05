@@ -1,0 +1,68 @@
+Loading gpt-4.1-nano...
+Loading gpt-5-nano...
+Loading gpt-5.4-nano...
+
+Discovered 3 models: gpt-4.1-nano, gpt-5-nano, gpt-5.4-nano
+
+============================================================
+BASELINE PERFORMANCE (Vs. Human)
+============================================================
+[gpt-4.1-nano] (N=9259)
+  Exact Match: 35.87%
+  MAE:         3.517
+  Pearson r:   0.023
+
+[gpt-5-nano] (N=9260)
+  Exact Match: 41.02%
+  MAE:         0.741
+  Pearson r:   0.564
+
+[gpt-5.4-nano] (N=9260)
+  Exact Match: 51.09%
+  MAE:         0.668
+  Pearson r:   0.560
+
+
+============================================================
+ALL-PAIRS AGREEMENT (Exact Match %)
+============================================================
+gpt-4.1-nano <--> gpt-5-nano (N=9259)
+  Exact Match: 49.72%
+  MAE:         3.356
+  Pearson r:   0.018
+
+gpt-4.1-nano <--> gpt-5.4-nano (N=9259)
+  Exact Match: 42.32%
+  MAE:         3.450
+  Pearson r:   0.033
+
+gpt-5-nano <--> gpt-5.4-nano (N=9260)
+  Exact Match: 55.94%
+  MAE:         0.509
+  Pearson r:   0.732
+
+
+============================================================
+ALL-PAIRS REGRESSIONS (Baseline Correct -> New Model Wrong)
+============================================================
+Baseline: gpt-4.1-nano | New: gpt-5-nano
+  Regressions: 1372 (14.82% of N=9259)
+
+Baseline: gpt-4.1-nano | New: gpt-5.4-nano
+  Regressions: 1215 (13.12% of N=9259)
+
+Baseline: gpt-5-nano | New: gpt-4.1-nano
+  Regressions: 1848 (19.96% of N=9259)
+
+Baseline: gpt-5-nano | New: gpt-5.4-nano
+  Regressions: 1049 (11.33% of N=9260)
+
+Baseline: gpt-5.4-nano | New: gpt-4.1-nano
+  Regressions: 2624 (28.34% of N=9259)
+
+Baseline: gpt-5.4-nano | New: gpt-5-nano
+  Regressions: 1982 (21.40% of N=9260)
+
+
+Generating analysis/all_pairs_analysis_report_gpt-*-nano_annotations.md...
+Done! Report saved to analysis/all_pairs_analysis_report_gpt-*-nano_annotations.md

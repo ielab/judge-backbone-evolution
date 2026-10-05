@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{EXAM Evaluation Results Across Model Families and Versions. Best result per family is bolded.}
+\label{tab:exam_results}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+\textbf{Model Backbone} & \textbf{Version} & \textbf{Exact Match (\%)} & \textbf{MAE} & \textbf{Pearson $r$} \\ \midrule
+\multirow{5}{*}{Gemini Flash} 
+ & 2.5 & 44.81 & 0.730 & 0.324 \\
+ & 3.5 & 52.22 & 0.718 & 0.268 \\
+ & 3.6 & 49.78 & 0.716 & 0.262 \\
+ & 3.7 & \textbf{52.58} & \textbf{0.672} & \textbf{0.335} \\
+ & 3.8 & 52.31 & 0.693 & 0.322 \\ \midrule
+\multirow{3}{*}{Gemini Flash Lite} 
+ & 2.5 & 44.57 & 0.728 & \textbf{0.321} \\
+ & 3.1 & 52.10 & \textbf{0.720} & 0.255 \\
+ & 3.5 & \textbf{52.66} & 0.721 & 0.233 \\ \bottomrule
+\end{tabular}
+\end{table}

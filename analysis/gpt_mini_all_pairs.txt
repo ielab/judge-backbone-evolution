@@ -1,0 +1,107 @@
+Loading gpt-4.1-mini...
+Loading gpt-4o-mini...
+Loading gpt-5-mini...
+Loading gpt-5.4-mini...
+
+Discovered 4 models: gpt-4.1-mini, gpt-4o-mini, gpt-5-mini, gpt-5.4-mini
+
+============================================================
+BASELINE PERFORMANCE (Vs. Human)
+============================================================
+[gpt-4.1-mini] (N=9260)
+  Exact Match: 45.78%
+  MAE:         0.654
+  Pearson r:   0.583
+
+[gpt-4o-mini] (N=9260)
+  Exact Match: 55.80%
+  MAE:         0.556
+  Pearson r:   0.609
+
+[gpt-5-mini] (N=9260)
+  Exact Match: 35.63%
+  MAE:         0.821
+  Pearson r:   0.557
+
+[gpt-5.4-mini] (N=9260)
+  Exact Match: 35.13%
+  MAE:         0.825
+  Pearson r:   0.578
+
+
+============================================================
+ALL-PAIRS AGREEMENT (Exact Match %)
+============================================================
+gpt-4.1-mini <--> gpt-4o-mini (N=9260)
+  Exact Match: 68.07%
+  MAE:         0.326
+  Pearson r:   0.842
+
+gpt-4.1-mini <--> gpt-5-mini (N=9260)
+  Exact Match: 68.47%
+  MAE:         0.330
+  Pearson r:   0.839
+
+gpt-4.1-mini <--> gpt-5.4-mini (N=9260)
+  Exact Match: 64.01%
+  MAE:         0.365
+  Pearson r:   0.830
+
+gpt-4o-mini <--> gpt-5-mini (N=9260)
+  Exact Match: 52.40%
+  MAE:         0.522
+  Pearson r:   0.781
+
+gpt-4o-mini <--> gpt-5.4-mini (N=9260)
+  Exact Match: 50.68%
+  MAE:         0.521
+  Pearson r:   0.812
+
+gpt-5-mini <--> gpt-5.4-mini (N=9260)
+  Exact Match: 69.15%
+  MAE:         0.317
+  Pearson r:   0.821
+
+
+============================================================
+ALL-PAIRS REGRESSIONS (Baseline Correct -> New Model Wrong)
+============================================================
+Baseline: gpt-4.1-mini | New: gpt-4o-mini
+  Regressions: 720 (7.78% of N=9260)
+
+Baseline: gpt-4.1-mini | New: gpt-5-mini
+  Regressions: 1450 (15.66% of N=9260)
+
+Baseline: gpt-4.1-mini | New: gpt-5.4-mini
+  Regressions: 1618 (17.47% of N=9260)
+
+Baseline: gpt-4o-mini | New: gpt-4.1-mini
+  Regressions: 1648 (17.80% of N=9260)
+
+Baseline: gpt-4o-mini | New: gpt-5-mini
+  Regressions: 2599 (28.07% of N=9260)
+
+Baseline: gpt-4o-mini | New: gpt-5.4-mini
+  Regressions: 2697 (29.13% of N=9260)
+
+Baseline: gpt-5-mini | New: gpt-4.1-mini
+  Regressions: 510 (5.51% of N=9260)
+
+Baseline: gpt-5-mini | New: gpt-4o-mini
+  Regressions: 731 (7.89% of N=9260)
+
+Baseline: gpt-5-mini | New: gpt-5.4-mini
+  Regressions: 877 (9.47% of N=9260)
+
+Baseline: gpt-5.4-mini | New: gpt-4.1-mini
+  Regressions: 632 (6.83% of N=9260)
+
+Baseline: gpt-5.4-mini | New: gpt-4o-mini
+  Regressions: 783 (8.46% of N=9260)
+
+Baseline: gpt-5.4-mini | New: gpt-5-mini
+  Regressions: 831 (8.97% of N=9260)
+
+
+Generating analysis/all_pairs_analysis_report_gpt-*-mini_annotations.md...
+Done! Report saved to analysis/all_pairs_analysis_report_gpt-*-mini_annotations.md
