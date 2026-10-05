@@ -3,11 +3,18 @@
 This repository contains the code, experimental resources, and results accompanying the paper
 *The Impact of Backbone Evolution on LLM-Based Relevance Assessments*.
 
-We evaluate relevance judgments across successive versions of LLM backbones using two prompting frameworks:
+This work investigates how LLM-based relevance judges behave as their underlying
+backbones evolve. Keeping the judging framework fixed, we evaluate successive
+model versions within the same family to examine whether newer models improve
+relevance assessment performance and whether they preserve judgments made
+correctly by their predecessors.
 
-- **UMBRELA**: a direct, zero-shot relevance assessment framework that assigns a graded relevance label (0–3).
-- **EXAM**: a rubric-based framework that assesses passage relevance through query-specific exam questions.
+We consider two relevance assessment frameworks:
 
+- **UMBRELA**: a zero-shot framework that directly assigns a graded relevance
+  label (0–3) to a query–passage pair.
+- **EXAM**: a rubric-based framework that evaluates passage relevance using
+  query-specific exam questions.
 
 ## What is included
 
@@ -345,17 +352,12 @@ artifacts; consult generated reports for pairwise and example-level details.
 | `gpt-5-nano` | 48.41% | 0.726 | 0.451 |
 | `gpt-5.4-nano` | 53.18% | 0.613 | 0.470 |
 
-## Main findings
 
-- Aggregate metrics are stable across repeated runs, but the identity of
-  individual regressions is much less stable. Query-level regressions should
-  therefore be interpreted across repeats rather than from a single run.
-- Newer models do not consistently dominate their predecessors. Improvements
-  in overall exact match can coexist with substantial directional regressions.
-- Model tier matters as much as generation: Flash Lite and Nano variants can
-  outperform larger models on this judging task.
-- EXAM often raises exact match for newer Gemini models while producing lower
-  Pearson correlation than direct UMBRELA judgments. The two methods capture
-  different aspects of relevance behavior and should not be treated as
-  interchangeable.
+
+## Main Findings
+
+- **Newer models are not necessarily better relevance judges.** Performance across successive model versions is non-monotonic and varies substantially across model families and prompting frameworks.
+- **Aggregate improvements do not guarantee judgment stability.** Even when a newer model achieves higher overall accuracy, it can introduce regressions by overturning judgments that earlier versions made correctly.
+- **Prompt structure shapes both the severity and nature of regressions.** UMBRELA regressions are primarily associated with semantic over-fixation and overly strict interpretations, whereas EXAM exhibits greater mechanical fragility arising from its structured, multi-step assessment process.
+- **Backbone updates therefore require re-validation.** A newer model should not be treated as a drop-in replacement for an established relevance judge without re-evaluating its alignment with human judgments.
 
