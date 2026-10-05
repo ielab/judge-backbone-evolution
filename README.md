@@ -1,14 +1,13 @@
 # The Impact of Backbone Evolution on LLM-Based Relevance Assessments
 
-Code for paper ”The Impact of Backbone Evolution on LLM-Based Relevance Assessments“.
+This repository contains the code, experimental resources, and results accompanying the paper
+*The Impact of Backbone Evolution on LLM-Based Relevance Assessments*.
 
-- **UMBRELA**: direct zero-shot prediction of the human relevance label (0–3).
-- **EXAM**: indirect relevance estimation based on whether a passage contains
-  enough information to answer query-specific questions.
+We evaluate relevance judgments across successive versions of LLM backbones using two prompting frameworks:
 
-The main questions are not only whether newer models improve aggregate scores,
-but also whether they introduce regressions on examples that earlier models
-judged correctly and whether those regressions persist across repeated runs.
+- **UMBRELA**: a direct, zero-shot relevance assessment framework that assigns a graded relevance label (0–3).
+- **EXAM**: a rubric-based framework that assesses passage relevance through query-specific exam questions.
+
 
 ## What is included
 
@@ -360,21 +359,3 @@ artifacts; consult generated reports for pairwise and example-level details.
   different aspects of relevance behavior and should not be treated as
   interchangeable.
 
-## Reproducibility notes
-
-- API-hosted model behavior can change without a repository change. Record the
-  provider's exact model identifier and run date with every experiment.
-- Output parsing accepts only relevance scores in the range 0–3. Inspect
-  unparsed outputs before comparing coverage across models.
-- Pairwise reports operate on shared parsed examples; always compare the
-  reported sample size (`N`) alongside the metric values.
-- Repeated evaluations can incur substantial API cost. Start with a small
-  worker count and monitor provider quotas before launching the full benchmark.
-- Do not commit API keys or place them directly in scripts.
-
-## License and citation
-
-No project-level license or citation file is currently included. The bundled
-`rubric-grading-workbench` retains its own license. If you use this repository
-in published work, cite the TREC Deep Learning datasets, UMBRELA, and EXAM as
-appropriate, and record the exact model versions used in your experiments.
