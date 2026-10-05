@@ -16,16 +16,16 @@ We consider two relevance assessment frameworks:
 - **EXAM**: a rubric-based framework that evaluates passage relevance using
   query-specific exam questions.
 
-## What is included
+## Repository Contents
 
-- Parallel, resumable inference with the Gemini and OpenAI APIs.
-- Support for OpenAI-compatible endpoints, including local vLLM servers.
-- TREC DL 2019 and 2020 evaluation.
-- Exact match, mean absolute error (MAE), and Pearson correlation metrics.
-- Pairwise agreement and directional regression analysis.
-- Repeated-run stability and regression-overlap analysis.
-- Export and analysis utilities for the EXAM pipeline.
-- Saved annotations, generated reports, and EXAM intermediate data.
+This repository provides:
+
+- Evaluation pipelines for **UMBRELA** and **EXAM** across successive LLM versions.
+- Experiments on **TREC DL 2019 and 2020**.
+- Outputs and evaluation results for the studied model families.
+- Scripts for computing aggregate performance metrics (EM, MAE, and Pearson correlation).
+- Cross-version regression and stability analyses.
+- Intermediate data and analysis utilities used to produce the reported results.
 
 ## Repository layout
 
